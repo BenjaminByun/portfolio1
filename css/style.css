@@ -1,0 +1,49 @@
+.container { width: 400px; }
+
+@media (min-width: 600px) {
+  .container {
+    width: 580px;
+  }
+}
+
+.container {
+  font-family: "Montserrat";
+  font-size: 16px;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding-bottom: 10px;
+  text-align: right;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  padding: 15px;
+}
+
+p {
+  width: 297px;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+h2 {
+  padding-top: 100px;
+  font-size: 24px;
+}
+
+.enbox {
+  background-color: #6CB8D2;
+  width: 400px;
+}
+
+footer a {
+  text-decoration: none;
+  display: block;
+  padding-bottom: 10px;
+  text-align: center;
+}
