@@ -83,11 +83,14 @@ p {
 
 /* Projects */
 h2 {
-  padding-top: 40%;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.5em;
+  padding-top: 40%;
 }
 /* enbox image */
 .enbox {
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 3fr 3fr;
   background-color: #6CB8D2;
@@ -95,10 +98,7 @@ h2 {
 }
 
 #logo {
-  float: left;
   padding: 8%;
-  /* padding-left: 20px;
-  padding-top: 20px; */
   width: 150px;
   height: auto;
 }
@@ -112,7 +112,7 @@ h2 {
   text-align: left;
   padding: 12px;
 }
-
+/* case study button */
 .button {
   background-color: #740B7D;
   border: none;
@@ -122,8 +122,6 @@ h2 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  position: relative;
-  right: 80px;
 }
 
 #footer {
