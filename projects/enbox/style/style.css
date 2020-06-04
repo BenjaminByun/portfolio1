@@ -1,0 +1,122 @@
+.container { width: 400px; }
+
+@media (min-width: 600px) {
+  .container {
+    width: 580px;
+  }
+}
+.container {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  line-height: 25px;
+  max-width: 100%;
+}
+/* All images  */
+img {
+  max-width: 100%;
+  display: block;
+}
+/* NAVIGATION */
+nav a {
+  color: inherit;
+  display: block;
+  font-weight: 300;
+  padding-bottom: 10px;
+  text-align: right;
+  text-decoration: none;
+}
+/* HEADINGS FOR EACH SECTION */
+h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 20px;
+}
+/* All text */
+p {
+  font-weight: 300;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 80%;
+  text-align: left;
+}
+/* My roles/deliverables/tools */
+#roles h3 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#roles p {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* heading of projects */
+h2 {
+  background-color: #D5CAEC;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  padding: 3%;
+}
+/* Clickable Prototype button */
+.button {
+  background-color: #740B7D;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.SWOT img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#percent {
+  font-size: 3em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.percent p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+
+#faulty {
+  background-color: rgba(237,25,25,.1) ;
+  opacity:
+}
+
+#faulty h2{
+  background-color: rgba(237,25,25,.1) ;
+  opacity:
+}
+
+.conclusion {
+  font-weight: 800;
+}
+
+#footer {
+   justify-content: center;
+   display: flex;
+   list-style-type: none;
+   margin-top: 100px;
+}
+
+#footer li {
+  padding: 5px;
+  opacity: 0.5;
+}
