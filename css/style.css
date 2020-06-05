@@ -34,12 +34,17 @@ nav {
 a {
   color: inherit;
   font-weight: 300;
-  padding: 20px;
   text-decoration: none;
 }
 
 nav img {
   margin-left: 50%;
+  width: 50%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
   width: 50%;
 }
 
