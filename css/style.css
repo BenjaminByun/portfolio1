@@ -1,77 +1,76 @@
-.container { width: 400px; }
-
 @media (min-width: 600px) {
   .container {
     width: 580px;
   }
 }
 .container {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-  text-align: center;
   line-height: 25px;
+  max-width: 100%;
+  text-align: center;
 }
 /* All images  */
 img {
-  max-width: 100%;
-  display: block;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+p {
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 75%;
+    text-align: left;
+  }
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* NAVIGATION */
-nav a {
-  display: block;
-  padding-bottom: 10px;
-  text-align: right;
+a {
+  color: inherit;
+  font-weight: 300;
+  padding: 20px;
   text-decoration: none;
 }
+
+nav img {
+  margin-left: 50%;
+  width: 50%;
+}
+
 /* MY introduction to the world */
 h1 {
   font-size: 3em;
-  margin: 0;
-  padding: 20px;
-  margin-top: 30px;
+  margin-top: 10%;
 }
 
-p {
-  width: 55%;
-  margin: 0 auto;
-}
-
-.name {
+.intro span {
   color: red;
+  font-weight: 500;
 }
 
 /* Projects */
 h2 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.5em;
-  padding-top: 40%;
+  padding-top: 30%;
 }
 /* enbox image */
 .enbox {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 3fr 3fr;
-  background-color: #6CB8D2;
+  background-color: #86CEE6;
   padding: 3%;
+  padding-bottom: 10%;
 }
 
 #logo {
-  padding: 8%;
-  width: 150px;
-  height: auto;
+  padding-top: 5%;
 }
 
-#dashboard {
-  width: 220px;
-  height: auto;
-}
-/* enbox description */
-.description {
-  text-align: left;
-  padding: 12px;
-}
 /* case study button */
 .button {
   background-color: #740B7D;
@@ -79,9 +78,7 @@ h2 {
   border-radius: 15px;
   color: white;
   padding: 10px 30px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  width: 25%;
 }
 
 #footer {
