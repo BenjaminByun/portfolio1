@@ -1,6 +1,6 @@
-@media (min-width: 600px) {
+@media (min-width: 375px) {
   .container {
-    width: 580px;
+    width: 375px;
   }
 }
 .container {
@@ -17,18 +17,21 @@ img {
     margin-bottom: 30px;
     max-width: 100%;
   }
-
+/* All text */
 p {
+    font-size: 14px;
     font-weight: 300;
     margin: 0 auto;
     margin-bottom: 30px;
-    max-width: 75%;
+    max-width: 283px;
     text-align: left;
   }
 /* NAVIGATION */
 nav {
   display: flex;
   justify-content: space-between;
+  font-size: 12px;
+  margin-top: 2%;
 }
 
 a {
@@ -39,7 +42,7 @@ a {
 
 nav img {
   margin-left: 50%;
-  width: 50%;
+  width: 25px;
 }
 
 .links {
@@ -47,18 +50,10 @@ nav img {
   justify-content: space-between;
   width: 50%;
 }
-
-/* HEADER */
-header {
-  background-color: #86CEE6;
-  padding-bottom: 1%;
-  padding-top: 5%;
-}
-
-
-/* MY introduction to the world */
+/* HOMEPAGE  */
 h1 {
   font-size: 3em;
+  font-weight: 500;
   margin-top: 10%;
 }
 
@@ -68,7 +63,7 @@ h1 {
 }
 
 /* Projects */
-h2 {
+.projects h2 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.5em;
   padding-top: 30%;
@@ -76,7 +71,7 @@ h2 {
 /* enbox image */
 .enbox {
   background-color: #86CEE6;
-  padding: 3%;
+  padding-top: 50px;
   padding-bottom: 10%;
 }
 
@@ -90,9 +85,30 @@ h2 {
   border: none;
   border-radius: 15px;
   color: white;
+  font-size: 14px;
+  font-weight: 500;
   padding: 10px 30px;
-  width: 25%;
+  width: 30%;
 }
+
+/* ENBOX CASE STUDY */
+/* HEADER */
+header {
+  background-color: #86CEE6;
+  padding-bottom: 1%;
+  padding-top: 5%;
+}
+
+/* heading of projects */
+.enboxproject h2 {
+  background-color: #D5CAEC;
+  /* font-family: 'Montserrat Alternates', sans-serif; */
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 150%;
+  padding: 3%;
+}
+
 /* My roles/deliverables/tools */
 #roles h3 {
   font-weight: 500;
@@ -105,14 +121,6 @@ h2 {
   text-align: center;
 }
 
-/* heading of projects */
-h2 {
-  background-color: #D5CAEC;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 2em;
-  font-weight: 500;
-  padding: 3%;
-}
 /* Clickable Prototype button */
 .button {
   background-color: #740B7D;
@@ -132,6 +140,10 @@ h2 {
   margin-right: auto;
   width: 10%;
 }
+
+h4 {
+  font-weight: 500;
+}
 /* User Survey */
 .percent span {
   display: block;
@@ -149,6 +161,10 @@ h2 {
   text-align: left;
   width: 50%;
 }
+
+.personas a {
+  margin-bottom: 0px;
+}
 /* faulty assumptions */
 #faulty {
   background-color: rgba(237,25,25,.1) ;
@@ -157,7 +173,15 @@ h2 {
 #faulty h2{
   background-color: rgba(237,25,25,.1) ;
 }
-
+/* Wireframes */
+#wireframes a{
+  margin-bottom: 0px;
+  width: 33%;
+}
+/* Logo */
+.logo a{
+  width: 33%;
+}
 .conclusion span {
   font-weight: 800;
 }
