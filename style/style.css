@@ -1,13 +1,26 @@
-@media (min-width: 375px) {
+@media (min-width: 480px) {
   .container {
-    width: 375px;
+    width: 80%;
   }
 }
+
+@media (min-width: 600px) {
+  .container {
+    width: 636px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .container {
+    width: 954px;
+  }
+}
+
 .container {
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   line-height: 25px;
-  max-width: 100%;
+  max-width: 80%;
   text-align: center;
 }
 /* All images  */
@@ -54,7 +67,6 @@ nav img {
 h1 {
   font-size: 3em;
   font-weight: 500;
-  margin-top: 10%;
 }
 
 .intro span {
@@ -88,7 +100,7 @@ h1 {
   font-size: 14px;
   font-weight: 500;
   padding: 10px 30px;
-  width: 30%;
+  width: 260px;
 }
 
 /* ENBOX CASE STUDY */
@@ -128,9 +140,9 @@ header {
   border-radius: 15px;
   color: white;
   display: inline-block;
-  margin-bottom: 30px;
   padding: 10px 30px;
   text-decoration: none;
+  width: 164px;
 }
 
 /* SWOT Analysis */
@@ -161,22 +173,25 @@ h4 {
   text-align: left;
   width: 50%;
 }
-
-.personas a {
-  margin-bottom: 0px;
-}
 /* faulty assumptions */
 #faulty {
   background-color: rgba(237,25,25,.1) ;
+  padding-bottom: 5px;
 }
 
 #faulty h2{
-  background-color: rgba(237,25,25,.1) ;
+  background-color: transparent;
+}
+
+#faulty .button {
+  margin-bottom: 30px;
 }
 /* Wireframes */
 #wireframes a{
-  margin-bottom: 0px;
   width: 33%;
+}
+#wireframes .button {
+  width: 164px;
 }
 /* Logo */
 .logo a{
@@ -201,7 +216,6 @@ h4 {
   opacity: 0.5;
   padding: 5px;
 }
-s
 
 #footer li {
   padding: 5px;
