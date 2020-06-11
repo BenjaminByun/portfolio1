@@ -1,43 +1,273 @@
-@media (min-width: 480px) and (max-width: 599px) {
+@media (min-width: 375px) and (max-width: 599px) {
   .container {
-    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5em;
+    text-align: left;
+    max-width: 375px;
   }
+
+  .intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    line-height: 25px;
+    text-align: center;
+    max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+
+  p {
+      font-size: 14px;
+      font-weight: 300;
+      margin-bottom: 3em;
+    }
+
+/* MOBILE container properties */
+  .container h2 {
+      text-align: center;
+      line-height: 1.25em;
+      font-family: 'Roboto';
+      font-size: 2.5em;
+      font-weight: 300;
+      padding: 0px;
+    }
+/* MOBILE column properties */
+    .summary .columns p {
+      font-size: .8em;
+      margin-bottom: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+/* MOBILE percentage properties */
+    .surveys span {
+      display: block;
+      font-size: 4em;
+      text-align: center;
+      padding-bottom: .25em;
+      padding-top: 15%;
+    }
+/* MOBILE summary */
+    .summary h3 {
+      font-size: 1.25em;
+      font-weight: 500;
+      text-align: center;
+    }
+/* MOBILE process */
+    .process h3 {
+      font-size: 1.5em;
+      font-weight: 300;
+      padding-bottom: 1em;
+      text-align: center;
+    }
+/* MOBILE SWOT analysis */
+    h4 {
+      font-weight: 500;
+      text-align: center;
+      margin-top: 2em;
+      margin-bottom: 4em;
+    }
+/* MOBILE Visual */
+    .visual h3{
+      font-size: 1.5em;
+      font-weight: 300;
+      padding-bottom: 1em;
+      text-align: center;
+    }
+
 }
 
+
+
+/* TABLET */
 @media (min-width: 600px) and (max-width: 1280px) {
   .container {
-    width: 636px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    line-height: 25px;
+    text-align: center;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
-  #roles {
-    display: grid;
+
+
+   p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    max-width: 80%;
+    text-align: left;
   }
-  #first {
+
+  .container h2 {
+    font-size: 2em;
+    font-weight: 500;
+    padding-bottom: 1em;
+  }
+
+    .links a {
+      font-size: 16px;
+    }
+
+/* COLUMN CODE */
+  .twocolumns {
+    display: flex;
+    width: 100%;
+  }
+
+  .threecolumns {
+    display: flex;
+  }
+
+  .columns {
     display: inline;
-    background-color: blue;
-    width: 30%;
+    padding-bottom: 4em;
+    width: 100%;
   }
-  #second {
-    display: inline;
-    width: 30%;
+
+  /* TABLET summary */
+  .summary .columns p {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
   }
-  #third {
-    display: inline;
-    width: 30%;
+
+  .summary h3 {
+    font-size: .8em;
+    font-weight: 500;
+    text-align: center;
+  }
+  /* TABLET process */
+  .process h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+
+    h4 {
+      font-weight: 300;
+      text-align: center;
+    }
+
+  .surveys .columns span {
+    display: block;
+    font-size: 4em;
+    text-align: center;
+  }
+  /* TABLET Visuals */
+  .visual h3{
+    font-family: "Roboto";
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-bottom: 1em;
+    text-align: center;
   }
 }
 
 @media (min-width: 1281px) {
   .container {
-    width: 954px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    line-height: 25px;
+    text-align: center;
+    max-width: 954px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
+
+  p {
+   font-size: 1em;
+   font-weight: 300;
+   line-height: 1.5em;
+   margin: 0 auto;
+   margin-bottom: 4em;
+   max-width: 80%;
+   text-align: left;
+ }
+
+ .container h2 {
+     text-align: center;
+     line-height: 1.25em;
+     font-family: 'Roboto';
+     font-size: 2.5em;
+     font-weight: 300;
+     padding: 0px;
+   }
+
+   .links a {
+     font-size: 1.5em;
+   }
+
+
+   .twocolumns {
+     display: flex;
+     width: 100%;
+   }
+
+   .threecolumns {
+     display: flex;
+   }
+
+   .columns {
+     display: inline;
+     padding-bottom: 4em;
+     width: 100%;
+   }
+
+   .summary .columns p {
+     font-size: .8em;
+     margin-bottom: 0;
+     margin-top: 0;
+     text-align: center;
+   }
+
+   .summary h3 {
+     font-size: 1em;
+     font-weight: 500;
+     text-align: center;
+   }
+
+   .process h3 {
+     font-size: 2em;
+     font-weight: 300;
+     padding-bottom: 1em;
+     padding-top: 1em;
+     text-align: center;
+   }
+
+   h4 {
+     font-weight: 300;
+     text-align: center;
+   }
+
+   .surveys .columns span {
+     display: block;
+     font-size: 3.5em;
+     text-align: center;
+   }
 }
 
-.container {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  line-height: 25px;
-  max-width: 80%;
+.container h2 {
   text-align: center;
+  line-height: 1.25em;
+  font-family: 'Roboto';
+  font-size: 2.5em;
+  font-weight: 300;
+  padding: 0px;
 }
 /* All images  */
 img {
@@ -46,21 +276,23 @@ img {
     margin-bottom: 30px;
     max-width: 100%;
   }
-/* All text */
-p {
-    font-size: 14px;
-    font-weight: 300;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    max-width: 283px;
-    text-align: left;
+
+  .columnimage {
+    background-image: url("https://user-images.githubusercontent.com/52806406/83908802-b29d9b00-a735-11ea-86da-45525cc3136d.png");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
   }
+/* All text */
+
 /* NAVIGATION */
 nav {
   display: flex;
+  font-family: 'Montserrat', sans-serif;
   justify-content: space-between;
   font-size: 12px;
-  margin-top: 2%;
+  margin-top: 2em;
+  margin-right: 2em;
 }
 
 a {
@@ -71,7 +303,7 @@ a {
 
 nav img {
   margin-left: 50%;
-  width: 25px;
+  width: 30px;
 }
 
 .links {
@@ -83,24 +315,23 @@ nav img {
 h1 {
   font-size: 3em;
   font-weight: 500;
+  text-align: center;
 }
 
 .intro span {
   color: red;
   font-weight: 500;
 }
-
-/* Projects */
-.projects h2 {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 1.5em;
-  padding-top: 30%;
-}
 /* enbox image */
-.enbox {
-  background-color: #86CEE6;
-  padding-top: 50px;
-  padding-bottom: 10%;
+.projects {
+  background-color: rgb(134,198,230,.5);
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.projectintro {
+  margin-bottom: 0;
+  padding: 0;
 }
 
 #logo {
@@ -122,64 +353,41 @@ h1 {
 /* ENBOX CASE STUDY */
 /* HEADER */
 header {
-  background-color: #86CEE6;
+  background-color: rgb(134,198,230,.5);
   padding-bottom: 1%;
   padding-top: 5%;
 }
 
-/* heading of projects */
-.enboxproject h2 {
-  background-color: #D5CAEC;
-  /* font-family: 'Montserrat Alternates', sans-serif; */
-  font-size: 2em;
-  font-weight: 300;
-  line-height: 150%;
-  padding: 3%;
-}
-
-/* My roles/deliverables/tools */
-#roles h3 {
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-
-#roles p {
-  margin-bottom: 0;
-  margin-top: 0;
-  text-align: center;
+.grey {
+  background-color: #ededed;
+  padding-bottom: 1px;
+  padding-top: 1em;
 }
 
 /* Clickable Prototype button */
 .button {
   background-color: #740B7D;
-  border: none;
-  border-radius: 15px;
-  color: white;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 30px;
+  text-align: center;
   text-decoration: none;
-  width: 164px;
+  width: 130px;
+  margin-bottom: 4em;
 }
 
-/* SWOT Analysis */
-.SWOT img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-}
-
-h4 {
-  font-weight: 500;
-}
 /* User Survey */
-.percent span {
+.surveys span {
   display: block;
-  font-size: 3em;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 4em;
+  text-align: center;
+  padding-bottom: .25em;
   padding-top: 15%;
-  width: 50%;
+}
+
+#process .button {
+  margin-bottom: 5em;
 }
 
 .percent p {
@@ -190,17 +398,15 @@ h4 {
   width: 50%;
 }
 /* faulty assumptions */
+
 #faulty {
   background-color: rgba(237,25,25,.1) ;
-  padding-bottom: 5px;
-}
-
-#faulty h2{
-  background-color: transparent;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 #faulty .button {
-  margin-bottom: 30px;
+  margin-bottom: 4em;
 }
 /* Wireframes */
 #wireframes a{
@@ -209,17 +415,36 @@ h4 {
 #wireframes .button {
   width: 164px;
 }
-/* Logo */
-.logo a{
-  width: 33%;
+
+#colorend {
+  padding-top: 1em;
 }
+
+/* Logo */
+
+/* PROTOTYPE AND TESTING */
+/* .dashboard {
+  background-image: url("https://user-images.githubusercontent.com/52806406/83909257-774f9c00-a736-11ea-89ff-32dc86ec0523.png");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+} */
+
+/* .dashboard2 {
+  background-image: url("https://user-images.githubusercontent.com/52806406/83909263-79195f80-a736-11ea-9107-4abbf6ab6978.png");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+} */
 .conclusion span {
+  font-size: 1.05em;
   font-weight: 800;
 }
 
 .conclusion a {
   font-size: 1.25em;
 }
+
 
 #footer {
    display: flex;
