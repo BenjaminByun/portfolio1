@@ -40,3 +40,7 @@ My work with Thinkful
 ![Ben](https://user-images.githubusercontent.com/52806406/83912957-be409000-a73c-11ea-8c8d-586b4ae1688d.png
 
 ![Quiz mockup](https://user-images.githubusercontent.com/52806406/83914688-b7ffe300-a73f-11ea-89c3-0669ff6c147d.png)
+
+![Korea-161](https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg)
+
+![Producing](https://user-images.githubusercontent.com/52806406/84336547-7cad4c00-ab65-11ea-9e37-c0ca23871563.jpg)

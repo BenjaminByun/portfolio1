@@ -22,6 +22,53 @@
     padding-bottom: 2em;
   }
 
+  /* nav {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 2em;
+    margin-right: 2em;
+  } */
+
+
+  /* a {
+    color: inherit;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  nav a {
+    font-size: 1.25em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 0em;
+    border-bottom: 0em;
+
+  } */
+
+  /* nav img {
+    width: 50px; */
+    /* margin-bottom: -4em; */
+    /* margin-left: -1em; */
+  /* } */
+
+  /* .links li {
+    display: flex;
+    float: right;
+    border-right: 0em;
+    margin-right: 0em;
+    padding-right: 0em; */
+    /* justify-content: space-between; */
+    /* width: 40%; */
+    /* margin-bottom: 0em; */
+    .ben img{
+      float: left;
+      margin-left: 1em;
+      margin-top: .5em;
+      padding-left: 1em;
+      width: 3em;
+    }
 
   p {
       font-size: 14px;
@@ -29,13 +76,38 @@
       margin-bottom: 3em;
     }
 
+  .bio {
+      background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
+      height: 500px;
+      background-position: left;
+      background-size: cover;
+      max-width: 100%;
+    }
+
+  .aboutme h1 {
+    padding: 0px;
+    border-top: 1em;
+    margin-top: .1em;
+    text-align: left;
+  }
+
+  .aboutme h4 {
+    text-align: left;
+    max-width: 300px;
+  }
+
+  .aboutme p {
+    line-height: 2em;
+    width: 320px;
+  }
+
 /* MOBILE container properties */
   .container h2 {
       text-align: center;
       line-height: 1.25em;
       font-family: 'Roboto';
       font-size: 2.5em;
-      font-weight: 300;
+      font-weight: 375;
       padding: 0px;
     }
 /* MOBILE column properties */
@@ -83,8 +155,6 @@
 
 }
 
-
-
 /* TABLET */
 @media (min-width: 600px) and (max-width: 1280px) {
   .container {
@@ -92,16 +162,23 @@
     font-size: 1.25em;
     line-height: 25px;
     text-align: center;
-    max-width: 800px;
+    max-width: 750px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 2em;
     padding-bottom: 2em;
   }
 
+  .ben {
+    float: left;
+    margin-left: 1em;
+    margin-top: .5em;
+    padding-left: 1em;
+    width: 50px;
+  }
 
    p {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     margin: 0 auto;
     margin-bottom: 4em;
@@ -109,15 +186,42 @@
     text-align: left;
   }
 
+  .bio {
+     background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
+     height: 600px;
+     background-position: center;
+     background-size: cover;
+     max-width: 100%;
+   }
+
+ .aboutme h1 {
+   margin-left: 1.2em;
+   margin-top: -.55em;
+   margin-bottom: 1em;
+   text-align: left;
+ }
+
+ .aboutme h4 {
+   font-weight: 500;
+   text-align: left;
+   margin-bottom: 2em;
+   margin-left: 4em;
+   margin-top: 0em;
+   max-width: 80%;
+ }
+
+ .aboutme p {
+   font-size: .9em;
+   line-height: 2em;
+   width: 80%;
+ }
+
+
   .container h2 {
     font-size: 2em;
     font-weight: 500;
     padding-bottom: 1em;
   }
-
-    .links a {
-      font-size: 16px;
-    }
 
 /* COLUMN CODE */
   .twocolumns {
@@ -189,6 +293,14 @@
     padding-bottom: 2em;
   }
 
+  .ben {
+    float: left;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding-left: 1em;
+    width: 100px;
+  }
+
   p {
    font-size: 1em;
    font-weight: 300;
@@ -197,6 +309,36 @@
    margin-bottom: 4em;
    max-width: 80%;
    text-align: left;
+ }
+
+ .bio {
+    background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+  }
+
+ .aboutme h1 {
+   padding: 0px;
+   margin-left: 1.5em;
+   margin-top: -.55em;
+   text-align: left;
+ }
+
+ .aboutme h4 {
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 1em;
+   text-align: left;
+   margin-bottom: 2em;
+   margin-left: 4em;
+   max-width: 80%;
+ }
+
+ .aboutme p {
+   font-size: 24px;
+   line-height: 2em;
  }
 
  .container h2 {
@@ -209,7 +351,7 @@
    }
 
    .links a {
-     font-size: 1.5em;
+     font-size: 2em;
    }
 
 
@@ -261,6 +403,7 @@
    }
 }
 
+/* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
 .container h2 {
   text-align: center;
   line-height: 1.25em;
@@ -269,6 +412,37 @@
   font-weight: 300;
   padding: 0px;
 }
+
+nav ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  list-style-type: none;
+  margin: 1em;
+  padding-top: 1em;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 1em;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+/* .ben img{
+  float: left;
+  margin-left: 1em;
+  margin-top: .5em;
+  padding-left: 1em;
+  width: 3em;
+} */
+
 /* All images  */
 img {
     display: block;
@@ -283,10 +457,8 @@ img {
     background-position: center;
     background-size: cover;
   }
-/* All text */
-
 /* NAVIGATION */
-nav {
+/* nav {
   display: flex;
   font-family: 'Montserrat', sans-serif;
   justify-content: space-between;
@@ -310,7 +482,7 @@ nav img {
   display: flex;
   justify-content: space-between;
   width: 50%;
-}
+} */
 /* HOMEPAGE  */
 h1 {
   font-size: 3em;
@@ -336,6 +508,7 @@ h1 {
 
 #logo {
   padding-top: 5%;
+  width: 300px;
 }
 
 /* case study button */
@@ -443,6 +616,10 @@ header {
 
 .conclusion a {
   font-size: 1.25em;
+}
+
+.lightblue {
+  background-color: #0044cc26;
 }
 
 
