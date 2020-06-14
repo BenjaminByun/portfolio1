@@ -36,6 +36,7 @@
     .projects p {
       padding-bottom: 2em
     }
+
 /* MOBILE percentage properties */
     .surveys span {
       font-size: 4em;
@@ -227,7 +228,6 @@ li a {
   font-family: 'Roboto';
   font-size: 2.5em;
   font-weight: 300;
-  padding-bottom: 2em;
 }
 
 .summary h3 {
@@ -244,9 +244,14 @@ h3 {
 
   .columnimage {
     background-image: url("https://user-images.githubusercontent.com/52806406/83908802-b29d9b00-a735-11ea-86da-45525cc3136d.png");
-    height: 200px;
+    height: 15em;
     background-position: center;
     background-size: cover;
+    margin-right: 2em;
+  }
+
+  .visual p {
+    margin-bottom: 4em;
   }
 
 /* HOMEPAGE  */
