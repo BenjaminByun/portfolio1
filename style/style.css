@@ -1,226 +1,88 @@
 @media (min-width: 375px) and (max-width: 599px) {
   .container {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 5em;
-    text-align: left;
     max-width: 375px;
   }
 
-  .intro {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25em;
-    line-height: 25px;
-    text-align: center;
-    max-width: 375px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-
-  /* nav {
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    justify-content: space-between;
-    font-size: 12px;
-    margin-top: 2em;
-    margin-right: 2em;
-  } */
-
-
-  /* a {
-    color: inherit;
-    font-weight: 300;
-    text-decoration: none;
-  }
-
-  nav a {
-    font-size: 1.25em;
-    margin-right: 1em;
-    margin-left: 1em;
-    margin-bottom: 0em;
-    border-bottom: 0em;
-
-  } */
-
-  /* nav img {
-    width: 50px; */
-    /* margin-bottom: -4em; */
-    /* margin-left: -1em; */
-  /* } */
-
-  /* .links li {
-    display: flex;
-    float: right;
-    border-right: 0em;
-    margin-right: 0em;
-    padding-right: 0em; */
-    /* justify-content: space-between; */
-    /* width: 40%; */
-    /* margin-bottom: 0em; */
-    .ben img{
+  .ben {
       float: left;
       margin-left: 1em;
-      margin-top: .5em;
       padding-left: 1em;
-      width: 3em;
+      width: 2.5em;
     }
 
   p {
       font-size: 14px;
       font-weight: 300;
-      margin-bottom: 3em;
     }
-
-  .bio {
-      background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
-      height: 500px;
-      background-position: left;
-      background-size: cover;
-      max-width: 100%;
-    }
-
-  .aboutme h1 {
-    padding: 0px;
-    border-top: 1em;
-    margin-top: .1em;
-    text-align: left;
-  }
-
-  .aboutme h4 {
-    text-align: left;
-    max-width: 300px;
-  }
-
-  .aboutme p {
-    line-height: 2em;
-    width: 320px;
-  }
-
-/* MOBILE container properties */
-  .container h2 {
+/* HOMEPAGE CODE */
+    .button2 {
+      background-color: #740B7D;
+      border-radius: 15px;
+      color: white;
+      display: block;
+      font-size: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1em 2em;
       text-align: center;
-      line-height: 1.25em;
-      font-family: 'Roboto';
-      font-size: 2.5em;
-      font-weight: 375;
-      padding: 0px;
+      text-decoration: none;
+      width: 130px;
     }
-/* MOBILE column properties */
-    .summary .columns p {
-      font-size: .8em;
-      margin-bottom: 0;
-      margin-top: 0;
-      text-align: center;
+
+    .projects .button {
+      display: none;
+    }
+
+    .projects p {
+      padding-bottom: 2em
     }
 /* MOBILE percentage properties */
     .surveys span {
-      display: block;
       font-size: 4em;
-      text-align: center;
-      padding-bottom: .25em;
-      padding-top: 15%;
     }
-/* MOBILE summary */
-    .summary h3 {
-      font-size: 1.25em;
-      font-weight: 500;
-      text-align: center;
-    }
-/* MOBILE process */
-    .process h3 {
-      font-size: 1.5em;
-      font-weight: 300;
-      padding-bottom: 1em;
-      text-align: center;
-    }
-/* MOBILE SWOT analysis */
-    h4 {
-      font-weight: 500;
-      text-align: center;
-      margin-top: 2em;
-      margin-bottom: 4em;
-    }
-/* MOBILE Visual */
-    .visual h3{
-      font-size: 1.5em;
-      font-weight: 300;
-      padding-bottom: 1em;
-      text-align: center;
-    }
-
 }
-
 /* TABLET */
 @media (min-width: 600px) and (max-width: 1280px) {
   .container {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
-    line-height: 25px;
     text-align: center;
     max-width: 750px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
   }
 
   .ben {
     float: left;
     margin-left: 1em;
-    margin-top: .5em;
     padding-left: 1em;
-    width: 50px;
+    width: 3em;
+  }
+  /* HOME page */
+  .container p {
+    font-size: .9em;
   }
 
-   p {
-    font-size: 17px;
-    font-weight: 300;
-    margin: 0 auto;
-    margin-bottom: 4em;
-    max-width: 80%;
+  .intro .columns p {
     text-align: left;
+    width: 400px;
   }
 
-  .bio {
-     background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
-     height: 600px;
-     background-position: center;
-     background-size: cover;
-     max-width: 100%;
-   }
+  nav ul {
+    font-size: 1.25em;
+  }
 
- .aboutme h1 {
-   margin-left: 1.2em;
-   margin-top: -.55em;
-   margin-bottom: 1em;
-   text-align: left;
- }
+  #logo {
+    margin-left: 0em;
+  }
 
- .aboutme h4 {
-   font-weight: 500;
-   text-align: left;
-   margin-bottom: 2em;
-   margin-left: 4em;
-   margin-top: 0em;
-   max-width: 80%;
- }
+  .projects .button {
+    margin-left: 0em;
+  }
 
- .aboutme p {
-   font-size: .9em;
-   line-height: 2em;
-   width: 80%;
- }
+  #dashboard {
+    margin-left: 4em;
+  }
 
-
-  .container h2 {
-    font-size: 2em;
-    font-weight: 500;
-    padding-bottom: 1em;
+  .button2 {
+    display: none;
   }
 
 /* COLUMN CODE */
@@ -235,16 +97,7 @@
 
   .columns {
     display: inline;
-    padding-bottom: 4em;
     width: 100%;
-  }
-
-  /* TABLET summary */
-  .summary .columns p {
-    font-size: 14px;
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
   }
 
   .summary h3 {
@@ -252,45 +105,18 @@
     font-weight: 500;
     text-align: center;
   }
-  /* TABLET process */
-  .process h3 {
-    font-size: 1.5em;
-    font-weight: 300;
-    padding-bottom: 1em;
-    text-align: center;
-  }
 
-    h4 {
-      font-weight: 300;
-      text-align: center;
-    }
-
-  .surveys .columns span {
-    display: block;
-    font-size: 4em;
-    text-align: center;
-  }
-  /* TABLET Visuals */
-  .visual h3{
-    font-family: "Roboto";
-    font-size: 1.5em;
-    font-weight: 300;
-    padding-bottom: 1em;
-    text-align: center;
+  .process .surveys .columns p {
+    font-size: .9em;
+    width: 90%;
   }
 }
 
 @media (min-width: 1281px) {
   .container {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
-    line-height: 25px;
     text-align: center;
     max-width: 954px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
   }
 
   .ben {
@@ -298,62 +124,36 @@
     margin-left: 1em;
     margin-top: 1em;
     padding-left: 1em;
-    width: 100px;
+    width: 4em;
+  }
+/* HOMEPAGE */
+  nav ul {
+    font-size: .8em;
+  }
+ .intro .columns p {
+   text-align: left;
+   width: 500px;
+ }
+
+ #logo {
+   margin-left: 0em;
+ }
+
+ .projects .button {
+   margin-left: 0em;
+ }
+
+  #dashboard {
+    margin-left: 4em;
   }
 
-  p {
-   font-size: 1em;
-   font-weight: 300;
-   line-height: 1.5em;
-   margin: 0 auto;
-   margin-bottom: 4em;
-   max-width: 80%;
-   text-align: left;
- }
-
- .bio {
-    background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
-    height: 700px;
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
+  .button2 {
+    display: none;
   }
-
- .aboutme h1 {
-   padding: 0px;
-   margin-left: 1.5em;
-   margin-top: -.55em;
-   text-align: left;
- }
-
- .aboutme h4 {
-   font-size: 24px;
-   font-weight: 500;
-   line-height: 1em;
-   text-align: left;
-   margin-bottom: 2em;
-   margin-left: 4em;
-   max-width: 80%;
- }
-
- .aboutme p {
-   font-size: 24px;
-   line-height: 2em;
- }
-
- .container h2 {
-     text-align: center;
-     line-height: 1.25em;
-     font-family: 'Roboto';
-     font-size: 2.5em;
-     font-weight: 300;
-     padding: 0px;
-   }
 
    .links a {
      font-size: 2em;
    }
-
 
    .twocolumns {
      display: flex;
@@ -366,60 +166,47 @@
 
    .columns {
      display: inline;
-     padding-bottom: 4em;
      width: 100%;
    }
 
-   .summary .columns p {
-     font-size: .8em;
-     margin-bottom: 0;
-     margin-top: 0;
-     text-align: center;
-   }
-
-   .summary h3 {
-     font-size: 1em;
-     font-weight: 500;
-     text-align: center;
-   }
-
-   .process h3 {
-     font-size: 2em;
-     font-weight: 300;
-     padding-bottom: 1em;
-     padding-top: 1em;
-     text-align: center;
-   }
-
-   h4 {
-     font-weight: 300;
-     text-align: center;
-   }
-
-   .surveys .columns span {
-     display: block;
-     font-size: 3.5em;
-     text-align: center;
+   .process .surveys .columns p {
+     font-size: .9em;
+     width: 90%;
    }
 }
 
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
-.container h2 {
-  text-align: center;
-  line-height: 1.25em;
-  font-family: 'Roboto';
-  font-size: 2.5em;
-  font-weight: 300;
-  padding: 0px;
+.container {
+  font-family: 'Montserrat', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 4em;
+  padding-top: 4em;
+  text-align: left;
 }
 
+p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .container img {
+    margin-top: 2em;
+  }
+/* NAVBAR */
 nav ul {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
   font-weight: 300;
   list-style-type: none;
   margin: 1em;
-  padding-top: 1em;
   overflow: hidden;
 }
 
@@ -431,25 +218,29 @@ li a {
   display: block;
   text-align: center;
   padding: 1em;
-  /* padding: 14px 16px; */
   text-decoration: none;
 }
 
-/* .ben img{
-  float: left;
-  margin-left: 1em;
-  margin-top: .5em;
-  padding-left: 1em;
-  width: 3em;
-} */
+.container h2 {
+  text-align: center;
+  line-height: 1.25em;
+  font-family: 'Roboto';
+  font-size: 2.5em;
+  font-weight: 300;
+  padding-bottom: 2em;
+}
 
-/* All images  */
-img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    max-width: 100%;
-  }
+.summary h3 {
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+}
 
   .columnimage {
     background-image: url("https://user-images.githubusercontent.com/52806406/83908802-b29d9b00-a735-11ea-86da-45525cc3136d.png");
@@ -457,37 +248,25 @@ img {
     background-position: center;
     background-size: cover;
   }
-/* NAVIGATION */
-/* nav {
-  display: flex;
-  font-family: 'Montserrat', sans-serif;
-  justify-content: space-between;
-  font-size: 12px;
-  margin-top: 2em;
-  margin-right: 2em;
-}
 
-a {
-  color: inherit;
-  font-weight: 300;
-  text-decoration: none;
-}
-
-nav img {
-  margin-left: 50%;
-  width: 30px;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-} */
 /* HOMEPAGE  */
-h1 {
-  font-size: 3em;
-  font-weight: 500;
+.intro h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
   text-align: center;
+}
+
+.intro {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2em;
+  padding-bottom: 10em;
+}
+
+.intro p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .intro span {
@@ -497,70 +276,82 @@ h1 {
 /* enbox image */
 .projects {
   background-color: rgb(134,198,230,.5);
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-.projectintro {
-  margin-bottom: 0;
-  padding: 0;
 }
 
 #logo {
-  padding-top: 5%;
-  width: 300px;
+  width: 12em;
+}
+  /* Clickable Prototype button */
+  .button {
+    background-color: #740B7D;
+    border-radius: 15px;
+    color: white;
+    display: block;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    width: 10em;
+  }
+
+  /* BIOGRAPHY page */
+.bio {
+    background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
+    height: 30em;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
 }
 
-/* case study button */
-.button {
-  background-color: #740B7D;
-  border: none;
-  border-radius: 15px;
-  color: white;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px 30px;
-  width: 260px;
+.aboutme h1 {
+  font-size: 3em;
+  margin-top: -1.6em;
+  margin-bottom: 2em;
+}
+
+.aboutme h4 {
+  font-size: 1.25em;
+  margin-bottom: 2em;
 }
 
 /* ENBOX CASE STUDY */
-/* HEADER */
 header {
   background-color: rgb(134,198,230,.5);
-  padding-bottom: 1%;
-  padding-top: 5%;
 }
 
 .grey {
   background-color: #ededed;
-  padding-bottom: 1px;
-  padding-top: 1em;
 }
 
-/* Clickable Prototype button */
-.button {
-  background-color: #740B7D;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 30px;
+.summary .columns p {
+  font-size: .8em;
+  margin-bottom: 0;
+  margin-top: 0;
   text-align: center;
-  text-decoration: none;
-  width: 130px;
-  margin-bottom: 4em;
 }
 
-/* User Survey */
+.summary .threecolumns {
+  margin-top: 4em;
+}
+
+.process h3 {
+  margin-bottom: 2em;
+}
+
+.process h4 {
+  font-weight: 500;
+  text-align: center;
+}
+
 .surveys span {
   display: block;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
-  padding-bottom: .25em;
-  padding-top: 15%;
-}
-
-#process .button {
-  margin-bottom: 5em;
+  padding-bottom: .5em;
+  padding-top: .5em;
 }
 
 .percent p {
@@ -570,64 +361,33 @@ header {
   text-align: left;
   width: 50%;
 }
-/* faulty assumptions */
 
+/* faulty assumptions */
 #faulty {
   background-color: rgba(237,25,25,.1) ;
-  padding-bottom: 1em;
-  padding-top: 1em;
 }
 
-#faulty .button {
-  margin-bottom: 4em;
-}
-/* Wireframes */
-#wireframes a{
-  width: 33%;
-}
-#wireframes .button {
-  width: 164px;
-}
-
-#colorend {
-  padding-top: 1em;
-}
-
-/* Logo */
-
-/* PROTOTYPE AND TESTING */
-/* .dashboard {
-  background-image: url("https://user-images.githubusercontent.com/52806406/83909257-774f9c00-a736-11ea-89ff-32dc86ec0523.png");
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-} */
-
-/* .dashboard2 {
-  background-image: url("https://user-images.githubusercontent.com/52806406/83909263-79195f80-a736-11ea-9107-4abbf6ab6978.png");
-  height: 400px;
-  background-position: center;
-  background-size: cover;
-} */
 .conclusion span {
   font-size: 1.05em;
   font-weight: 800;
 }
 
 .conclusion a {
-  font-size: 1.25em;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  text-decoration: none;
+  text-decoration-color: blue;
 }
 
 .lightblue {
   background-color: #0044cc26;
 }
 
-
 #footer {
    display: flex;
    justify-content: center;
    list-style-type: none;
-   margin-top: 100px;
 }
 
 #footer li {

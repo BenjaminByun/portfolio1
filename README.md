@@ -44,3 +44,8 @@ My work with Thinkful
 ![Korea-161](https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg)
 
 ![Producing](https://user-images.githubusercontent.com/52806406/84336547-7cad4c00-ab65-11ea-9e37-c0ca23871563.jpg)
+
+![Landing Page](https://user-images.githubusercontent.com/52806406/84550449-991dc580-acd8-11ea-91f0-760f058bfd6d.png
+
+![Dashboard(3)](https://user-images.githubusercontent.com/52806406/84550512-d6825300-acd8-11ea-81ad-14569d0d7a57.png)
+)
