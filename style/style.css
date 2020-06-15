@@ -1,18 +1,11 @@
-@media (min-width: 375px) and (max-width: 599px) {
+@media (min-width: 375px) and (max-width: 719px) {
   .container {
-    max-width: 375px;
+    max-width: 480px;
   }
 
-  .ben {
-      float: left;
-      margin-left: 1em;
-      padding-left: 1em;
-      width: 2.5em;
-    }
-
   p {
-      font-size: 14px;
-      font-weight: 300;
+      margin-left: auto;
+      margin-right: auto;
     }
 /* HOMEPAGE CODE */
     .button2 {
@@ -34,36 +27,49 @@
     }
 
     .projects p {
-      padding-bottom: 2em
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 2em;
+      width: 80%;
     }
 
-/* MOBILE percentage properties */
+    .projects #dashboard {
+      width: 80%;
+    }
+/* BIOGRAPHY page */
+  .aboutme h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .aboutme h4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+/* ENBOX page */
+
+    .introdash {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
     .surveys span {
       font-size: 4em;
     }
 }
 /* TABLET */
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 720px) and (max-width: 1280px) {
   .container {
     font-size: 1.25em;
     text-align: center;
-    max-width: 750px;
+    max-width: 80%;
   }
 
-  .ben {
-    float: left;
-    margin-left: 1em;
-    padding-left: 1em;
-    width: 3em;
-  }
   /* HOME page */
   .container p {
     font-size: .9em;
-  }
-
-  .intro .columns p {
-    text-align: left;
-    width: 400px;
   }
 
   nav ul {
@@ -76,10 +82,6 @@
 
   .projects .button {
     margin-left: 0em;
-  }
-
-  #dashboard {
-    margin-left: 4em;
   }
 
   .button2 {
@@ -116,24 +118,17 @@
 @media (min-width: 1281px) {
   .container {
     font-size: 1.25em;
-    text-align: center;
     max-width: 954px;
   }
 
-  .ben {
-    float: left;
-    margin-left: 1em;
-    margin-top: 1em;
-    padding-left: 1em;
-    width: 4em;
-  }
 /* HOMEPAGE */
   nav ul {
     font-size: .8em;
   }
+
  .intro .columns p {
-   text-align: left;
-   width: 500px;
+   text-align: center;
+   width: 80%;
  }
 
  #logo {
@@ -190,6 +185,7 @@ p {
   font-weight: 300;
   font-size: 1em;
   line-height: 2em;
+  /* width: 80%; */
 }
 
 img {
@@ -202,21 +198,41 @@ img {
   .container img {
     margin-top: 2em;
   }
+
+  .button:hover {
+    background-color: #C73ACA;
+  }
+
+  a:hover {
+    font-weight: 500;
+  }
+
 /* NAVBAR */
+.ben {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 3em;
+  }
+
+.ben:hover{
+  opacity: .75;
+}
+
 nav ul {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   list-style-type: none;
-  margin: 1em;
-  overflow: hidden;
 }
 
-li {
-  float: right;
+.links {
+  display: flex;
+  justify-content: center;
 }
 
 li a {
-  display: block;
+  color: #A3A1B6;
+  display: inline;
   text-align: center;
   padding: 1em;
   text-decoration: none;
@@ -266,12 +282,6 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   line-height: 2em;
   padding-bottom: 10em;
-}
-
-.intro p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
 }
 
 .intro span {
@@ -378,11 +388,14 @@ header {
 }
 
 .conclusion a {
+  color: inherit;
   display: flex;
-  font-size: 1.5em;
   justify-content: center;
   text-decoration: none;
-  text-decoration-color: blue;
+}
+
+.conclusion a:hover {
+  font-weight: 700;
 }
 
 .lightblue {
@@ -398,9 +411,10 @@ footer {
 
 .footer {
    display: flex;
-   font-size: .4em;
+   font-size: .2em;
    justify-content: center;
    list-style-type: none;
+   width: 80%;
 }
 
 .copyright {
@@ -408,5 +422,13 @@ footer {
 }
 
 .container .footer li {
-  opacity: 0.5;
+  opacity: .5;
+}
+
+.footer li {
+  padding: 5em;
+}
+
+.footer li:hover {
+  opacity: .8;
 }
