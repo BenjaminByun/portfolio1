@@ -200,12 +200,12 @@ img {
   }
 
   .button:hover {
-    background-color: #C73ACA;
+    background-color: #890495;
   }
 
-  a:hover {
+  /* a:hover {
     color: blue;
-  }
+  } */
 
 /* NAVBAR */
 .ben {
@@ -274,7 +274,7 @@ h3 {
 .intro h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4em;
-  font-weight: 300;
+  font-weight: 700;
   text-align: center;
 }
 
