@@ -49,3 +49,7 @@ My work with Thinkful
 
 ![Dashboard(3)](https://user-images.githubusercontent.com/52806406/84550512-d6825300-acd8-11ea-81ad-14569d0d7a57.png)
 )
+
+<img width="77" alt="NEW logo" src="https://user-images.githubusercontent.com/52806406/84949766-b9c09380-b0bb-11ea-85af-5c70396216c1.png">
+
+<img width="77" alt="NEW(2)" src="https://user-images.githubusercontent.com/52806406/84950824-79faab80-b0bd-11ea-8be7-4f29ceb6aeef.png">

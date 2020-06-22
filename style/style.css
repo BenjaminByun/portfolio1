@@ -9,6 +9,10 @@
       width: 80%;
     }
 /* HOMEPAGE CODE */
+    .intro {
+      height: 300px;
+    }
+
     .button2 {
       background-color: #740B7D;
       border-radius: 15px;
@@ -50,10 +54,9 @@
   }
 /* ENBOX page */
     .introdash {
-      margin-left: auto;
-      margin-right: auto;
-      width: 80%;
+      /* background-image: url("https://user-images.githubusercontent.com/52806406/84955435-44f25700-b0c5-11ea-85ab-54b104320cbc.png"); */
     }
+
     .surveys span {
       font-size: 4em;
     }
@@ -79,6 +82,10 @@
 
   #logo {
     margin-left: 0em;
+  }
+
+  .intro p {
+    display: inline;
   }
 
   .projects .button {
@@ -110,6 +117,10 @@
     text-align: center;
   }
 
+  .solution .columns p {
+    margin-left: 2em;
+  }
+
   .process .surveys .columns p {
     font-size: .9em;
     width: 90%;
@@ -127,10 +138,9 @@
     font-size: .8em;
   }
 
- .intro .columns p {
-   text-align: center;
-   width: 80%;
- }
+  .intro p {
+    display: inline;
+  }
 
  #logo {
    margin-left: 0em;
@@ -165,6 +175,16 @@
      display: inline;
      width: 100%;
    }
+
+   .solution .columns p {
+     margin-left: 2em;
+   }
+   /* .grey {
+     background-image: url("https://user-images.githubusercontent.com/52806406/85090737-df30c880-b1b3-11ea-86c1-941f5af5b38b.png");
+     background-size: 500px;
+     background-repeat: no-repeat;
+     background-position: 50px;
+   } */
 
    .process .surveys .columns p {
      font-size: .9em;
@@ -252,6 +272,10 @@ li a {
   text-align: center;
 }
 
+/* #showcase {
+  width: 20em;
+} */
+
 h3 {
   font-size: 1.5em;
   font-weight: 300;
@@ -279,8 +303,13 @@ h3 {
 }
 
 .intro {
+  background-attachment: fixed;
+  background-image: url("https://user-images.githubusercontent.com/52806406/84950824-79faab80-b0bd-11ea-8be7-4f29ceb6aeef.png");
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
   font-family: 'Montserrat', sans-serif;
-  line-height: 2em;
+  /* line-height: 2em; */
+  margin-bottom: 2em;
   padding-bottom: 10em;
 }
 
@@ -294,8 +323,9 @@ h3 {
 }
 
 #logo {
-  width: 12em;
+  width: 15em;
 }
+
   /* Clickable Prototype button */
   .button {
     background-color: #740B7D;
@@ -335,8 +365,27 @@ h3 {
 /* ENBOX CASE STUDY */
 header {
   background-color: rgb(134,198,230,.5);
+  padding: 2em;
+  margin-top: 4em;
 }
 
+#caseStudyLogo {
+  width: 15em;
+  margin-top: 0em;
+  margin-bottom: 4em;
+}
+
+#caseStudyDash {
+  width: 50em;
+}
+
+.introdash {
+  /* background-image: url("https://user-images.githubusercontent.com/52806406/84956018-5b4ce280-b0c6-11ea-96ae-9241dd1b2f8d.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px; */
+}
 .grey {
   background-color: #ededed;
 }
@@ -361,7 +410,13 @@ header {
   text-align: center;
 }
 
-.surveys span {
+.process span {
+  color: blue;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.process .surveys span {
   display: block;
   font-size: 3em;
   text-align: center;
@@ -375,6 +430,54 @@ header {
   margin-right: auto;
   text-align: left;
   width: 50%;
+}
+
+.container .columns .personas {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.personas {
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 5em 5em 5em 10em;
+  text-align: left;
+  background-color: #F8F7FA;
+  Border-radius: 5%;
+  padding-bottom: 2em;
+  line-height: 2em;
+}
+
+.personas img {
+  border-radius: 50%;
+  width: 10em;
+  grid-row: 1 / 2;
+}
+
+.personaname {
+  font-size: 1.5em;
+  grid-row: 1 / 2;
+  text-align: left;
+}
+
+/* .personas ul {
+  list-style-type: none;
+} */
+
+.personagoals {
+  grid-row: 1 / 2;
+}
+
+.personafrustrations {
+  grid-row: 2/ 3;
+}
+
+.personamotivations {
+  grid-column: 2 / 9;
 }
 
 /* faulty assumptions */
@@ -400,6 +503,66 @@ header {
 
 .lightblue {
   background-color: #0044cc26;
+}
+
+/* COLOR */
+.colorChips {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-family: "PT serif";
+  font-weight: 500;
+  grid-gap: 5px;
+  grid-template: repeat(3, minmax(50px,1fr)) / repeat(3, minmax(50px,2fr));
+}
+
+.colorChips div {
+  padding-top: 50%;
+  color: white;
+}
+
+.color1 {
+  background-color: #5398FF;
+}
+
+.color2 {
+  background-color: #A377FF;
+}
+
+.color3 {
+  background-color: #F049F3;
+}
+
+.color4 {
+  background-color: #3F7BD3;
+}
+
+.color5 {
+  background-color: #875DDE;
+}
+
+.color6 {
+  background-color: #C73ACA;
+}
+
+.color7 {
+  background-color: #1336B4;
+}
+
+.color8 {
+  background-color: #4214C6;
+}
+
+.color9 {
+  background-color: #740B7D;
+}
+
+.color10 {
+  background-color: #EAEFF7;
+}
+
+#colorend {
+  padding-top: 2em;
 }
 
 footer {

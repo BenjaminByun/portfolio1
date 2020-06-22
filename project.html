@@ -10,7 +10,9 @@
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
       <script src="https://use.fontawesome.com/3e4d2586f2.js"></script>
+      <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169461298-1"></script>
       <script>
@@ -19,13 +21,13 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-169461298-1');
-      </script>      
+      </script>
     </head>
    <body>
      <div>
       <nav>
          <div class="ben">
-           <a href="index.html"><img src="https://user-images.githubusercontent.com/52806406/83912957-be409000-a73c-11ea-8c8d-586b4ae1688d.png" alt=""></a>
+           <a href="index.html"><img src="https://user-images.githubusercontent.com/52806406/84950824-79faab80-b0bd-11ea-8be7-4f29ceb6aeef.png" alt=""></a>
          </div>
         <ul class="links">
           <li><a href="bio.html">About</a></li>
@@ -34,13 +36,13 @@
         </ul>
       </nav>
       <header>
-        <div class="container">
+        <div class="container introdash">
          <div class="twocolumns">
           <div class="columns">
-          <img src="https://user-images.githubusercontent.com/52806406/83910133-027d6180-a738-11ea-9e0d-d18fd29aa092.png" alt="">
+          <img id="caseStudyLogo" src="https://user-images.githubusercontent.com/52806406/84939807-e3be8980-b0ac-11ea-861a-a78a79321b50.png" alt="">
          </div>
          <div class="columns introdash">
-           <img src="https://user-images.githubusercontent.com/52806406/84557058-a72e0f00-acf5-11ea-8994-05da7161cea2.png" alt="">
+           <img id="caseStudyDash" src="https://user-images.githubusercontent.com/52806406/84955435-44f25700-b0c5-11ea-85ab-54b104320cbc.png" alt="">
          </div>
        </div>
       </div>
@@ -53,18 +55,26 @@
           <div class="threecolumns">
            <div class="columns">
              <h3>My roles</h3>
-               <p>UX research</p>
-               <p>Information architecture</p>
-               <p>Visual design</p>
+             <p>Information architect</p>
+             <p>Interaction designer</p>
+             <p>Prototyper</p>
+             <p>UX research</p>
+             <p>Visual design</p>
             </div>
             <div class="columns">
               <h3>Deliverables</h3>
-              <p>High-fidelity mockup</p>
               <p>Clickable prototype</p>
+              <p>High-fidelity mockup</p>
               <p>Layered style guide</p>
+              <p>SWOT analysis</p>
+              <p>User flows</p>
+              <p>User personas</p>
+              <p>Wireframes</p>
             </div>
            <div class="columns">
             <h3>Tools used</h3>
+            <p>Adobe Creative Suite</p>
+            <p>Draw.io</p>
             <p>Figma</p>
             <p>Invision</p>
           </div>
@@ -77,13 +87,13 @@
          <p>Enter any ESL institution and you will find bookshelves filled with binders filled with syllabi, lesson plans, and tests. This is ineffective, inefficient, and unsustainable.</p>
       </div>
       <!-- Solution -->
-      <div>
+      <div id="solution">
        <div class="grey">
         <div class="container solution">
           <h2>SOLUTION</h2>
            <div class="twocolumns">
              <div class="columns">
-               <img id="showcase" src="https://user-images.githubusercontent.com/52806406/83912383-c946f080-a73b-11ea-9cec-af2ad06a6c26.png" alt="">
+               <img id="showcase" src="https://user-images.githubusercontent.com/52806406/85090737-df30c880-b1b3-11ea-86c1-941f5af5b38b.png" alt="">
              </div>
              <div class="columns">
               <p> A 5-day scheduler so that the instructor is always aware of upcoming deadlines.</p>
@@ -100,7 +110,7 @@
             </div>
           </div>
             <!-- button -->
-          <a href="project.html" class="button">View prototype</a>
+          <a href="https://benjaminbyun881231.invisionapp.com/console/Enbox-Finshing-Touches-ck8z8102542g1018ci6rb683i/ck8z830ez41vg015fvdsfhfrq/play" class="button">View prototype</a>
        </div>
      </div>
    </div>
@@ -124,8 +134,11 @@
              <h4>Notion</h4>
            </div>
          </div>
-         <p>I conducted a SWOT analysis on Google Classroom, Dropbox, and Notion. My main finding was that though these products offered quality services, an opportunity was open to catering to the niche world of adult ESL. </p>
-         <a href="project.html" class="button">SWOT analysis</a>
+         <p>I conducted a SWOT analysis on Google Classroom, Dropbox, and Notion. Though these products offer quality services, an opportunity is open to catering to the niche world of adult ESL. </p>
+         <p><span>Google Classroom</span> has a dizzying array of options for educators to enhance their classrooms. However, their scope is too broad, and they don't offer specific servies for ESL instructors. </p>
+         <p><span>Dropbox</span>, like Google, has strong name recognition, competitive pricing, ample storage space, and convenient access to other products (like Google Drive). A specific weakness is Dropbox Paper, which is an application that allows users to create origianl content, but its UX isn't as smooth and intutive.</p>
+         <p><span>Notion</span> is a relative newcomer to the market, with trendy UI, clean interactivity, and especially for educators, several templates such as lesson plans. They suffer from some needlessly complicated elements, such as its headache-inducing method of important documents from, say, Dropbox. </p>
+         <a href="https://docs.google.com/document/d/1szB3RbdjkIei9dgtO4JMS7A-X6lJpO-StDcbw1dq_k4/edit?usp=sharing" class="button">SWOT analysis</a>
        </div>
          <!-- User survey -->
          <div class="process">
@@ -147,19 +160,74 @@
                <p>90% wanted a product that allowed uploading and creating original content.</p>
               </div>
             </div>
-             <a href="project.html" class="button">Survey results</a>
+             <a href="https://forms.gle/KRHpSH2CXNFBwGc6A" class="button">User survey</a>
             </div>
            </div>
           </div>
+          <!-- User personas -->
           <div class="container">
-         <!-- User personas -->
-           <div class="personas">
             <h3>USER PERSONAS</h3>
              <p>From this data, I created two user personas. The first was Meg, a disciplined type-A instructor who values efficiency and organization. The second was Nicholas, a level-headed idealist who values simplicity and consistency.</p>
-           </div>
            <a href="project.html" class="button">User personas</a>
-          </div>
+         </div>
+         <div class="container">
+           <!-- <div class="twocolumns"> -->
+             <!-- <div class="columns"> -->
+             <div class="personas">
+              <img src="https://user-images.githubusercontent.com/52806406/85079279-6e2de880-b194-11ea-844e-61e49d58920e.jpg" alt="">
+            <div class="personaname">Megan</div>
+            <div class="personagoals">
+              <H4>GOALS:<H4>
+                <p>Discipline, Respect, Efficiency</p>
+                <h4>FRUSTRATIONS</h4>
+                <p>Laziness, Shortcuts, Disorganization</p>
+            <!-- <ul>
+              <h4>Goals</h4>
+              <li>Discipline</li>
+              <li>Respect</li>
+              <li>Efficiency</li>
+            </ul>
+          </div> -->
+          <!-- <div class="personafrustrations">
+            <ul>
+              <h4>Frustrations</h4>
+              <li>Laziness</li>
+              <li>Shortcuts</li>
+              <li>Too much tech</li>
+              <li>Disorganization</li>
+            </ul> -->
+            </div>
         </div>
+      </div>
+          <div class="columns">
+             <div class="personas">
+              <img src="https://user-images.githubusercontent.com/52806406/85088170-73e3f800-b1ad-11ea-8bb2-1db1db28d713.jpg" alt="">
+            <div class="personaname">Nicholas</div>
+            <div class="personagoals">
+            <ul>
+              <h4>Goals</h4>
+              <li>Consistency</li>
+              <li>Simplicity</li>
+              <li>Organization</li>
+            </ul>
+          </div>
+          <div class="personafrustrations">
+            <ul>
+              <h4>Frustrations</h4>
+              <li>Materialism</li>
+              <li>Clutter</li>
+              <li>Time wasted</li>
+            </ul>
+            </div>
+            <div class="personamotivations">
+            <p>Nicholas lives a minimalist lifestyle. He avoids unnecessary purchases, frequents second-hand shops, and prefers experience over things.
+            He cares deeply about teaching English. Though he's always looking for ways of imporoving his didactic methodology, he is reluctant to adapt new products and technologies in to his repertoire.
+            He's, as they say, "old school."</p>
+           </div>
+         </div>
+       </div>
+        </div>
+      </div>
       <!-- faulty assumptions -->
       <div id="faulty">
         <div class="container">
@@ -225,9 +293,21 @@
           <div class="color">
             <h3>COLOR</h3>
               <p>Enbox is not catered towards those who educate the young, but for those who work with adults. The brand aims to reflect the vivacity and energy that comes from being in a classroom.  This dynamic dichotomy between young and sophisticated, playful and professional, is what Enbox represents.</p>
-              <img src="https://user-images.githubusercontent.com/52806406/83908930-e4aefd00-a735-11ea-8db6-0bb46bde83ab.png" alt="">
-              <p id="colorend">This informed our choice of cool, pastel notes as the primary and secondary colors of the brand.</p>
+         <!-- </div>
+         <div class="container"> -->
+           <div class="colorChips">
+            <div class="color1">#5398FF</div>
+            <div class="color2">#A377FF</div>
+            <div class="color3">#F049F3</div>
+            <div class="color4">#3F7BD3</div>
+            <div class="color5">#875DDE</div>
+            <div class="color6">#C73ACA</div>
+            <div class="color7">#1336B4</div>
+            <div class="color8">#4214C6</div>
+            <div class="color9">#740B7D</div>
+          </div>
          </div>
+         <p id="colorend">This informed our choice of cool, pastel notes as the primary and secondary colors of the brand.</p>
        </div>
          <!-- Logo -->
          <div class="lightblue">
@@ -249,6 +329,23 @@
             </div>
             <a href="project.html" class="button">View style guide</a>
            </div>
+         </div>
+         <!-- TYPOGRAPHY -->
+         <div class="container visual">
+          <div class="logo">
+           <h3>TYPOGRAPHY</h3>
+             <div class="twocolumns">
+              <div class="columns">
+                <h4>PT Sans</h4>
+                <p>PT Sans is clean and crisp, a highly </p>
+              </div>
+              <div class="columns">
+              </div>
+              <div class="columns">
+              </div>
+             </div>
+          </div>
+          <a href="project.html" class="button">View style guide</a>
          </div>
       <!-- Prototype and testing -->
       <div class="container" id="testing">
@@ -283,7 +380,7 @@
     </div>
     <footer class="container">
       <div class="copyright">
-        <p>Design and developed by Ben Byun. 2020.</p>
+        <p>Designed and developed by Ben Byun. 2020.</p>
       </div>
        <ul class="footer">
           <li> <a href="https://www.linkedin.com/in/benjamin-byun-36709316/"><img src="https://user-images.githubusercontent.com/52806406/83568344-f2c00c00-a4f0-11ea-9996-592d23ea9542.png" alt=""></a></li>
