@@ -125,6 +125,12 @@
     font-size: .9em;
     width: 90%;
   }
+
+  .ptsans {
+    padding: 2em;
+    margin-left: 2em;
+  }
+
 }
 
 @media (min-width: 1281px) {
@@ -190,6 +196,12 @@
      font-size: .9em;
      width: 90%;
    }
+
+   .ptsans {
+     padding: 2em;
+     margin-left: 2em;
+   }
+
 }
 
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
@@ -439,45 +451,63 @@ header {
 }
 
 .personas {
+  background-color: #F8F7FA;
   display: grid;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: .8em;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 5em 5em 5em 10em;
-  text-align: left;
-  background-color: #F8F7FA;
-  Border-radius: 5%;
-  padding-bottom: 2em;
+  font-size: .9em;
   line-height: 2em;
+  margin-bottom: 4em;
+  padding-bottom: 2em;
+  text-align: left;
+}
+
+.personas span {
+  font-weight: 700;
 }
 
 .personas img {
   border-radius: 50%;
-  width: 10em;
-  grid-row: 1 / 2;
+  width: 15em;
+  margin-top: 0em;
+  /* grid-row: 0 / 1; */
 }
 
 .personaname {
-  font-size: 1.5em;
-  grid-row: 1 / 2;
-  text-align: left;
+  text-align: center;
+  font-size: 2em;
+  /* grid-row: 3 / 4; */
 }
 
-/* .personas ul {
+.personas h4 {
+  font-size: 1.2em;
+  margin-bottom: 0em;
+}
+
+.personas ul {
+  text-align: center;
   list-style-type: none;
-} */
+}
 
 .personagoals {
-  grid-row: 1 / 2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /* grid-row: 1 / 2; */
 }
 
 .personafrustrations {
-  grid-row: 2/ 3;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /* grid-row: 2/ 3; */
 }
 
 .personamotivations {
-  grid-column: 2 / 9;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: left;
+  /* grid-column: 2 / 9; */
 }
 
 /* faulty assumptions */
@@ -513,7 +543,7 @@ header {
   font-family: "PT serif";
   font-weight: 500;
   grid-gap: 5px;
-  grid-template: repeat(3, minmax(50px,1fr)) / repeat(3, minmax(50px,2fr));
+  grid-template: repeat(3, minmax(25px,1fr)) / repeat(3, minmax(25px,2fr));
 }
 
 .colorChips div {
@@ -564,6 +594,26 @@ header {
 #colorend {
   padding-top: 2em;
 }
+
+.typography h4 {
+  margin-top: 4em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.ptsans {
+  background-color: #F8F7FA;
+  font-size: 1.4em;
+}
+
+.dashboard {
+  background-image: url("https://user-images.githubusercontent.com/52806406/85465249-904daf00-b576-11ea-8137-769bbc0bb7ca.png");
+  height: 15em;
+  background-position: center;
+  background-size: cover;
+  margin-right: 2em;
+}
+
 
 footer {
   font-family: "Montserrat", sans-serif;
