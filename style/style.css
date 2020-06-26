@@ -1,9 +1,13 @@
 @media (min-width: 375px) and (max-width: 719px) {
   .container {
-    width: 100%;
+    width: 50%;
+    font-size: 10em;
   }
 
-
+  .roles {
+    display: block;
+    width: 100%;
+  }
 
 /* HOMEPAGE CODE */
     /* .intro {
@@ -50,27 +54,28 @@
     width: 80%;
   } */
 /* ENBOX page */
-    /* .one {
-      grid-column: 4 / 10;
+
+    .one {
+      /* grid-column: 4 / 10;
       grid-row: 4 / 7;
       line-height: 1em;
-      text-align: center;
+      text-align: center; */
     }
 
     .two {
-      grid-column: 4 / 10;
+      /* grid-column: 4 / 10;
       grid-row: 8 / 10;
       line-height: 1em;
-      text-align: center;
+      text-align: center; */
     }
 
     .three {
-      grid-column: 4 / 10;
+      /* grid-column: 4 / 10;
       grid-row: 11 / 14;
       line-height: 1em;
       padding-bottom: 4em;
-      text-align: center;
-    } */
+      text-align: center; */
+    }
 
     /* .summary .container {
       grid-template-rows: repeat(14, 1fr);
@@ -147,6 +152,11 @@
     max-width: 80%; */
   }
 
+  .roles {
+    display: flex;
+    flex-direction: row;
+  }
+
   /* HOME page */
   .container p {
     font-size: .9em;
@@ -214,6 +224,14 @@
   .container {
     font-size: 1.25em;
     /* max-width: 954px; */
+  }
+
+
+  .roles .column {
+    text-align: center;
+    line-height: 1.5em;
+    width: 33%;
+    justify-content: space-evenly;
   }
 
   .caseStudyLogo {
