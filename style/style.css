@@ -1,7 +1,13 @@
-@media (min-width: 375px) and (max-width: 719px) {
+/* @media (min-width: 375px) and (max-width: 719px) {
+  .container {
+    max-width: 480px;
+  } */
+
+@media only screen and (min-device-width: 320px) {
   .container {
     max-width: 480px;
   }
+}
 
   p {
       margin-left: auto;
