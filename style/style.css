@@ -1,13 +1,13 @@
-/* @media (min-width: 375px) and (max-width: 719px) {
+@media (min-width: 375px) and (max-width: 719px) {
+  .container {
+    max-width: 480px;
+  }
+
+/* @media only screen and (min-device-width: 320px) {
   .container {
     max-width: 480px;
   } */
 
-@media only screen and (min-device-width: 320px) {
-  .container {
-    max-width: 480px;
-  }
-}
 
   p {
       margin-left: auto;
@@ -68,6 +68,11 @@
     }
 }
 /* TABLET */
+
+/* @media only screen and (min-device-width: 720px) {
+  .container {
+    max-width: 480px;
+  } */
 @media (min-width: 720px) and (max-width: 1280px) {
   .container {
     font-size: 1.25em;
@@ -139,6 +144,8 @@
 
 }
 
+/* @media only screen and (min-device-width: 1281px) {
+  .container { */
 @media (min-width: 1281px) {
   .container {
     font-size: 1.25em;
