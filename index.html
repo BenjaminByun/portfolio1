@@ -3,13 +3,20 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
-      <title>Benjamin Byun's Portfolio</title>
+      <meta name="viewport" content="width=device-width">
+      <title>Enbox</title>
       <link rel="stylesheet" type="text/css" href="style/normalize.css">
       <link rel="stylesheet" type="text/css" href="style/style.css">
-      <script src="https://use.fontawesome.com/3e4d2586f2.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://use.fontawesome.com/3e4d2586f2.js"></script>
+      <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169461298-1"></script>
       <script>
@@ -19,47 +26,48 @@
 
         gtag('config', 'UA-169461298-1');
       </script>
-   </head>
+    </head>
    <body>
+     <div>
       <nav>
-       <div class="ben">
-        <!-- <a href="#"><img src="https://user-images.githubusercontent.com/52806406/83912957-be409000-a73c-11ea-8c8d-586b4ae1688d.png" alt=""></a> -->
-       </div>
-       <ul class="links">
-         <li><a href="bio.html">About</a></li>
-         <li><a href="/css/">Portfolio</a></li>
-         <li><a href="/js/">Contact</a></li>
-       </ul>
+         <div class="ben">
+           <a href="index.html"><img src="https://user-images.githubusercontent.com/52806406/84950824-79faab80-b0bd-11ea-8be7-4f29ceb6aeef.png" alt=""></a>
+         </div>
+        <ul class="links">
+          <li><a href="bio.html">About</a></li>
+          <li><a href="/css/">Portfolio</a></li>
+          <li><a href="/js/">Contact</a></li>
+        </ul>
       </nav>
-      <div class="container intro">
-         <div class="twocolumns">
-              <h1>Hello.</h1>
-            </div>
-              <p>I’m <span>Ben</span>, a Boston-based UX designer.</p> <p>I’m dedicated to developing seamless digital experiences.</p>
-            </div>
-         </div>
-       </div>
-        <section class="projects">
-          <div class="container">
-             <div class="twocolumns">
-               <div class="columns">
-                 <img id="logo" src="https://user-images.githubusercontent.com/52806406/84939807-e3be8980-b0ac-11ea-861a-a78a79321b50.png" alt="Enbox logo">
-                 <p>Create curriculums, lesson plans, tests, and grades without wasting a single sheet of paper.</p>
-                 <a href="project.html" class="button">Case study</a>
-               </div>
-               <div class="columns">
-            <img id="dashboard" src="https://user-images.githubusercontent.com/52806406/84557397-d1cd9700-acf8-11ea-9f58-791117b25b18.png" alt="Enbox dashboard">
-            <a href="project.html" class="button2">Case study</a>
-          </div>
-        </div>
-         </div>
-       </div>
-         </section>
-         <footer class="container">
-           <div class="copyright">
-             <p>Designed and developed by Ben Byun. 2020.</p>
+      <!-- <div class="container intro"> -->
+         <!-- <div class="twocolumns"> -->
+         <div class="intro">
+            <div class="container">
+              <div class="body">
+                <h1>Hello.</h1>
+                <p>I’m <span>Ben</span>, a Boston-based UX designer.</p> <p>I’m dedicated to developing seamless digital experiences.</p>
+              </div>
+             </div>
            </div>
-            <ul class="footer">
+             <section class="projects">
+               <div class="container">
+                 <div class="body divide">
+                      <div class="first">
+                        <img id="logo" src="https://user-images.githubusercontent.com/52806406/84939807-e3be8980-b0ac-11ea-861a-a78a79321b50.png" alt="Enbox logo">
+                        <p>Create curriculums, lesson plans, tests, and grades without wasting a single sheet of paper.</p>
+                        <a href="project.html" class="button">View the case study</a>
+                      </div>
+                      <div class="second">
+                        <img id="dashboard" src="https://user-images.githubusercontent.com/52806406/85912536-1843eb00-b7fb-11ea-8cb2-34da1b331369.png" alt="Enbox dashboard">
+                      </div>
+                    </div>
+                  </div>
+              </section>
+              <footer>
+                <div class="copyright">
+                  <p>Designed and developed by Ben Byun© 2020.</p>
+                </div>
+                <ul class="footer">
                <li> <a href="https://www.linkedin.com/in/benjamin-byun-36709316/"><img src="https://user-images.githubusercontent.com/52806406/83568344-f2c00c00-a4f0-11ea-9996-592d23ea9542.png" alt=""></a></li>
                <li><a href="https://github.com/BenjaminByun/"><img src="https://user-images.githubusercontent.com/52806406/83568396-07040900-a4f1-11ea-990c-3c7edeee1386.png" alt=""></a></li>
                <li><a href="https://twitter.com/benbyun"><img src="https://user-images.githubusercontent.com/52806406/83568416-0a979000-a4f1-11ea-9d57-6e1703896101.png" alt=""></a></li>
