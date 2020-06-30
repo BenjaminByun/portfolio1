@@ -8,8 +8,8 @@
           }
 
           .role {
-            color: #A9ADB0;
-            font-family: 'Montserrat', sans-serif;
+            /* color: #A9ADB0; */
+            font-family: 'Open Sans', sans-serif;
             font-size: .9em;
             font-weight: 300;
             text-align: center;
@@ -60,6 +60,14 @@
           width: 90%;
         }
 
+        .container .card1 {
+          grid-column: 3 / 7;
+        }
+
+        .container .card2 {
+          grid-column: 7/ 11;
+        }
+
         .userstories .container .first h2 {
           display: none;
         }
@@ -83,9 +91,6 @@
           grid-column: 4 / 10;
         }
 /* HOMEPAGE */
-        .intro p {
-          display: inline;
-        }
 
 /* ENBOX PROJECT PAGE */
 /* TWO COLUMN division */
@@ -109,7 +114,7 @@
 
         .second img {
           margin-top: 2em;
-          padding-left: 8em;
+          padding-left: 6em;
           width: 75%;
         }
 
@@ -126,10 +131,22 @@
           vertical-align: top;
         }
 
-      .faultyassumptions .second img {
-        padding-left: 10em;
-        width: 50%;
-      }
+        .container .card1 {
+          grid-column: 3 / 6;
+        }
+
+        .container .card2 {
+          grid-column: 8/ 11;
+        }
+
+        .faultyassumptions .second img {
+          padding-left: 10em;
+          width: 50%;
+        }
+
+        .secondimg p {
+          padding-left: 13em;
+        }
 
         .faultyassumptions .container .first {
           width: 75%;
@@ -148,7 +165,7 @@
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
       .container {
         display: grid;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         grid-gap: 2em;
         grid-template-columns: repeat(12, 1fr);
@@ -164,8 +181,9 @@
       }
 
       .role {
-        color: #A9ADB0;
-        font-family: 'Montserrat', sans-serif;
+        /* color: #A9ADB0; */
+        font-family: 'Open Sans', sans-serif;
+        /* font-family: 'Montserrat', sans-serif; */
         font-size: .9em;
         font-weight: 300;
         text-align: center;
@@ -182,13 +200,26 @@
       img {
           max-width: 100%;
         }
-
-        .button:hover {
-          background-color: #890495;
-        }
 /* NAVBAR */
       nav {
         display: flex;
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+      }
+
+      nav ul {
+        float: right;
+        margin-right: 30px;
+      }
+
+      nav ul li {
+        list-style-type: none;
+      }
+
+      nav ul li a {
+        color: inherit;
+        text-decoration: none;
       }
 
       .ben {
@@ -203,15 +234,27 @@
 
       .links {
         display: flex;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Open Sans', serif;
         font-weight: 300;
         list-style-type: none;
         margin-left: auto;
       }
 
+      a {
+        color: #3F7BD3;
+        font-weight: 300;
+        text-decoration: none;
+      }
+
+      a:hover {
+          /* transition: font-weight .9s; */
+          opacity: .5;
+        }
+
+
 
       li a {
-        color: #A3A1B6;
+        /* color: #875DDE; */
         padding: 1em;
         text-decoration: none;
       }
@@ -220,7 +263,7 @@
         /* margin-bottom: 2em; */
         font-family: 'Roboto';
         font-size: 2em;
-        font-weight: 500;
+        font-weight: 700;
         /* text-align: center; */
       }
 
@@ -242,11 +285,16 @@
         }
 
 /* HOMEPAGE  */
+      .intro {
+        width: 100vw;
+        height: 300px;
+      }
+
+
       .intro h1 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 2em;
         font-weight: 700;
-        text-align: left;
       }
 
       .intro span {
@@ -255,12 +303,20 @@
 
 /* enbox image */
       .projects {
-        background-color: rgb(134,198,230,.5);
+        background-color: #EAEFF7;
+        margin-left: .3em;
+        margin-right: .3em;
       }
 
       #logo {
         margin-top: 4em;
-        width: 10em;
+        width: 12em;
+      }
+
+      .logo {
+        margin-bottom: 2em;
+        margin-top: 4em;
+        width: 15em;
       }
 
       #dashboard {
@@ -313,14 +369,6 @@
         grid-column: 3/ 10;
       }
 
-      .enboxintro {
-        background-color: rgb(134,198,230,.3);
-      }
-
-      .enboxintro img {
-        margin: 4em;
-      }
-
       h1 {
         font-family: "roboto", sans-serif;
         font-size: 2em;
@@ -341,7 +389,7 @@
       .usersurvey span {
           color: blue;
           font-size: 3em;
-          font-weight: 500;
+          font-weight: 700;
       }
     /* FAULTY ASSUMPTIONS */
       .solution > div:first-of-type {
@@ -358,6 +406,8 @@
         background-color: #ededed;
         padding-bottom: 4em;
         padding-top: 4em;
+        margin-left: .3em;
+        margin-right: .3em;
       }
 
       .userstories > .grey:first-of-type {
@@ -369,16 +419,28 @@
         padding-top: 0em;
       }
 
+      .userstories {
+        padding-top: 4em;
+      }
+
       .container .columns .personas {
         margin-left: 2em;
         margin-right: 2em;
         margin-bottom: 2em;
       }
 
+      .firstimg p {
+        font-size: .8em;
+      }
+
+      .secondimg p {
+        font-size: .8em;
+      }
+
       .personas {
         background-color: #F8F7FA;
         display: grid;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-size: .9em;
         line-height: 2em;
         margin-bottom: 4em;
@@ -452,11 +514,12 @@
         color: inherit;
         display: flex;
         justify-content: center;
+        align-items: center;
         text-decoration: none;
       }
 
       .conclusion a:hover {
-        color: blue;
+        opacity: .5;
       }
 
       .lightblue {
@@ -467,7 +530,7 @@
       .colorChips {
         color: white;
         display: grid;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-size: .8em;
         font-weight: 300;
         text-align: center;
@@ -553,9 +616,14 @@
         margin-right: 2em;
       }
 
+      .prototypeandtesting img {
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+
 
       footer {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-size: .8em;
         font-weight: 300;
       }
@@ -578,6 +646,63 @@
         opacity: .8;
       }
 
-      body {
-        font-family: Helvetica,Tahoma;
+      html {
+        scroll-behavior: smooth;
       }
+
+      .hero {
+        height: 100vw;
+      }
+
+      .enboxintro {
+          /* Sizing */
+          width: 100vw;
+          height: 100vw;
+
+          /* Flexbox stuff */
+          /* display: flex; */
+          justify-content: center;
+          align-items: center;
+
+          /* Text styles */
+          /* font-size: 3em; */
+          text-align: center;
+          color: inherit;
+
+          /* Background styles */
+          background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('https://user-images.githubusercontent.com/52806406/86080621-52aec180-ba61-11ea-9eff-43644e606d41.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          position: relative;
+        }
+
+        .enboxintro a {
+          font-weight: 500;
+        }
+
+      /* USER PERSONA CARD */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          font-family: "Open sans"; sans-serif;
+          font-size: .8em;
+          transition: 0.3s;
+          grid-column: 2 / 12;
+        }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .card span {
+          color: inherit;
+          font-size: 1em;
+          font-weight: 700;
+        }
+
+        /* Add some padding inside the card container */
+        .info {
+          padding: 2px 16px;
+}
