@@ -30,6 +30,19 @@
           .surveys span {
             font-size: 4em;
           }
+
+          .wireframe1 {
+            grid-column: 3 / 10;
+          }
+
+          .wireframe2 {
+            grid-column: 3 / 10;
+          }
+
+          .wireframe p {
+            grid-column: 3 / 12;
+            margin-top: -1em;
+          }
       }
 /* TABLET */
       @media (min-width: 720px) and (max-width: 991px) {
@@ -67,6 +80,45 @@
         .container .card2 {
           grid-column: 7/ 11;
         }
+
+        .wireframe1 {
+          grid-column: 3 / 7;
+        }
+
+        .wireframe2 {
+          grid-column: 7/ 11;
+        }
+
+        .wireframe p {
+          grid-column: 3 / 11;
+          margin-top: -1em;
+        }
+
+        /* .faultyassumptions .container .first {
+          grid-column: 3 / 7;
+        }
+
+        .faultyassumptions .second {
+          grid-column: 7 / 11;
+          max-width: 80%;
+        }
+
+        .faultyassumptions .wireframeimg p {
+          text-align: center;
+        }
+
+        .secondimg p {
+          padding-left: 7.5em;
+        }
+
+        .secondimg {
+          margin: auto;
+        }
+
+        .faultyassumptions .container .first {
+          padding-left: 10em;
+          width: 70%;
+        } */
 
         .userstories .container .first h2 {
           display: none;
@@ -106,10 +158,11 @@
         .first {
           text-align: right;
           width: 50%;
+          grid-column: 2 / 4;
         }
 
         .second {
-          width: 100%;
+          width: 80%;
         }
 
         .second img {
@@ -132,25 +185,57 @@
         }
 
         .container .card1 {
-          grid-column: 3 / 6;
+          grid-column: 3 / 7;
         }
 
         .container .card2 {
-          grid-column: 8/ 11;
+          grid-column: 7/ 11;
+        }
+
+        .wireframe1 {
+          grid-column: 3 / 7;
+        }
+
+        .wireframe2 {
+          grid-column: 7 / 11;
+        }
+
+        .wireframe p {
+          grid-column: 4 / 11;
+          margin-top: -1em;
+        }
+
+        /* .faultyassumptions .first img {
+          padding-top: 2em;
         }
 
         .faultyassumptions .second img {
-          padding-left: 10em;
-          width: 50%;
+          max-width: 100%;
+        }
+
+        .faultyassumptions .wireframeimg p {
+          text-align: center;
+          padding-left: 20em;
+        }
+
+        .faultyassumptions .container .second {
+          grid-column: 7 / 11;
+          max-width: 100%;
         }
 
         .secondimg p {
-          padding-left: 13em;
+          padding-top: -10em;
+          padding-left: 7.5em;
+        }
+
+        .secondimg {
+          margin: auto;
         }
 
         .faultyassumptions .container .first {
-          width: 75%;
-        }
+          padding-left: 10em;
+          width: 70%;
+        } */
 
         .userstories .container .first {
           width: 75%;
@@ -526,6 +611,23 @@
         background-color: #0044cc26;
       }
 
+      .userflow img {
+        grid-column: 2 / 12;
+        max-width: 100%;
+      }
+
+      .userflow p {
+        grid-column: 2 / 12;
+      }
+
+      .userflow h4 {
+        grid-column: 2 / 12;
+      }
+
+      .wireframeredux img {
+        margin-top: 2em;
+      }
+
       /* COLOR */
       .colorChips {
         color: white;
@@ -540,6 +642,7 @@
       }
 
       .circle {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         width: 75px;
         height: 75px;
         border-radius: 50px;
@@ -621,6 +724,9 @@
         margin-bottom: 2em;
       }
 
+      .preferencetesting img{
+        margin-top: 4em;
+      }
 
       footer {
         font-family: "Open Sans", sans-serif;
@@ -670,16 +776,20 @@
           color: inherit;
 
           /* Background styles */
-          background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('https://user-images.githubusercontent.com/52806406/86080621-52aec180-ba61-11ea-9eff-43644e606d41.jpg');
+          /* background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('https://user-images.githubusercontent.com/52806406/86080621-52aec180-ba61-11ea-9eff-43644e606d41.jpg');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           background-attachment: fixed;
-          position: relative;
+          position: relative; */
         }
 
         .enboxintro a {
           font-weight: 500;
+        }
+
+        .wireframeimg {
+          grid-column: 4 / 10;
         }
 
       /* USER PERSONA CARD */
@@ -705,4 +815,4 @@
         /* Add some padding inside the card container */
         .info {
           padding: 2px 16px;
-}
+        }
