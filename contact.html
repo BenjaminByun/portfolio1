@@ -13,18 +13,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script src="https://use.fontawesome.com/3e4d2586f2.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169461298-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-169461298-1');
+    </script>
   </head>
   <body>
     <nav>
        <div class="ben">
-         <a href="index.html"><img src="https://user-images.githubusercontent.com/52806406/84950824-79faab80-b0bd-11ea-8be7-4f29ceb6aeef.png" alt=""></a>
+         <a href="index.html"><img src="https://user-images.githubusercontent.com/52806406/86489716-2af67c80-bd33-11ea-8847-03f05def257f.png" alt=""></a>
        </div>
       <ul class="links">
         <li><a href="bio.html">About</a></li>
         <li><a href="/css/">Portfolio</a></li>
-        <li><a href="/js/">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <div class="container contact">
+      <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3Z40Szc-qeGfJ34RXNaQN6vLx6-h_7Twz7UMyqbB9sjXB8w/viewform?embedded=true" width="640" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>    </form> -->
+      <form action="https://formspree.io/xjvaagba" method="POST">
+        <input placeholder="Your name" type="text" tabindex="1" required="" autofocus="">
+        <input placeholder="Your Email Address" type="email" tabindex="2" required="">
+        <input placeholder="Message" type="text" name="Message" id="message" value="">
+        <!-- <textarea placeholder="Type your Message Here...." tabindex="5" required=""></textarea> -->
+        <button name="submit" type="submit" class="button" data-submit="...Sending">Submit</button>
+      </form>
+      </form>
+    </div>
   </body>
 </html>

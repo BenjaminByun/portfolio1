@@ -319,7 +319,7 @@
 
       .links {
         display: flex;
-        font-family: 'Open Sans', serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         list-style-type: none;
         margin-left: auto;
@@ -378,8 +378,8 @@
 
       .intro h1 {
         font-family: 'Roboto', sans-serif;
-        font-size: 2em;
-        font-weight: 700;
+        font-size: 4em;
+        font-weight: 500;
       }
 
       .intro span {
@@ -401,7 +401,7 @@
       .logo {
         margin-bottom: 2em;
         margin-top: 4em;
-        width: 15em;
+        width: 10em;
       }
 
       #dashboard {
@@ -423,7 +423,7 @@
 
   /* BIOGRAPHY page */
       .bio {
-          background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg");
+          /* background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg"); */
           height: 30em;
           background-position: center;
           background-size: cover;
@@ -776,12 +776,13 @@
           color: inherit;
 
           /* Background styles */
-          /* background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('https://user-images.githubusercontent.com/52806406/86080621-52aec180-ba61-11ea-9eff-43644e606d41.jpg');
-          background-size: cover;
+          background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
+          background-size: contain;
           background-position: center;
           background-repeat: no-repeat;
           background-attachment: fixed;
-          position: relative; */
+          position: relative;
+          resize: both;
         }
 
         .enboxintro a {
@@ -815,4 +816,43 @@
         /* Add some padding inside the card container */
         .info {
           padding: 2px 16px;
+        }
+
+        .contact {
+          /* margin-right: auto; */
+          display: block;
+          padding: 15px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10em;
+          width: 15em;
+        }
+
+        input {
+          padding: 1em;
+          width: 10em;
+          display: block;
+          /* padding-right: 15px;
+          padding-left: 15px; */
+          padding-left: 1em;
+          padding-right: 8em;
+          /* margin: auto;
+          margin-top: auto; */
+          margin-top: 5px;
+          color: black;
+        }
+
+        #message {
+          padding-bottom: 5em;
+        }
+
+        .button {
+          background-color: #740B7D;
+          border-radius: 15px;
+          color: white;
+          display: block;
+          margin-top: 1em;
+          padding: 1em 1em;
+          text-align: center;
+          text-decoration: none;
         }
