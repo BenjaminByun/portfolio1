@@ -45,11 +45,11 @@
       }
 /* TABLET */
       @media (min-width: 720px) and (max-width: 991px) {
-        .container .body {
-          grid-column: 4 / 10;
+        /* .container .body {
+          grid-column: 4 / 10; */
         }
 /* ENBOX PROJECT PAGE */
-        .column {
+        /* .column {
           margin-bottom: 4em;
         }
 
@@ -99,7 +99,7 @@
 
         .ptsans {
           padding: 2em;
-        }
+        } */
 
       }
 
@@ -192,12 +192,58 @@
       }
 
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
-      .container {
+body {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+  line-height: 1.75em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+p {
+  grid-column: 2 / 8;
+}
+
+h2 {
+  font-family: 'roboto slab', serif;
+  font-weight: 300;
+  font-size: 2em;
+  grid-column: 2 / 8;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #A9ADB0;
+}
+
+.list {
+  font-family: 'roboto slab', serif;
+  font-weight: 300;
+  display: grid;
+  letter-spacing: .5px;
+  list-style-type: none;
+  opacity: 50%;
+}
+
+ul {
+  grid-column: 2 / 8;
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+h3  {
+  font-family: 'roboto slab', serif;
+  margin-bottom: 0em;
+  font-weight: 700;
+  line-height: 2em;
+}
+      /* .container {
         display: grid;
         font-family: 'Roboto slab', sans-serif;
         font-weight: 300;
         grid-gap: 2em;
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         line-height: 1.5em;
         margin-bottom: 4em;
         margin-top: 4em;
@@ -207,8 +253,8 @@
       p {
         grid-column: 1 / 10;
         line-height: 2em;
-      }
-
+      } */
+/*
       .role {
         font-family: 'Open Sans', sans-serif;
         font-size: .9em;
@@ -226,9 +272,9 @@
 
       img {
           max-width: 100%;
-        }
+        } */
 /* NAVBAR */
-      nav {
+      /* nav {
         display: flex;
         height: 50px;
         line-height: 50px;
@@ -313,10 +359,10 @@
 
         .visual p {
           margin-bottom: 4em;
-        }
+        } */
 
 /* HOMEPAGE  */
-      .intro {
+      /* .intro {
         height: 100%;
       }
 
@@ -331,11 +377,11 @@
 
       .intro span {
         color: #1f75f4;
-      }
+      } */
 
-      .intro {
+      /* .intro { */
           /* background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/87972001-33211c80-ca94-11ea-94ee-7914e6351668.jpg'); */
-          background-position: center;
+          /* background-position: center;
           background-size: cover;
           max-width: 100%;
       }
@@ -346,9 +392,9 @@
 
       .intro .container p {
         font-size: 1.5em;
-      }
+      } */
 /* enbox image */
-      .projects {
+      /* .projects {
         background-color: #EAEFF7;
         margin-left: .3em;
         margin-right: .3em;
@@ -369,11 +415,11 @@
         margin-bottom: 4em;
         margin-top: 4em;
         width: 100%;
-      }
+      } */
   /* BIOGRAPHY page */
-      .bio {
+      /* .bio { */
           /* background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg"); */
-          height: 30em;
+          /* height: 30em;
           background-position: center;
           background-size: cover;
           max-width: 100%;
@@ -387,15 +433,14 @@
 
       .aboutme h4 {
         font-size: 1.25em;
-        /* margin-bottom: 2em; */
       }
 
       .aboutme span {
         font-weight: 700;
-      }
+      } */
 
 /* ENBOX CASE STUDY */
-      .title {
+      /* .title {
         grid-column: 3 / 7;
       }
 
@@ -421,16 +466,16 @@
 
       .container .fa {
         font-size: 2em;
-      }
-    /* PROBLEM */
-      .problem span {
+      } */
+/* PROBLEM */
+      /* .problem span {
         font-size: 1.5em;
         font-weight: 700;
-      }
+      } */
 
 
-    /* SWOT Analysis */
-      .container h3 {
+/* SWOT Analysis */
+      /* .container h3 {
         font-size: 2em;
         font-weight: 300;
       }
@@ -444,9 +489,9 @@
           color: blue;
           font-size: 3em;
           font-weight: 700;
-      }
-    /* FAULTY ASSUMPTIONS */
-      .solution > div:first-of-type {
+      } */
+/* FAULTY ASSUMPTIONS */
+      /* .solution > div:first-of-type {
         margin-top: -2em;
         margin-bottom: -4em;
       }
@@ -544,10 +589,10 @@
         margin-right: auto;
         width: 80%;
         text-align: left;
-      }
+      } */
 
-      /* faulty assumptions */
-      #faulty {
+/* faulty assumptions */
+      /* #faulty {
         background-color: rgba(237,25,25,.1) ;
       }
 
@@ -598,10 +643,10 @@
 
       .wireframeredux img {
         margin-top: 2em;
-      }
+      } */
 
-      /* COLOR */
-      .colorChips {
+/* COLOR */
+      /* .colorChips {
         color: white;
         display: grid;
         font-family: "Open Sans", sans-serif;
@@ -727,10 +772,6 @@
       html {
         scroll-behavior: smooth;
       }
-/*
-      .hero {
-        height: 100vw;
-      } */
 
       .enboxintro {
           justify-content: center;
@@ -745,19 +786,19 @@
 
         .wireframeimg {
           grid-column: 4 / 10;
-        }
+        } */
 
       /* USER PERSONA CARD */
-        .card {
+        /* .card {
           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
           font-family: "Open sans"; sans-serif;
           font-size: .8em;
           transition: 0.3s;
           grid-column: 2 / 12;
-        }
+        } */
 
         /* On mouse-over, add a deeper shadow */
-        .card:hover {
+        /* .card:hover {
           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         }
 
@@ -765,15 +806,14 @@
           color: inherit;
           font-size: 1em;
           font-weight: 700;
-        }
+        } */
 
         /* Add some padding inside the card container */
-        .info {
+        /* .info {
           padding: 2px 16px;
         }
 
         .contact {
-          /* margin-right: auto; */
           display: block;
           padding: 15px;
           margin-left: auto;
@@ -805,4 +845,4 @@
           padding: 1em 1em;
           text-align: center;
           text-decoration: none;
-        }
+        } */
