@@ -3,6 +3,16 @@
           max-width: 100%;
         }
 /* ENBOX page */
+          /* .enboxintro {
+          background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
+          background-size: auto;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          position: relative;
+          height: 200vw;
+          } */
+
           .column {
             margin-bottom: 4em;
           }
@@ -23,8 +33,12 @@
             margin-top: 2em;
           }
 
-          nav .ben {
+          /* nav .ben {
             margin-top: -1em;
+          } */
+
+          .solution .container h2 {
+            grid-column: 2 / 10;
           }
 
           .surveys span {
@@ -50,6 +64,15 @@
           grid-column: 4 / 10;
         }
 /* ENBOX PROJECT PAGE */
+        /* .enboxintro {
+        background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+      } */
+
         .column {
           margin-bottom: 4em;
         }
@@ -165,8 +188,12 @@
           width: 80%;
         }
 
+        .solution .container .secondimg{
+          grid-column: 6 / 12;
+        }
+
         .second img {
-          margin-top: 2em;
+          /* margin-top: 2em; */
           padding-left: 6em;
           width: 75%;
         }
@@ -308,9 +335,17 @@
       }
 
       .ben {
+          font-family: "Montserrat", sans-serif;
           margin-top: 1em;
-          margin-left: 1em;
-          width: 2.5em;
+          margin-left: 2em;
+          width: 8em;
+        }
+
+        .ben a {
+          font-size: 1.25em;
+          font-weight: 500;
+          text-decoration: none;
+          color: inherit;
         }
 
       .ben:hover{
@@ -347,7 +382,7 @@
       .container h2 {
         /* margin-bottom: 2em; */
         font-family: 'Roboto';
-        font-size: 2em;
+        font-size: 3em;
         font-weight: 700;
         /* text-align: center; */
       }
@@ -371,21 +406,37 @@
 
 /* HOMEPAGE  */
       .intro {
-        width: 100vw;
-        height: 300px;
+        /* width: 100vw; */
+        height: 100%;
       }
 
-
-      .intro h1 {
+      .intro .container h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 4em;
         font-weight: 500;
+        text-align: left;
+        padding-top: 2em;
+        margin-bottom: 0em;
       }
 
       .intro span {
-        color: red;
+        color: #1f75f4;
       }
 
+      .intro {
+          /* background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/87972001-33211c80-ca94-11ea-94ee-7914e6351668.jpg'); */
+          background-position: center;
+          background-size: cover;
+          max-width: 100%;
+      }
+
+      .intro .container {
+        margin-top: 1em;
+      }
+
+      .intro .container p {
+        font-size: 1.5em;
+      }
 /* enbox image */
       .projects {
         background-color: #EAEFF7;
@@ -441,6 +492,10 @@
         /* margin-bottom: 2em; */
       }
 
+      .aboutme span {
+        font-weight: 700;
+      }
+
 /* ENBOX CASE STUDY */
       .title {
         grid-column: 3 / 7;
@@ -454,18 +509,34 @@
         grid-column: 3/ 10;
       }
 
+      .enboximage {
+        grid-column: 2 / 12;
+      }
+
       h1 {
         font-family: "roboto", sans-serif;
-        font-size: 2em;
-        font-weight: 300;
+        font-size: 4em;
+        font-weight: 500;
         margin-bottom: 1em;
+        text-align: center;
       }
 
       .container .fa {
         font-size: 2em;
       }
+    /* PROBLEM */
+      .problem span {
+        font-size: 1.5em;
+        font-weight: 700;
+      }
+
 
     /* SWOT Analysis */
+      .container h3 {
+        font-size: 2em;
+        font-weight: 300;
+      }
+
       .swotanalysis span {
           color: blue;
           font-size: 1.5em;
@@ -582,8 +653,11 @@
         background-color: rgba(237,25,25,.1) ;
       }
 
+      .accessibility span {
+        font-weight: 700;
+      }
       .dark {
-        background-color: #333;
+        background-color: #40718C;
         color: white;
         padding-bottom: 8em;
         padding-top: 8em;
@@ -645,7 +719,7 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         width: 75px;
         height: 75px;
-        border-radius: 50px;
+        border-radius: 5px;
         line-height: 75px;
       }
 
@@ -755,16 +829,15 @@
       html {
         scroll-behavior: smooth;
       }
-
+/*
       .hero {
         height: 100vw;
-      }
+      } */
 
       .enboxintro {
           /* Sizing */
-          width: 100vw;
-          height: 100vw;
-
+          /* width: 100vw; */
+          /* height: 100vw; */
           /* Flexbox stuff */
           /* display: flex; */
           justify-content: center;
@@ -776,13 +849,12 @@
           color: inherit;
 
           /* Background styles */
-          background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
-          background-size: contain;
+          /* background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
+          background-size: auto;
           background-position: center;
           background-repeat: no-repeat;
           background-attachment: fixed;
-          position: relative;
-          resize: both;
+          position: relative; */
         }
 
         .enboxintro a {
