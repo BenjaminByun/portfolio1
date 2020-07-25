@@ -3,22 +3,11 @@
           max-width: 100%;
         }
 /* ENBOX page */
-          /* .enboxintro {
-          background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
-          background-size: auto;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          position: relative;
-          height: 200vw;
-          } */
-
-          .column {
+          /* .column {
             margin-bottom: 4em;
           }
 
           .role {
-            /* color: #A9ADB0; */
             font-family: 'Open Sans', sans-serif;
             font-size: .9em;
             font-weight: 300;
@@ -32,10 +21,6 @@
           img {
             margin-top: 2em;
           }
-
-          /* nav .ben {
-            margin-top: -1em;
-          } */
 
           .solution .container h2 {
             grid-column: 2 / 10;
@@ -56,7 +41,7 @@
           .wireframe p {
             grid-column: 3 / 12;
             margin-top: -1em;
-          }
+          } */
       }
 /* TABLET */
       @media (min-width: 720px) and (max-width: 991px) {
@@ -64,15 +49,6 @@
           grid-column: 4 / 10;
         }
 /* ENBOX PROJECT PAGE */
-        /* .enboxintro {
-        background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
-        background-size: auto;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        position: relative;
-      } */
-
         .column {
           margin-bottom: 4em;
         }
@@ -117,32 +93,6 @@
           margin-top: -1em;
         }
 
-        /* .faultyassumptions .container .first {
-          grid-column: 3 / 7;
-        }
-
-        .faultyassumptions .second {
-          grid-column: 7 / 11;
-          max-width: 80%;
-        }
-
-        .faultyassumptions .wireframeimg p {
-          text-align: center;
-        }
-
-        .secondimg p {
-          padding-left: 7.5em;
-        }
-
-        .secondimg {
-          margin: auto;
-        }
-
-        .faultyassumptions .container .first {
-          padding-left: 10em;
-          width: 70%;
-        } */
-
         .userstories .container .first h2 {
           display: none;
         }
@@ -156,7 +106,7 @@
 /* @media only screen and (min-device-width: 1281px) {
   .container { */
       @media (min-width: 992px) {
-        .container {
+        /* .container {
           display: grid;
           font-size: 1em;
           max-width: 100%;
@@ -164,12 +114,12 @@
 
         .container .body {
           grid-column: 4 / 10;
-        }
+        } */
 /* HOMEPAGE */
 
 /* ENBOX PROJECT PAGE */
 /* TWO COLUMN division */
-        .container .divide {
+        /* .container .divide {
           display: flex;
           grid-column: 2 / 12;
         }
@@ -193,13 +143,12 @@
         }
 
         .second img {
-          /* margin-top: 2em; */
           padding-left: 6em;
           width: 75%;
-        }
+        } */
 
 /* THREE COLUMN DIVIDE */
-        .dividethree .body {
+        /* .dividethree .body {
           display: flex;
           grid-column: 2 / 12;
           justify-content: space-between;
@@ -232,52 +181,20 @@
           margin-top: -1em;
         }
 
-        /* .faultyassumptions .first img {
-          padding-top: 2em;
-        }
-
-        .faultyassumptions .second img {
-          max-width: 100%;
-        }
-
-        .faultyassumptions .wireframeimg p {
-          text-align: center;
-          padding-left: 20em;
-        }
-
-        .faultyassumptions .container .second {
-          grid-column: 7 / 11;
-          max-width: 100%;
-        }
-
-        .secondimg p {
-          padding-top: -10em;
-          padding-left: 7.5em;
-        }
-
-        .secondimg {
-          margin: auto;
-        }
-
-        .faultyassumptions .container .first {
-          padding-left: 10em;
-          width: 70%;
-        } */
-
         .userstories .container .first {
           width: 75%;
         }
 
          .ptsans {
            padding: 2em;
-         }
+         } */
 
       }
 
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
       .container {
         display: grid;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto slab', sans-serif;
         font-weight: 300;
         grid-gap: 2em;
         grid-template-columns: repeat(12, 1fr);
@@ -293,9 +210,7 @@
       }
 
       .role {
-        /* color: #A9ADB0; */
         font-family: 'Open Sans', sans-serif;
-        /* font-family: 'Montserrat', sans-serif; */
         font-size: .9em;
         font-weight: 300;
         text-align: center;
@@ -367,24 +282,20 @@
       }
 
       a:hover {
-          /* transition: font-weight .9s; */
           opacity: .5;
         }
 
 
 
       li a {
-        /* color: #875DDE; */
         padding: 1em;
         text-decoration: none;
       }
 
       .container h2 {
-        /* margin-bottom: 2em; */
         font-family: 'Roboto';
         font-size: 3em;
         font-weight: 700;
-        /* text-align: center; */
       }
 
       .container h2 {
@@ -406,7 +317,6 @@
 
 /* HOMEPAGE  */
       .intro {
-        /* width: 100vw; */
         height: 100%;
       }
 
@@ -460,18 +370,6 @@
         margin-top: 4em;
         width: 100%;
       }
-
-  /* Clickable Prototype button */
-        /* .button {
-          background-color: #740B7D;
-          border-radius: 15px;
-          color: white;
-          display: block;
-          padding: 1em 1em;
-          text-align: center;
-          text-decoration: none;
-        } */
-
   /* BIOGRAPHY page */
       .bio {
           /* background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg"); */
@@ -835,26 +733,10 @@
       } */
 
       .enboxintro {
-          /* Sizing */
-          /* width: 100vw; */
-          /* height: 100vw; */
-          /* Flexbox stuff */
-          /* display: flex; */
           justify-content: center;
           align-items: center;
-
-          /* Text styles */
-          /* font-size: 3em; */
           text-align: center;
           color: inherit;
-
-          /* Background styles */
-          /* background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/86492325-ca1f7200-bd3b-11ea-9e3a-f09b33eb7539.png');
-          background-size: auto;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          position: relative; */
         }
 
         .enboxintro a {
@@ -904,12 +786,8 @@
           padding: 1em;
           width: 10em;
           display: block;
-          /* padding-right: 15px;
-          padding-left: 15px; */
           padding-left: 1em;
           padding-right: 8em;
-          /* margin: auto;
-          margin-top: auto; */
           margin-top: 5px;
           color: black;
         }
