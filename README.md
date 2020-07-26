@@ -71,3 +71,20 @@ My work with Thinkful
 ![IMG_1846](https://user-images.githubusercontent.com/52806406/88479290-f33ab900-cf1b-11ea-9b58-acf34e6f53cc.jpg)
 
 <img width="1152" alt="Wireframe 3" src="https://user-images.githubusercontent.com/52806406/88481738-2b95c380-cf2b-11ea-9d4b-7cfc02c23f16.png">
+
+![iMac Mockup](https://user-images.githubusercontent.com/52806406/88478271-e9fa1e00-cf14-11ea-8b8e-31f19c0effa4.png)
+
+![Macbook Test Mockup](https://user-images.githubusercontent.com/52806406/88478298-275eab80-cf15-11ea-96c3-b34ea4d479fc.png)
+
+
+<img width="750" alt="Skills" src="https://user-images.githubusercontent.com/52806406/88478358-a94ed480-cf15-11ea-8c8c-727a337c7457.png
+
+<img width="941" alt="Student snapshot" src="https://user-images.githubusercontent.com/52806406/88478638-0055a900-cf18-11ea-81bf-be503db92e54.png">
+">
+
+<img width="1152" alt="Wireframe 2" src="https://user-images.githubusercontent.com/52806406/88478877-99d18a80-cf19-11ea-9e90-5c399f28b320.png">
+
+![IMG_1845](https://user-images.githubusercontent.com/52806406/88479287-f170f580-cf1b-11ea-9293-cb7afe7d5f1e.jpg)
+![IMG_1846](https://user-images.githubusercontent.com/52806406/88479290-f33ab900-cf1b-11ea-9b58-acf34e6f53cc.jpg)
+
+<img width="1152" alt="Wireframe 3" src="https://user-images.githubusercontent.com/52806406/88481738-2b95c380-cf2b-11ea-9d4b-7cfc02c23f16.png">
