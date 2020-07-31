@@ -68,6 +68,14 @@
         .roles span {
           font-weight: 700;
         }
+
+        .mediumpic {
+          padding: 2em;
+        }
+
+        .smallpic {
+          padding: 4em;
+        }
 }
 /* @media only screen and (min-device-width: 1281px) {
   .container { */
@@ -79,14 +87,14 @@
         }
 
 /* HOME PAGE */
-.project {
-  text-align: left;
-}
+        .project {
+          text-align: left;
+        }
 
-.preview {
-  margin-right: auto;
-  width: 100%;
-}
+        .preview {
+          margin-right: auto;
+          width: 100%;
+        }
 
 /* PROJECT PAGE */
         header img {
