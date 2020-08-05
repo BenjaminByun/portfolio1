@@ -76,6 +76,10 @@
         .smallpic {
           padding: 4em;
         }
+
+        .lessspaceuptop {
+          margin-top: -4em;
+        }
 }
 /* @media only screen and (min-device-width: 1281px) {
   .container { */
@@ -116,12 +120,27 @@
         .roles span {
           font-weight: 700;
         }
+
+        .card {
+          margin-left: 15%;
+          margin-right: 15%;
+        }
+
+        .smallpic {
+          padding: 4em;
+        }
+
+        .lessspaceuptop {
+          margin-top: -4em;
+        }
 }
+
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
+
 body {
   font-family: 'roboto', sans-serif;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.4em;
   font-size: 16px;
 }
 
@@ -147,6 +166,12 @@ img {
   margin-bottom: 2em;
 }
 
+header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-bottom: 4em;
+}
+
 h1 {
   font-family: 'archivo black', sans-serif;
   font-size: 3em;
@@ -156,12 +181,15 @@ h2 {
   font-weight: 300;
   font-size: 3em;
   letter-spacing: 1.5px;
+  line-height: 1.4em;
 }
 
 h3 {
-  font-weight: 300;
-  font-size: 1.9em;
+  font-weight: 900;
+  font-family: 'montserrat', sans-serif;
+  font-size: 1.2em;
   grid-column: 2 / 12;
+  line-height: 1.4em;
   margin-bottom: 0em;
 }
 
@@ -173,16 +201,19 @@ h4  {
 }
 
 h5 {
-  margin-bottom: -1em;
-  font-size: 1em;
-  font-weight: 500;
+  color: #548BA1;
+  /* font-family: 'archivo black', sans-serif; */
+  font-size: 2em;
+  /* font-weight: 500; */
+  margin-bottom: -.05em;
 }
 
 .paragraph {
   font-weight: 300;
-  line-height: 30px;
+  line-height: 24px;
   letter-spacing: 1px;
   }
+
 .spaceuptop {
   margin-top: 6em;
 }
@@ -213,6 +244,10 @@ h5 {
   transition: all 0.1s ease-in-out;
 }
 
+.moodie {
+  background-color: #blue;
+}
+
 .button:hover {
  box-shadow: 0 6px 6px 0 #3898EC;
  transform: scale(1.05);
@@ -228,16 +263,35 @@ h5 {
   transition: all 0.1s ease-in-out;
 }
 
+.button3 {
+  background-color: #548BA1;
+  display: block;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
 /* HOME PAGE */
+
 .intro {
-    margin-top: 2em;
+    grid-column: 2 / 12;
+    margin-top: 4em;
     margin-bottom: 10em;
+}
+
+.intro h1 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: 400;
 }
 
 .project {
     display: flex;
     grid-column: 2 / 12;
-    padding: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .lightblue {
@@ -245,7 +299,7 @@ h5 {
 }
 
 .red {
-  background-color: #F5D8D5;
+  background-color: #E0E0E0;
   margin-top: 2em;
 }
 
@@ -260,6 +314,13 @@ h5 {
   width: 75%;
 }
 
+/* BIOGRAPHY */
+.biography {
+  display: flex;
+  grid-column: 1 / 6;
+}
+
+
 /* PROJECT PAGE */
 .blurb {
   line-height: 28px;
@@ -267,15 +328,6 @@ h5 {
 
 .blurb + .blurb {
   margin-top: 3em;
-}
-
-.percent {
-  font-size: 2em;
-  font-weight: 300;
-}
-
-.percent + p {
-  margin-bottom: 4em;
 }
 
 .image {
@@ -287,6 +339,7 @@ h5 {
 .image img {
   width: 15%;
 }
+
 /* USER PERSONA CARD */
 .card {
   background-color: #F2F2F2;
@@ -409,14 +462,6 @@ ul {
   padding-left: 0em;
 }
 
-
-/* ENBOX PROJECT PAGE */
-header {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  margin-bottom: 4em;
-}
-
 .container ul {
   list-style-type: none;
   line-height: 1.3em;
@@ -427,6 +472,7 @@ footer {
   font-family: "Roboto", sans-serif;
   font-size: .8em;
   font-weight: 300;
+  margin-top: 8em;
 }
 
 .footer {
@@ -438,209 +484,46 @@ footer {
 }
 
 .footer img {
-  width: 20px;
+  width: 30px;
 }
 
 .copyright {
   text-align: center;
 }
 
-.footer li {
-  opacity: .5;
-}
-
-.footer li:hover {
-  opacity: .8;
-}
-
 /* NAVBAR */
-nav {
+.navbar {
+  background-color: white;
   display: flex;
-  height: 50px;
+  grid-column: 2 / 12;
+  justify-content: space-between;
 }
 
 .ben {
   font-family: 'archivo black', sans-serif;
   font-size: 1.2em;
   margin-top: 1em;
-  margin-left: 2.5em;
-  width: 10em;
 }
 
 .ben a {
-  font-weight: 800;
   text-decoration: none;
-}
-
-.ben:hover{
-  opacity: .75;
 }
 
 .links {
   display: flex;
-  font-family: 'roboto', sans-serif;
-  margin-left: auto;
-  margin-right: 2em;
   list-style-type: none;
 }
 
-nav ul li a {
-  color: inherit;
+.links a {
   text-decoration: none;
   margin-left: 2em;
 }
 
 a:hover {
-    opacity: .5;
-  }
-
-      /* nav {
-        display: flex;
-        height: 50px;
-        line-height: 50px;
-        width: 100%;
-      } */
-
-      /* nav ul li a {
-        color: inherit;
-      }
-
-      .ben {
-          font-family: "Montserrat", sans-serif;
-          margin-top: 1em;
-          margin-left: 2em;
-          width: 8em;
-        }
-
-        .ben a {
-          font-size: 1.25em;
-          font-weight: 500;
-          text-decoration: none;
-          color: inherit;
-        }
-
-      .ben:hover{
-        opacity: .75;
-      }
-
-      a {
-        color: #3F7BD3;
-        font-weight: 300;
-        text-decoration: none;
-      }
-
-      a:hover {
-          opacity: .5;
-        } */
-
+  opacity: .5;
+}
 
 /*
-      li a {
-        padding: 1em;
-        text-decoration: none;
-      }
-
-      .container h2 {
-        font-family: 'Roboto';
-        font-size: 3em;
-        font-weight: 700;
-      }
-
-      .container h2 {
-        grid-column: 4 / 10;
-        line-height: 1.5em;
-      }
-
-        .columnimage {
-          background-image: url("https://user-images.githubusercontent.com/52806406/83908802-b29d9b00-a735-11ea-86da-45525cc3136d.png");
-          height: 15em;
-          background-position: center;
-          background-size: cover;
-          margin-right: 2em;
-        }
-
-        .visual p {
-          margin-bottom: 4em;
-        } */
-
-/* HOMEPAGE  */
-      /* .intro {
-        height: 100%;
-      }
-
-      .intro .container h1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 4em;
-        font-weight: 500;
-        text-align: left;
-        padding-top: 2em;
-        margin-bottom: 0em;
-      }
-
-      .intro span {
-        color: #1f75f4;
-      } */
-
-      /* .intro { */
-          /* background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://user-images.githubusercontent.com/52806406/87972001-33211c80-ca94-11ea-94ee-7914e6351668.jpg'); */
-          /* background-position: center;
-          background-size: cover;
-          max-width: 100%;
-      }
-
-      .intro .container {
-        margin-top: 1em;
-      }
-
-      .intro .container p {
-        font-size: 1.5em;
-      } */
-/* enbox image */
-      /* .projects {
-        background-color: #EAEFF7;
-        margin-left: .3em;
-        margin-right: .3em;
-      }
-
-      #logo {
-        margin-top: 4em;
-        width: 12em;
-      }
-
-      .logo {
-        margin-bottom: 2em;
-        margin-top: 4em;
-        width: 10em;
-      }
-
-      #dashboard {
-        margin-bottom: 4em;
-        margin-top: 4em;
-        width: 100%;
-      } */
-  /* BIOGRAPHY page */
-      /* .bio { */
-          /* background-image: url("https://user-images.githubusercontent.com/52806406/84335707-7918c580-ab63-11ea-9301-5de231155081.jpg"); */
-          /* height: 30em;
-          background-position: center;
-          background-size: cover;
-          max-width: 100%;
-      }
-
-      .aboutme h1 {
-        font-size: 3em;
-        margin-top: -1em;
-        margin-bottom: 2em;
-      }
-
-      .aboutme h4 {
-        font-size: 1.25em;
-      }
-
-      .aboutme span {
-        font-weight: 700;
-      } */
-
 
         input {
           padding: 1em;
@@ -654,4 +537,4 @@ a:hover {
 
         #message {
           padding-bottom: 5em;
-        }
+        } */
