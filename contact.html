@@ -36,16 +36,39 @@
   		 </ul>
   		</div>
   	</nav>
-    <div class="container contact">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3Z40Szc-qeGfJ34RXNaQN6vLx6-h_7Twz7UMyqbB9sjXB8w/viewform?embedded=true" width="640" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      <!-- <form action="https://formspree.io/xjvaagba" method="POST">
-        <input placeholder="Your name" type="text" tabindex="1" required="" autofocus="">
-        <input placeholder="Your Email Address" type="email" tabindex="2" required="">
-        <input placeholder="Message" type="text" name="Message" id="message" value="">
-        <textarea placeholder="Type your Message Here...." tabindex="5" required=""></textarea>
-        <button name="submit" type="submit" class="button" data-submit="...Sending">Submit</button>
-      </form>
-      </form> -->
+    <div class="container">
+     <div class="contactform" data-aos="fade-up">
+      <div class="paragraph">
+        <h2>Want to get in touch?</h2>
+        <p>I am interested in collaboration, conversation, and recommendations.</p>
+      </div>
+      <div class="contact">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+          <fieldset id="fs-frm-inputs">
+            <input type="text" placeholder="Name" name="name" id="first-name" required="">
+            <input type="email" placeholder="Email" name="_replyto" id="email-address"  required="">
+            <textarea placeholder="Your message" rows="5" name="message" id="message" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input class="button" type="submit" value="Submit">
+        </form>
+      </div>
     </div>
+   </div>
+   <footer>
+      <div class="copyright">
+        <p>Designed and developed by Ben Byun© 2020.</p>
+      </div>
+        <ul class="footer">
+         <li> <a href="https://www.linkedin.com/in/benjamin-byun-36709316/" target="blank"><img src="https://user-images.githubusercontent.com/52806406/83568344-f2c00c00-a4f0-11ea-9996-592d23ea9542.png" alt=""></a></li>
+         <li><a href="https://github.com/BenjaminByun/" target="blank"><img src="https://user-images.githubusercontent.com/52806406/83568396-07040900-a4f1-11ea-990c-3c7edeee1386.png" alt=""></a></li>
+         <li><a href="https://twitter.com/benbyun" target="blank"><img src="https://user-images.githubusercontent.com/52806406/83568416-0a979000-a4f1-11ea-9d57-6e1703896101.png" alt=""></a></li>
+      </  ul>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
   </body>
 </html>
