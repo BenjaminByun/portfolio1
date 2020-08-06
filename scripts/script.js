@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "Amsterdam.", "Full Service.", "Webdevelopment.", "Wij zijn Occhio!"];
+  var dataText = [ "Nice to meet you",];
 
   // type one text in the typwriter
   // keeps calling itself until the text is finished
@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded',function(event){
     if (i < (text.length)) {
       // add next character to h1
      document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
-
       // wait for a while and call this function again for next character
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)

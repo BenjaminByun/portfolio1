@@ -20,8 +20,15 @@
         .project {
           flex-direction: column;
           margin-top: 5em;
+          padding-left: 4em;
+          padding-right: 4em;
           text-align: center;
         }
+
+        .intro h1 {
+          line-height: 80px;
+        }
+
 /* CONTACT FORM */
         .contactform {
           flex-direction: column;
@@ -29,6 +36,7 @@
 
         .contactform .paragraph {
           margin-bottom: 4em;
+          margin-top: 4em;
         }
 
 /* ENBOX PROJECT PAGE */
@@ -54,12 +62,27 @@
       }
 
       .preview {
-        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        padding-left: 4em;
+        padding-right: 4em;
+      }
+
+      .project .description {
+        padding-right: 4em;
         width: 100%;
+      }
+
+      .intro h1 {
+        line-height: 80px;
       }
 /* CONTACT FORM */
       .contactform {
         margin-top: 10em;
+      }
+
+      .contactform .contact {
+        padding: 4em;
       }
 /* PROJECT PAGE CODE */
         header img {
@@ -104,16 +127,26 @@
         }
 
 /* HOME PAGE */
-        .project {
-          text-align: left;
-        }
+      .project {
+        text-align: left;
+      }
 
-        .preview {
-          margin-right: auto;
-          width: 100%;
-        }
+      .preview {
+        margin-bottom: auto;
+        margin-top: auto;
+        padding-left: 4em;
+        padding-right: 4em;
+      }
+
+      .project .description {
+        padding-right: 4em;
+        width: 100%;
+      }
+      .intro {
+          height: 25vw;
+      }
+
 /* CONTACT FORM */
-
         .contactform {
           margin-top: 10em;
         }
@@ -122,9 +155,9 @@
           margin-right: 1em;
         }
 
-        /* .contactform .contact {
-          padding-left: 4em;
-        } */
+        .contactform .contact {
+          padding: 4em;
+        }
 
 /* PROJECT PAGE */
         header img {
@@ -150,6 +183,10 @@
         .card {
           margin-left: 15%;
           margin-right: 15%;
+        }
+
+        .mediumpic {
+          padding: 2em;
         }
 
         .smallpic {
@@ -302,23 +339,21 @@ h5 {
 /* HOME PAGE */
 .intro {
     grid-column: 2 / 12;
-    margin-top: 4em;
+    margin-top: 6em;
     margin-bottom: 10em;
 }
 
 .intro h1 {
-  font-family: 'montserrat', sans-serif;
-  font-size: 4em;
-  font-weight: 400;
+  color: #FF5A5A;
+  font-family: 'roboto', serif;
+  font-size: 5em;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .project {
     display: flex;
     grid-column: 2 / 12;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 4em;
-    padding-bottom: 4em;
 }
 
 .lightblue {
@@ -326,6 +361,8 @@ h5 {
 }
 
 .red {
+  padding-top: 4em;
+  padding-bottom: 4em;
   background-color: #E0E0E0;
   margin-top: 2em;
 }
@@ -333,20 +370,20 @@ h5 {
 .project h2 {
     color: #214753;
     font-weight: 800;
-    font-size: 1.8em;
+    font-size: 2.8em;
     margin-bottom: 30px;
 }
 
 .preview img {
-  width: 75%;
+  width: 90%;
 }
+
 
 /* BIOGRAPHY */
 .biography {
   display: flex;
   grid-column: 1 / 6;
 }
-
 
 /* PROJECT PAGE */
 .blurb {
@@ -355,6 +392,10 @@ h5 {
 
 .blurb + .blurb {
   margin-top: 3em;
+}
+
+.problem span {
+  font-weight: 700;
 }
 
 .image {
@@ -368,7 +409,7 @@ h5 {
 }
 
 .preferencetesting img {
-  -webkit-filter: drop-shadow(5px 5px 5px #e0e0e0);
+  -webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
   filter: drop-shadow(5px 5px 5px #e0e0e0);
 }
 
@@ -480,6 +521,13 @@ h5 {
   background-color: #EAEFF7;
 }
 
+.typography span{
+  color: #548BA1;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .ptsans {
   display: flex;
   flex-direction: column;
@@ -522,7 +570,7 @@ footer {
 
 /* NAVBAR */
 .navbar {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   grid-column: 2 / 12;
   justify-content: space-between;
