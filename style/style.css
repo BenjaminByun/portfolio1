@@ -41,11 +41,32 @@
 
 /* ENBOX PROJECT PAGE */
         .link {
-          grid-column: 3 / 7;
+          grid-column: 3 / 11;
         }
 
         .roles span {
           font-weight: 700;
+        }
+
+        .moodie .solution .paragraph {
+          grid-column: 3 / 11;
+        }
+
+        .moodie .solution .flexbox {
+          display: flex;
+          flex-direction: column;
+        }
+
+
+        .moodie .survey span {
+          font-family: "archivo black", sans-serif;
+          font-size: 2.2em;
+          margin-right: 1em;
+          line-height: 50px;
+        }
+
+        .moodie .survey p + p {
+          margin-top: 4em;
         }
       }
 /* TABLET */
@@ -85,6 +106,32 @@
         padding: 4em;
       }
 /* PROJECT PAGE CODE */
+        .moodie .solution .paragraph {
+          grid-column: 4 / -1;
+          display: flex;
+          flex-direction: row-reverse;
+        }
+
+        .moodie .solution .flexbox {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .moodie .solution .paragraph img {
+          margin-left: 5em;
+        }
+
+        .moodie .survey span {
+          font-family: "archivo black", sans-serif;
+          font-size: 2.2em;
+          margin-right: 1em;
+          line-height: 50px;
+        }
+
+        .moodie .survey p + p {
+          margin-top: 4em;
+        }
+
         header img {
           grid-column: 4 / 10;
         }
@@ -98,7 +145,7 @@
           }
 
         .link {
-          grid-column: 4 / 7;
+          grid-column: 4 / 10;
         }
 
         .roles span {
@@ -121,7 +168,7 @@
   .container { */
       @media (min-width: 992px) {
         .container {
-          max-width: 100%;
+          max-width: 1281px;
           margin-left: auto;
           margin-right: auto;
         }
@@ -142,6 +189,7 @@
         padding-right: 4em;
         width: 100%;
       }
+
       .intro {
           height: 25vw;
       }
@@ -160,6 +208,33 @@
         }
 
 /* PROJECT PAGE */
+        .moodie .solution .paragraph {
+          grid-column: 4 / -1;
+          display: flex;
+          flex-direction: row-reverse;
+        }
+
+        .moodie .solution .flexbox {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .moodie .solution .paragraph img {
+          margin-left: 15em;
+          margin-top: -8em;
+        }
+
+        .moodie .survey span {
+          font-family: "archivo black", sans-serif;
+          font-size: 2.2em;
+          margin-right: 1em;
+          line-height: 50px;
+        }
+
+        .moodie .survey p + p {
+          margin-top: 4em;
+        }
+
         header img {
           grid-column: 4 / 10;
         }
@@ -173,7 +248,7 @@
           }
 
         .link {
-          grid-column: 4 / 7;
+          grid-column: 4 / 10;
         }
 
         .roles span {
@@ -229,6 +304,10 @@ img {
   margin-bottom: 2em;
 }
 
+.moodie .link a {
+  color: #EB6E00;
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -257,7 +336,7 @@ h3 {
 }
 
 h4  {
-  color: #548BA1;
+  color: #FF5A5A;
   font-size: 1em;
   font-weight: 500;
   margin-bottom: -1em;
@@ -265,9 +344,7 @@ h4  {
 
 h5 {
   color: #548BA1;
-  /* font-family: 'archivo black', sans-serif; */
   font-size: 2em;
-  /* font-weight: 500; */
   margin-bottom: -.05em;
 }
 
@@ -286,15 +363,21 @@ h5 {
 }
 
 .grey {
-  padding-top: 4em;
+  background-color: #EFEFEF;
   padding-bottom: 4em;
-  background-color: #E3EAF3;
+  padding-top: 4em;
 }
 
 .blue {
-  padding-top: 4em;
-  padding-bottom: 4em;
   background-color: #CBE3EE;
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+
+.dark {
+  background-color: #40718C;
+  padding-bottom: 4em;
+  padding-top: 4em;
 }
 
 .button {
@@ -305,10 +388,6 @@ h5 {
   text-align: center;
   text-decoration: none;
   transition: all 0.1s ease-in-out;
-}
-
-.moodie {
-  background-color: #blue;
 }
 
 .button:hover {
@@ -336,6 +415,17 @@ h5 {
   transition: all 0.1s ease-in-out;
 }
 
+.button4 {
+  background-color: #393939;
+  display: block;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+
 /* HOME PAGE */
 .intro {
     grid-column: 2 / 12;
@@ -358,6 +448,8 @@ h5 {
 
 .lightblue {
     background-color: #E0EEF7;
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 .red {
@@ -386,6 +478,19 @@ h5 {
 }
 
 /* PROJECT PAGE */
+.moodie {
+  background-color: #EEEEEE;
+}
+
+.moodie .introduction {
+  color: white;
+}
+
+.moodie .surveyanalysis span {
+  font-style: italic;
+  font-weight: 500;
+}
+
 .blurb {
   line-height: 28px;
 }
@@ -407,6 +512,31 @@ h5 {
 .image img {
   width: 15%;
 }
+
+.moodie .image img{
+  width: 25%;
+}
+
+.userpersonas img {
+  -webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
+  filter: drop-shadow(5px 5px 5px #e0e0e0);
+}
+
+.userstories {
+  grid-column: 2 / 12;
+}
+
+.userstories span {
+  font-size: 1.2em;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+
+}
+
+.userstories p + p {
+  margin-top: 1.2em;
+}
+
 
 .preferencetesting img {
   -webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
@@ -522,7 +652,7 @@ h5 {
 }
 
 .typography span{
-  color: #548BA1;
+  color: #FF5A5A;
   font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
@@ -594,6 +724,12 @@ footer {
 .links a {
   text-decoration: none;
   margin-left: 2em;
+}
+
+a {
+  color: inherit;
+  font-size: 1.2em;
+  text-decoration: none;
 }
 
 a:hover {
