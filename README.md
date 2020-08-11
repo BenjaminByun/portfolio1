@@ -76,3 +76,12 @@ https://user-images.githubusercontent.com/52806406/89745388-8843c300-da81-11ea-9
 
 Mockups https://user-images.githubusercontent.com/52806406/89745560-b4ac0f00-da82-11ea-869f-2604eecbf38a.png
 https://user-images.githubusercontent.com/52806406/89745779-07d29180-da84-11ea-9365-3ed6499cd9a7.png
+
+Testing https://user-images.githubusercontent.com/52806406/89816021-c7baef80-db13-11ea-9174-17c49ac16172.png
+https://user-images.githubusercontent.com/52806406/89817490-3600b180-db16-11ea-88b1-3d47217cefb2.png
+https://user-images.githubusercontent.com/52806406/89817933-ef5f8700-db16-11ea-83b7-a27ccae178a9.png
+
+Visual design https://user-images.githubusercontent.com/52806406/89818554-f8048d00-db17-11ea-83d2-6242b61e4d0c.png
+Logo https://user-images.githubusercontent.com/52806406/89819529-9a714000-db19-11ea-8bc6-400e52ce1b07.png
+Font https://user-images.githubusercontent.com/52806406/89819890-1b303c00-db1a-11ea-9d61-a0d59a51fe67.png
+Color https://user-images.githubusercontent.com/52806406/89820048-5df21400-db1a-11ea-8448-329ec9d730ad.png

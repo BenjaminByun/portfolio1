@@ -308,6 +308,10 @@ img {
   color: #EB6E00;
 }
 
+.moodie .blacklink a {
+  color: black;
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -344,7 +348,7 @@ h4  {
 
 h5 {
   color: #548BA1;
-  font-size: 2em;
+  font-size: 1.2em;
   margin-bottom: -.05em;
 }
 
@@ -360,6 +364,10 @@ h5 {
 
 .smallspaceuptop {
   margin-top: 2em;
+}
+
+.mediumspaceuptop {
+  margin-top: 4em;
 }
 
 .grey {
@@ -417,6 +425,16 @@ h5 {
 
 .button4 {
   background-color: #393939;
+  display: block;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.button5 {
+  background-color: #FF9100;
   display: block;
   margin-top: 2em;
   padding: 1em;
