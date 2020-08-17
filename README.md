@@ -64,9 +64,9 @@ Preference https://user-images.githubusercontent.com/52806406/86480285-b2d08c80-
 
 Moodie
 
-Christina https://user-images.githubusercontent.com/52806406/89741339-6dac2280-da5e-11ea-9089-84803b5c8828.png
+Christina https://user-images.githubusercontent.com/52806406/90347301-715f1c80-dffd-11ea-86ce-7bd7557e14ed.png
 
-Lana https://user-images.githubusercontent.com/52806406/89741340-6edd4f80-da5e-11ea-9377-8df139f9692c.png
+Lana https://user-images.githubusercontent.com/52806406/90347303-72904980-dffd-11ea-98dd-5283e128412f.png
 
 Onboarding https://user-images.githubusercontent.com/52806406/89744930-98a66e80-da7e-11ea-982a-1de75f60e82e.png
 https://user-images.githubusercontent.com/52806406/89744799-6ac12a00-da7e-11ea-9555-96d85e83b1ab.png

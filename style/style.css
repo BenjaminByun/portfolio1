@@ -29,6 +29,16 @@
         .intro h1 {
           line-height: 80px;
         }
+
+        .intro p {
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+
+        .intro p + p {
+          margin-top: 2em;
+        }
+
 /*  BIOGRAPHY */
         .biography {
           flex-direction: column;
@@ -78,6 +88,14 @@
         .moodie .survey p + p {
           margin-top: 4em;
         }
+
+        .stats {
+          flex-direction: row;
+        }
+
+        .stats .stat {
+          width: 25%;
+        }
       }
 /* TABLET */
       @media (min-width: 720px) and (max-width: 991px) {
@@ -116,6 +134,15 @@
 
       .intro h1 {
         line-height: 80px;
+      }
+
+      .intro p {
+          margin-left: 20%;
+          margin-right: 20%;
+      }
+
+      .intro p + p {
+          margin-top: 2em;
       }
 /* BIOGRAPHY  */
       .biopic {
@@ -199,6 +226,15 @@
         }
 
 /* HOME PAGE */
+      .intro p {
+        margin-left: 35%;
+        margin-right: 35%;
+      }
+
+      .intro p + p {
+        margin-top: 2em;
+      }
+
       .project {
         text-align: left;
       }
@@ -206,7 +242,6 @@
       .project .link {
         width: 50%;
       }
-
 
       .project .preview {
         display: flex;
@@ -245,7 +280,7 @@
         }
 
         .contactform h2 {
-          padding-left: 4em;
+          padding-left: 4.5em;
         }
 
         .contactform p {
@@ -266,7 +301,7 @@
 
         .moodie .solution .paragraph img {
           margin-left: 8em;
-          margin-right: 6em;
+          margin-right: 8em;
           margin-top: -8em;
         }
 
@@ -437,6 +472,20 @@ h5 {
   padding-top: 4em;
 }
 
+.lightblue {
+    background-color: #E0EEF7;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.red {
+  background-color: #E0E0E0;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin-top: 2em;
+}
+
+
 .button {
   background-color: #3898EC;
   display: block;
@@ -499,6 +548,7 @@ h5 {
     margin-bottom: 6em;
     margin-top: 4em;
     text-align: center;
+
 }
 
 /* .intro h1 {
@@ -512,19 +562,6 @@ h5 {
 .project {
     display: flex;
     grid-column: 2 / 12;
-}
-
-.lightblue {
-    background-color: #E0EEF7;
-    padding-bottom: 2em;
-    padding-top: 2em;
-}
-
-.red {
-  padding-top: 4em;
-  padding-bottom: 4em;
-  background-color: #E0E0E0;
-  margin-top: 2em;
 }
 
 .project h2 {
@@ -571,6 +608,15 @@ h5 {
 }
 
 /* PROJECT PAGE */
+.italics span {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.bold span {
+  font-weight: 700;
+}
+
 .roles span {
   font-weight: 700;
 }
@@ -586,6 +632,32 @@ h5 {
 .moodie .surveyanalysis span {
   font-style: italic;
   font-weight: 500;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+  margin-top: 2em;
+}
+
+.stat {
+  background-color: #CBE3EE;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  text-align: center;
+  width: 20%;
+}
+
+.stat span {
+  font-family: 'archivo black', sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .blurb {
@@ -621,7 +693,13 @@ h5 {
 
 .userstories {
   color: white;
-  grid-column: 2 / 12;
+  font-family: 'open sans', sans-serif;
+  font-style: italic;
+  font-size: 1.4em;
+  grid-column: 1 / -1;
+  line-height: 35px;
+  margin-left: 2em;
+  margin-right: 2em;
   text-align: center;
 }
 
@@ -823,35 +901,40 @@ footer {
 
 .ben {
   font-family: 'pt sans', sans-serif;
-  font-size: 3em;
-  font-weight: 600;
+  font-size: 4.5em;
+  font-weight: 300;
   grid-column: 4 / 10;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   text-align: center;
   word-spacing: 20px;
 }
 
 .links {
   display: flex;
-  font-size: .8em;
   font-weight: 500;
   grid-column: 2 / 12;
   justify-content: center;
   margin-bottom: 2em;
-  /* margin-top: 2em; */
+  margin-top: 2em;
   opacity: 30%;
 }
 
+.links a {
+  padding: 30px;
+}
+/*
 .links a::after {
   content: "|";
   float: right;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 .links a:last-child::after {
   display: none;
 }
+
+
 
 /* .links {
   display: flex;
@@ -872,6 +955,10 @@ a:hover {
   opacity: .5;
 }
 
+.active {
+  color: red;
+}
+
 .contactform {
   display: flex;
   grid-column: 2 / 12;
@@ -890,13 +977,9 @@ textarea {
   padding-left: 3px;
 }
 
-.contact {
-  font-size: .9em;
-  opacity: 50%;
-}
 
 .contact .button {
-    background-color: #e0e0e0;
+    background-color: #FF9100;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -904,6 +987,6 @@ textarea {
   }
 
   .contactform h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     margin-top: auto;
   }
