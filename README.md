@@ -73,6 +73,7 @@ https://user-images.githubusercontent.com/52806406/89744799-6ac12a00-da7e-11ea-9
 
 Wireframes https://user-images.githubusercontent.com/52806406/89745076-592c5200-da7f-11ea-803c-01753a0635f1.png
 https://user-images.githubusercontent.com/52806406/89745388-8843c300-da81-11ea-941d-fcc61082a438.png
+https://user-images.githubusercontent.com/52806406/90394994-b026be00-e061-11ea-8b47-8a5dfe2707ff.png
 
 Mockups https://user-images.githubusercontent.com/52806406/89745560-b4ac0f00-da82-11ea-869f-2604eecbf38a.png
 https://user-images.githubusercontent.com/52806406/89745779-07d29180-da84-11ea-9365-3ed6499cd9a7.png
