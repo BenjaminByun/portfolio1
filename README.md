@@ -64,6 +64,10 @@ Preference https://user-images.githubusercontent.com/52806406/86480285-b2d08c80-
 
 Moodie
 
+Hero https://user-images.githubusercontent.com/52806406/90567928-eefb6780-e178-11ea-9de9-1e40c45fe519.png
+
+Solution https://user-images.githubusercontent.com/52806406/90568104-3b46a780-e179-11ea-8b70-151c2991df76.png
+
 Christina https://user-images.githubusercontent.com/52806406/90347301-715f1c80-dffd-11ea-86ce-7bd7557e14ed.png
 
 Lana https://user-images.githubusercontent.com/52806406/90347303-72904980-dffd-11ea-98dd-5283e128412f.png
@@ -78,9 +82,12 @@ https://user-images.githubusercontent.com/52806406/90394994-b026be00-e061-11ea-8
 Mockups https://user-images.githubusercontent.com/52806406/89745560-b4ac0f00-da82-11ea-869f-2604eecbf38a.png
 https://user-images.githubusercontent.com/52806406/89745779-07d29180-da84-11ea-9365-3ed6499cd9a7.png
 
-Testing https://user-images.githubusercontent.com/52806406/89816021-c7baef80-db13-11ea-9174-17c49ac16172.png
-https://user-images.githubusercontent.com/52806406/89817490-3600b180-db16-11ea-88b1-3d47217cefb2.png
-https://user-images.githubusercontent.com/52806406/89817933-ef5f8700-db16-11ea-83b7-a27ccae178a9.png
+Testing https://user-images.githubusercontent.com/52806406/90568237-7b0d8f00-e179-11ea-90bb-e593b231c4a8.png
+https://user-images.githubusercontent.com/52806406/90568439-d50e5480-e179-11ea-9664-6e861cd77d40.png
+https://user-images.githubusercontent.com/52806406/90568510-07b84d00-e17a-11ea-8f61-ffd368c1c1f0.png
+https://user-images.githubusercontent.com/52806406/90568596-33d3ce00-e17a-11ea-8f1a-1fdd82b4b5e6.png
+https://user-images.githubusercontent.com/52806406/90568663-59f96e00-e17a-11ea-99b7-abe437a154ca.png
+https://user-images.githubusercontent.com/52806406/90568739-7c8b8700-e17a-11ea-8f04-da8b88c080a6.png
 
 Visual design https://user-images.githubusercontent.com/52806406/89818554-f8048d00-db17-11ea-83d2-6242b61e4d0c.png
 Logo https://user-images.githubusercontent.com/52806406/89819529-9a714000-db19-11ea-8bc6-400e52ce1b07.png

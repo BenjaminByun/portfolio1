@@ -18,6 +18,14 @@
         }
 
 /* HOME PAGE */
+        .ben {
+          font-size: 3em;
+        }
+
+        .links a {
+          font-size: .8em;
+        }
+
         .project {
           flex-direction: column;
           margin-top: 5em;
@@ -64,7 +72,19 @@
           padding-right: 2em;
         }
 
-/* ENBOX PROJECT PAGE */
+/*PROJECT PAGE */
+        .projectpage .ben {
+          font-size: 1.4em;
+        }
+
+        .projectpage .links {
+          font-size: .9em;
+        }
+
+        .projectpage .links a {
+          padding: 10px;
+        }
+
         .link {
           grid-column: 3 / 11;
         }
@@ -107,6 +127,11 @@
         }
 
 /* HOME PAGE */
+      .ben {
+        font-size: 3.5em;
+      }
+
+
       .project {
         text-align: left;
       }
@@ -162,6 +187,10 @@
         padding-left: 2em;
       }
 /* PROJECT PAGE CODE */
+        .projectpage .ben {
+          font-size: 1.8em;
+        }
+
         .moodie .solution .paragraph {
           grid-column: 4 / -1;
           display: flex;
@@ -174,7 +203,7 @@
         }
 
         .moodie .solution .paragraph img {
-          margin-left: 5em;
+          margin-left: 2em;
         }
 
         .moodie .survey span {
@@ -226,6 +255,10 @@
         }
 
 /* HOME PAGE */
+      .ben {
+        font-size: 4.5em;
+      }
+
       .intro p {
         margin-left: 35%;
         margin-right: 35%;
@@ -288,6 +321,15 @@
         }
 
 /* PROJECT PAGE */
+        .projectpage .ben {
+          font-size: 1.8em;
+          margin-left: 50px;
+        }
+
+        .projectpage .links a {
+          padding-right: 50px;
+        }
+
         .moodie .solution .paragraph {
           grid-column: 4 / -1;
           display: flex;
@@ -300,9 +342,9 @@
         }
 
         .moodie .solution .paragraph img {
-          margin-left: 8em;
-          margin-right: 8em;
-          margin-top: -8em;
+          margin-left: 4em;
+          margin-right: 4em;
+          margin-top: -2em;
         }
 
         .moodie .survey span {
@@ -354,14 +396,10 @@
 body {
   font-family: 'roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: .1px;
-  line-height: 24px;
-  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-size: 19px;
 }
-
-/* .container p {
-  letter-spacing: .5px;
-} */
 
 html {
   scroll-behavior: smooth;
@@ -379,7 +417,6 @@ img {
 }
 
 .link a {
-  color: white;
   font-weight: 300;
   letter-spacing: 1.2px;
   margin-bottom: 2em;
@@ -485,15 +522,15 @@ h5 {
   margin-top: 2em;
 }
 
-
 .button {
-  background-color: #3898EC;
+  border: 2px solid;
   display: block;
   margin-top: 2em;
   padding: 1em;
   text-align: center;
   text-decoration: none;
   transition: all 0.1s ease-in-out;
+  width: 75%;
 }
 
 .button:hover {
@@ -553,10 +590,15 @@ h5 {
     word-spacing: 1.3px;
 }
 
-
 .project {
     display: flex;
     grid-column: 2 / 12;
+}
+
+.preview a:hover {
+   box-shadow: 0 6px 6px 0 #e0e0e0;
+   transform: scale(1.05);
+   transition: all 0.1s ease-in-out;
 }
 
 .project h2 {
@@ -603,6 +645,27 @@ h5 {
 }
 
 /* PROJECT PAGE */
+.projectnavigation {
+  grid-column 2 / 12;
+  font-weight: 300;
+  position: sticky;
+  background: #CCD6D7;
+  top: 70px;
+  z-index: 10;
+}
+
+.projectnavigation ul {
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  grid-column: 2 / 12;
+  position: sticky;
+}
+
+#research {
+  padding-top: 1em;
+}
+
 .italics span {
   font-size: 1.2em;
   font-style: italic;
@@ -622,19 +685,6 @@ h5 {
 
 .moodie .introduction {
   color: white;
-}
-
-.projectpage .ben {
-  font-size: 1.5em;
-  letter-spacing: 3px;
-  margin-top: 1em;
-  word-spacing: 5px;
-}
-
-.navbar {
-  display: flex;
-  grid-column: 2 / 12;
-  justify-content: space-between;
 }
 
 .moodie .surveyanalysis span {
@@ -663,11 +713,11 @@ h5 {
   filter: drop-shadow(5px 5px 5px #e0e0e0);
 }
 
-.preferencetesting img {
+.heroimage img {
+  padding-top: 60px;
 }
 
 .stat span {
-  /* font-family: 'archivo black', sans-serif; */
   font-size: 3em;
   font-weight: 300;
   margin-bottom: 15px;
@@ -879,10 +929,10 @@ footer {
 
 .footer {
    display: flex;
-   justify-content: space-between;
    list-style-type: none;
    margin-left: 40%;
    margin-right: 40%;
+   text-align: center;
 }
 
 .footer img {
@@ -893,9 +943,10 @@ footer {
   text-align: center;
 }
 
+
+/* NAVBAR */
 .ben {
   font-family: 'pt sans', sans-serif;
-  font-size: 4.5em;
   font-weight: 300;
   grid-column: 4 / 10;
   letter-spacing: 10px;
@@ -903,19 +954,41 @@ footer {
   word-spacing: 20px;
 }
 
+.projectpage .ben {
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  padding: 20px;
+}
+
+.projectpage ul {
+  list-style-type: none;
+  margin-right: 40px;
+}
+
 .links {
+  color: #52615C;
   display: flex;
-  font-size: .9em;
-  font-weight: 500;
+  font-size: 1em;
+  font-weight: 300;
   grid-column: 2 / 12;
   justify-content: center;
-  margin-bottom: 2em;
-  margin-top: 2em;
-  opacity: 30%;
 }
 
 .links a {
   padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  grid-column: 2 / 12;
+  justify-content: space-between;
+}
+
+.fixed {
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 a {
@@ -923,12 +996,13 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  opacity: .5;
+nav a:hover {
+  color: #EB9887;
 }
 
 .active {
-  color: red;
+  color: #EB9887;
+  font-weight: 500;
 }
 
 .contactform {
