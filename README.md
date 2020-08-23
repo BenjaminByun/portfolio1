@@ -10,7 +10,7 @@ Twitter https://user-images.githubusercontent.com/52806406/83568416-0a979000-a4f
 
 Enbox project page https://user-images.githubusercontent.com/52806406/88486917-25194300-cf4f-11ea-829e-9a1e745e0d63.png
 
-Enbox desktop + laptop https://user-images.githubusercontent.com/52806406/88863049-c57d9a80-d1cf-11ea-8aa8-c204c4bc1a0f.png
+Enbox desktop + laptop https://user-images.githubusercontent.com/52806406/90965898-6fcca300-e49a-11ea-90a9-88f26f987ade.png
 
 Google Classroom https://user-images.githubusercontent.com/52806406/83701367-72c0a180-a5d7-11ea-9466-c90a52cec75a.png
 
