@@ -126,20 +126,13 @@
           width: 50%;
         }
 
-        .titlecard span {
-          font-size: 34px;
-          font-weight: 500;
-        }
-
-        .titlecard div {
-          margin-bottom: 40px;
-          margin-top: -20px;
-          font-size: 16px;
+        .userpersona {
+          flex-direction: column;
         }
 
         .personainfo {
-          padding-left: 75px;
-          padding-right: 75px;
+          padding-left: 60px;
+          padding-right: 60px;
         }
 
         .userstories {
@@ -304,30 +297,13 @@
           width: 30%;
         }
 
-        .userpersona {
-          display: flex;
-        }
-
         .userpersona .card {
-          width: 100%;
-          margin-left: 2em;
-          margin-right: 2em;
+          width: 300px;
         }
 
         .personainfo {
-          padding-left: 50px;
-          padding-right: 50px;
-        }
-
-        .titlecard span {
-          font-size: 30px;
-          font-weight: 500;
-        }
-
-        .titlecard div {
-          margin-bottom: 40px;
-          margin-top: -20px;
-          font-size: 16px;
+          padding-left: 25px;
+          padding-right: 25px;
         }
 
         .userstories {
@@ -511,30 +487,13 @@
           width: 45%;
         }
 
-        .userpersona {
-          display: flex;
-        }
-
         .userpersona .card {
-          width: 100%;
-          margin-left: 2em;
-          margin-right: 2em;
-        }
-
-        .titlecard span {
-          font-size: 30px;
-          font-weight: 500;
-        }
-
-        .titlecard div {
-          margin-bottom: 40px;
-          margin-top: -20px;
-          font-size: 16px;
+          width: 450px;
         }
 
         .personainfo {
-          padding-left: 75px;
-          padding-right: 75px;
+          padding-left: 100px;
+          padding-right: 100px;
         }
 
         .userflow {
@@ -740,7 +699,7 @@ h6 {
 }
 
 .smalltext span {
-  font-size: 10px;
+  font-size: 8px;
   letter-spacing: .1px;
 }
 
@@ -755,15 +714,20 @@ h6 {
 
 .inspiration {
   display: flex;
+  font-size: 14px;
   justify-content: space-around;
+  letter-spacing: .1px;
+  line-height: 23px;
+  text-align: center;
+  word-spacing: 2px;
 }
 
 .inspiration article {
-  width: 450px;
+  width: 400px;
 }
 
 .inspiration div {
-  margin-top: -50px;
+  margin-top: -30px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -917,10 +881,10 @@ h3::before {
   padding-top: 60px;
 }
 
-.stat span {
-  font-size: 2.5em;
-  font-weight: 300;
+h6 {
+  font-size: 2em;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .list p+h4 {
@@ -936,33 +900,33 @@ h3::before {
 
 /* USER PERSONA CARD */
 .userpersona {
+  display: flex;
   grid-column: 2 / 12;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .userpersona .card {
-    line-height: 22px;
-    text-align: center;
-    word-spacing: .1px;
+  margin: 10px;
 }
 
 .userpersona .card span {
   color: #548BA1;
-  font-size: 1.5em;
-  font-weight: 300;
-  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 900;
 }
 
-.titlecard {
-  align-items: center;
-}
-
-.titlecard p+p {
+.userpersona p+p {
   margin-bottom: -10px;
 }
 
+.personainfo {
+  margin-top: 40px;
+}
+
 .personainfo span+p {
-  margin-top: 0px;
   margin-bottom: 40px;
+  margin-top: 8px;
 }
 
 .quote {
