@@ -101,6 +101,11 @@
           display: none;
         }
 
+        .solution {
+          flex-direction: column;
+          grid-column: 3 / 11;
+        }
+
         .moodie .survey span {
           font-size: 2.2em;
           margin-right: 1em;
@@ -132,6 +137,11 @@
           font-size: 16px;
         }
 
+        .personainfo {
+          padding-left: 75px;
+          padding-right: 75px;
+        }
+
         .userstories {
           margin-left: auto;
           margin-right: auto;
@@ -146,8 +156,18 @@
           grid-column: 1 / -1;
         }
 
+        .flows img {
+          padding-left: 25px;
+          padding-right: 25px;
+        }
+
         .preferencetesting {
           width: 80%;
+        }
+
+        .lightblue {
+          padding-bottom: 2em;
+          padding-top: 2em;
         }
       }
 /* TABLET */
@@ -256,8 +276,8 @@
         }
 
         .solution {
-          margin-left: auto;
-          margin-right: auto;
+          grid-column: 4 / 10;
+          flex-direction: column;
         }
 
         .moodie .survey span {
@@ -294,6 +314,11 @@
           margin-right: 2em;
         }
 
+        .personainfo {
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+
         .titlecard span {
           font-size: 30px;
           font-weight: 500;
@@ -315,8 +340,18 @@
           grid-column: 2 / 12;
         }
 
+        .flows img {
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+
         .preferencetesting {
           width: 50%;
+        }
+
+        .lightblue {
+          padding-bottom: 2em;
+          padding-top: 2em;
         }
 }
 /* @media only screen and (min-device-width: 1281px) {
@@ -407,6 +442,21 @@
           margin-right: 75px;
         }
 
+        .solution {
+          grid-column: 2 / 12;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+
+        .solution article {
+          width: 400px;
+        }
+
+        .solution div {
+          padding: 30px;
+          margin-top: -50px;
+        }
+
         .roles {
           display: flex;
           justify-content: space-between;
@@ -416,12 +466,6 @@
 
         .projectnavigation .icon {
           display: none;
-        }
-
-        .solution div {
-          padding-left: 30px;
-          padding-right: 30px;
-          align-items: center;
         }
 
         .projectnavigation ul{
@@ -488,8 +532,18 @@
           font-size: 16px;
         }
 
+        .personainfo {
+          padding-left: 75px;
+          padding-right: 75px;
+        }
+
         .userflow {
           grid-column: 3 / 11;
+        }
+
+        .flows img {
+          padding-left: 50px;
+          padding-right: 50px;
         }
 
         .preferencetesting {
@@ -539,9 +593,12 @@ img {
   margin-top: 4em;
 }
 
-.paragraph img {
-  -webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
-  filter: drop-shadow(5px 5px 5px #e0e0e0);
+.paddingbelow {
+  padding-bottom: 4em;
+}
+
+.paddingabove {
+  padding-top: 4em;
 }
 
 .link a {
@@ -554,6 +611,7 @@ header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin-bottom: 4em;
+  padding-top: 4em;
 }
 
 h1 {
@@ -561,15 +619,6 @@ h1 {
   font-size: 3em;
   font-weight: 700;
 }
-
-/* h2 {
-  font-family: 'playfair display', serif;
-  color: #548BA1;
-  font-size: 20px;
-  margin-bottom: -.05em;
-  text-transform: uppercase;
-  font-weight: 900;
-} */
 
 .roles h2 {
   font-family: 'playfair display', serif;
@@ -625,34 +674,23 @@ h6 {
 }
 
 .grey {
-  background-color: #E3EAF3;
-  padding-bottom: 4em;
-  padding-top: 4em;
+  background-color: #F7F5F9;
 }
 
 .blue {
   background-color: #BADCF6;
-  padding-bottom: 4em;
-  padding-top: 4em;
 }
 
 .dark {
   background-color: #173140;
-  padding-bottom: 4em;
-  padding-top: 4em;
 }
 
 .lightblue {
     background-color: #E0EEF7;
-    padding-bottom: 2em;
-    padding-top: 2em;
 }
 
 .red {
   background-color: #E0E0E0;
-  padding-top: 4em;
-  padding-bottom: 4em;
-  margin-top: 2em;
 }
 
 .button {
@@ -669,6 +707,7 @@ h6 {
  box-shadow: 0 6px 6px 0 #000000;
  transform: scale(1.05);
 }
+
 /* HOME PAGE */
 .intro {
     font-size: 16px;
@@ -828,6 +867,19 @@ h3::before {
   margin-top: 50px;
 }
 
+.solution {
+  display: flex;
+}
+
+.solution h4 {
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+.image {
+  display: flex;
+}
+
 .moodie .surveyanalysis span {
   font-style: italic;
   font-weight: 500;
@@ -909,12 +961,16 @@ h3::before {
 }
 
 .personainfo span+p {
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 
-.personainfo {
-  padding-left: 50px;
-  padding-right: 50px;
+.quote {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 35px;
+  padding: 0px;
 }
 
 .userstories .card {
@@ -967,6 +1023,11 @@ h3::before {
 
 .smallimage {
   grid-column: 3 / 11;
+}
+
+.flows {
+  display: flex;
+  justify-content: space-around;
 }
 
 .caption {

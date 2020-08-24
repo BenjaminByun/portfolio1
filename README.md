@@ -93,3 +93,27 @@ Visual design https://user-images.githubusercontent.com/52806406/89818554-f8048d
 Logo https://user-images.githubusercontent.com/52806406/89819529-9a714000-db19-11ea-8bc6-400e52ce1b07.png
 Font https://user-images.githubusercontent.com/52806406/89819890-1b303c00-db1a-11ea-9d61-a0d59a51fe67.png
 Color https://user-images.githubusercontent.com/52806406/89820048-5df21400-db1a-11ea-8448-329ec9d730ad.png
+
+
+![Yummly2(1)](https://user-images.githubusercontent.com/52806406/91067639-306c9680-e601-11ea-983b-00493ad2e079.png)
+
+![Yummly1(1)](https://user-images.githubusercontent.com/52806406/91067943-8b9e8900-e601-11ea-9e19-170474912eda.png
+![Yummly3(1)](https://user-images.githubusercontent.com/52806406/91068195-e801a880-e601-11ea-95b7-4017cf720ada.png)
+)
+
+![Recipekeeper onboarding(1)](https://user-images.githubusercontent.com/52806406/91068486-5ba3b580-e602-11ea-947a-466793ee3dea.png)
+
+![Recipekeeper dashboard(1)](https://user-images.githubusercontent.com/52806406/91068632-93126200-e602-11ea-8662-6df07c20130f.png
+![Recipekeeper meal planner(1)](https://user-images.githubusercontent.com/52806406/91068840-d53ba380-e602-11ea-8058-d348533df82c.png)
+)
+
+
+![Yummly Dashboard(1)](https://user-images.githubusercontent.com/52806406/91069371-5004be80-e603-11ea-9d6a-64a9b3f46954.png)
+![Epicurious dashboard(1)](https://user-images.githubusercontent.com/52806406/91069718-c1447180-e603-11ea-88ad-51855ffec56b.png)
+![Epicurious recipe(1)](https://user-images.githubusercontent.com/52806406/91069888-f4870080-e603-11ea-81c5-0c12717b365f.png)
+
+![Epicurious search(1)](https://user-images.githubusercontent.com/52806406/91070076-42036d80-e604-11ea-9d6b-57630b86a06a.png
+
+![Christina(1)](https://user-images.githubusercontent.com/52806406/91072784-010d5800-e608-11ea-8da4-afb1a7bd1b13.png)
+
+![bardia-hashemirad-3P7jxpEgkC4-unsplash(1)(1) 1(1)](https://user-images.githubusercontent.com/52806406/91073520-2d75a400-e609-11ea-9701-7cfd5a5da893.png)
