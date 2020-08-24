@@ -29,10 +29,6 @@
           text-align: center;
         }
 
-        .intro h1 {
-          line-height: 80px;
-        }
-
         .intro p {
           font-size: 16px;
           margin-left: 5%;
@@ -51,13 +47,25 @@
           font-size: 16px;
         }
 
+        .contactme {
+          margin-left: auto;
+          margin-right: auto;
+          width: 70%;
+        }
+
 /*  BIOGRAPHY */
-        .biography {
+        .inspiration {
           flex-direction: column;
         }
 
-        .bioinfo {
-          margin-left: 0em;
+        .inspiration article {
+          margin-left: auto;
+          margin-right: auto;
+          width: 20%;
+        }
+
+        .instructions {
+          display: none;
         }
 
 /* CONTACT FORM */
@@ -75,7 +83,6 @@
           padding-left: 3em;
           padding-right: 2em;
         }
-
 /*PROJECT PAGE */
         .projectpage .ben {
           font-size: 1.4em;
@@ -152,6 +159,18 @@
           margin-right: auto;
         }
 
+        .paragraph {
+          grid-column: 4 / 10;
+        }
+
+        .mediumpic {
+          padding: 2em;
+        }
+
+        .smallpic {
+          padding: 2em;
+        }
+
 /* HOME PAGE */
       .ben {
         font-size: 3em;
@@ -186,12 +205,7 @@
         justify-content: center;
       }
 
-      .intro h1 {
-        line-height: 80px;
-      }
-
       .intro p {
-        font-size: 17px;
           margin-left: 15%;
           margin-right: 15%;
       }
@@ -200,13 +214,18 @@
           margin-top: 2em;
       }
 /* BIOGRAPHY  */
-      .biopic {
-        width: 100%;
+      .inspiration {
+        flex-direction: column;
       }
 
-      .bioinfo {
-        margin-left: 2em;
-        width: 100%;
+      .inspiration article {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      .instructions {
+        display: none;
       }
 /* CONTACT FORM */
       .contactform {
@@ -253,22 +272,6 @@
 
         header img {
           grid-column: 4 / 10;
-        }
-
-        .paragraph {
-          grid-column: 4 / 10;
-        }
-
-        .mediumpic {
-          padding: 2em;
-        }
-
-        .smallpic {
-          padding: 2em;
-        }
-
-        .lessspaceuptop {
-          margin-top: -4em;
         }
 
         .stats {
@@ -325,6 +328,21 @@
           margin-right: auto;
         }
 
+        .paragraph {
+          grid-column: 4 / 10;
+        }
+
+        .mediumpic {
+          padding: 2em;
+        }
+
+        .smallpic {
+            padding: 4em;
+        }
+
+        h6 {
+          font-size: .8em;
+        }
 /* HOME PAGE */
       .ben {
         font-size: 3.5em;
@@ -332,8 +350,6 @@
 
       .intro p {
         font-size: 18px;
-        margin-left: 25%;
-        margin-right: 25%;
       }
 
       .intro p + p {
@@ -359,14 +375,7 @@
         justify-content: center;
       }
 /* BIOGRAPHY  */
-        .biopic {
-          width: 100%;
-        }
 
-        .bioinfo {
-          margin-left: 2em;
-          width: 100%;
-        }
 /* CONTACT FORM */
         .contactform {
           margin-top: 10em;
@@ -430,11 +439,7 @@
         }
 
         header img {
-          grid-column: 4 / 9;
-        }
-
-        .paragraph {
-          grid-column: 4 / 9;
+          grid-column: 4 / 10;
         }
 
         .stats {
@@ -455,7 +460,7 @@
           display: flex;
           margin-left: auto;
           margin-right: auto;
-          width: 80%;
+          width: 950px;
         }
 
         .card {
@@ -483,18 +488,6 @@
           font-size: 16px;
         }
 
-        .mediumpic {
-          padding: 2em;
-        }
-
-        .smallpic {
-          padding: 4em;
-        }
-
-        .lessspaceuptop {
-          margin-top: -4em;
-        }
-
         .userflow {
           grid-column: 3 / 11;
         }
@@ -509,10 +502,10 @@ body {
   color: #222222;
   font-family: 'open sans', sans-serif;
   font-weight: 300;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
   line-height: 34px;
   font-size: 17px;
-  word-spacing: 1px;
+  word-spacing: .1px;
 }
 
 html {
@@ -530,18 +523,31 @@ img {
   margin-top: 1.5em;
 }
 
+.lessspaceuptop {
+  margin-top: -4em;
+}
+
+.spaceuptop {
+  margin-top: 10em;
+}
+
+.smallspaceuptop {
+  margin-top: 2em;
+}
+
+.mediumspaceuptop {
+  margin-top: 4em;
+}
+
+.paragraph img {
+  -webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
+  filter: drop-shadow(5px 5px 5px #e0e0e0);
+}
+
 .link a {
   font-weight: 300;
   letter-spacing: 1.2px;
   margin-bottom: 2em;
-}
-
-.moodie .link a {
-  color: #EB6E00;
-}
-
-.moodie .blacklink a {
-  color: black;
 }
 
 header {
@@ -608,22 +614,14 @@ h5 {
   line-height: 1.4em;
 }
 
+h6 {
+  text-align: center;
+}
+
 .roles p {
   font-size: 14px;
   margin-bottom: 3em;
   word-spacing: 1px;
-}
-
-.spaceuptop {
-  margin-top: 10em;
-}
-
-.smallspaceuptop {
-  margin-top: 2em;
-}
-
-.mediumspaceuptop {
-  margin-top: 4em;
 }
 
 .grey {
@@ -671,57 +669,16 @@ h5 {
  box-shadow: 0 6px 6px 0 #000000;
  transform: scale(1.05);
 }
-
-/* .button2 {
-  background-color: #548BA1;
-  display: block;
-  margin-top: 2em;
-  padding: 1em;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.1s ease-in-out;
-}
-
-.button3 {
-  background-color: #548BA1;
-  display: block;
-  margin-top: 2em;
-  padding: 1em;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.1s ease-in-out;
-}
-
-.button4 {
-  background-color: #393939;
-  display: block;
-  margin-top: 2em;
-  padding: 1em;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.1s ease-in-out;
-}
-
-.button5 {
-  background-color: #FF9100;
-  display: block;
-  margin-top: 2em;
-  padding: 1em;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.1s ease-in-out;
-} */
-
-
 /* HOME PAGE */
 .intro {
-    font-size: 1em;
-    grid-column: 2 / 12;
-    line-height: 27px;
+    font-size: 16px;
+    font-weight: 300;
+    grid-column: 4 / 10;
+    letter-spacing: .6px;
+    line-height: 40px;
     margin-bottom: 6em;
     margin-top: 4em;
     text-align: center;
-    word-spacing: 1.3px;
 }
 
 .project {
@@ -734,34 +691,46 @@ h5 {
    transform: scale(1.1);
    transition: all 0.1s ease-in-out;
 }
-
-/* .project h2 {
-    color: #214753;
-    font-weight: 500;
-    font-size: 2em;
-    margin-bottom: -.2em;
-} */
-
 /* BIOGRAPHY */
-.biography {
+.biography span {
+  font-family: 'playfair display', serif;
+  font-size: 1.8em;
+  letter-spacing: 1.9px;
+  line-height: 50px;
+  word-spacing: 1.5px;
+}
+
+.smalltext span {
+  font-size: 10px;
+  letter-spacing: .1px;
+}
+
+.smalltext a {
+  margin-left: auto;
+  margin-right auto;
+}
+
+.bio h3 {
+  text-align: center;
+}
+
+.inspiration {
   display: flex;
-  grid-column: 2 / 12;
-  margin-top: 4em;
+  justify-content: space-around;
 }
 
-.bioinfo {
-  margin-bottom: auto;
-  margin-top: auto;
+.inspiration article {
+  width: 450px;
 }
 
-.bioinfo h4 {
-  color: inherit;
-  font-size: 1.4em;
-  margin-bottom: .5em;
+.inspiration div {
+  margin-top: -50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.bioinfo span {
-  font-size: .5em;
+.inspiration h3 {
+  text-align: center;
 }
 
 .enjoy {
@@ -782,7 +751,7 @@ h5 {
 .projectnavigation {
   border-top: 1px solid;
   border-bottom: 1px solid;
-  font-family: 'open sans', sans-serif;
+  font-family: 'playfair display', sans-serif;
   font-size: 14px;
   font-weight: 300;
   position: sticky;
@@ -811,6 +780,30 @@ h3::before {
   pointer-events: none;
 }
 
+.bio .projectnavigation {
+  border: 1px solid;
+  font-family: 'playfair display', sans-serif;
+  font-size: 16px;
+  letter-spacing: .1px;
+  word-spacing: 1.5px;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  z-index: 10;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+
+.bio h3::before {
+  display: block;
+  content: " ";
+  margin-top: -150px;
+  height: 150px;
+  pointer-events: none;
+}
+
 .bold span {
   border-bottom: 10px solid #FDE1A9;
 }
@@ -821,6 +814,14 @@ h3::before {
 
 .moodie .introduction {
   color: white;
+}
+
+.moodie .link a {
+  color: #EB6E00;
+}
+
+.moodie .blacklink a {
+  color: black;
 }
 
 .problem p+h4 {
@@ -848,7 +849,7 @@ h3::before {
 }
 
 .stat {
-  background-color: #E3EAF3;
+  background-color: #FDE1A9;
   display: flex;
   flex-direction: column;
   font-size: 14px;
@@ -874,26 +875,9 @@ h3::before {
   margin-top: 3em;
 }
 
-.image {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2em;
-}
-
-.image img {
-  width: 15%;
-}
-
-.moodie .image img{
-  width: 25%;
-}
-
 .card {
-  font-family: 'roboto slab', serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 16px;
-  /* -webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
-  filter: drop-shadow(5px 5px 5px #e0e0e0); */
   padding-bottom: 2em;
   margin-top: 20px;
 }
@@ -937,9 +921,13 @@ h3::before {
   background-color: white;
   padding-left: 30px;
   padding-right: 30px;
-  margin: 20px;
+  margin: 30px;
   text-align: center;
   word-spacing: .1px;
+}
+
+.userstories .card p {
+  font-style: italic;
 }
 
 .userstories .card h4 {
@@ -954,6 +942,10 @@ h3::before {
 
 .highpriority {
   border-top: 8px solid #45A663;
+}
+
+.highpriority span {
+  text-decoration: line-through red;
 }
 
 .mediumpriority {
@@ -1065,45 +1057,6 @@ ul {
   line-height: 1.3em;
   letter-spacing: .3px;
 }
-
-.contactme {
-  text-align: center;
-}
-
-.contactme h3 {
-  font-family: 'open sans', sans-serif;
-  font-size: 2em;
-  font-weight: 300;
-}
-
-.contactme p+p {
-  margin-top: -1em;
-}
-
-footer {
-  margin-top: 8em;
-}
-
-.footer {
-   display: flex;
-   flex-direction: column;
-   list-style-type: none;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
-   width: 50%;
-}
-
-.footer img {
-  width: 30px;
-}
-
-.copyright {
-  font-size: .6em;
-  margin-top: -40px;
-}
-
-
 /* NAVBAR */
 .ben {
   font-family: 'pt sans', sans-serif;
@@ -1170,7 +1123,6 @@ nav a:hover {
 }
 
 /* CONTACT FORM */
-
 .contactform {
   display: flex;
   grid-column: 2 / 12;
@@ -1190,7 +1142,7 @@ textarea {
 }
 
 .contact .button {
-  background-color: #EB9887;
+  background-color: #F89D70;
   border: none;
   display: block;
   text-align: center;
@@ -1212,6 +1164,47 @@ textarea {
 
 .contactme .button:hover {
   color: inherit;
+}
+
+.contactme {
+  text-align: center;
+}
+
+.contactme h3 {
+  font-family: 'open sans', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.contactme span {
+  font-size: 2.4em;
+}
+
+.contactme p+p {
+  margin-top: -1em;
+}
+
+footer {
+  margin-top: 8em;
+}
+
+.footer {
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 50%;
+}
+
+.footer img {
+  width: 30px;
+}
+
+.copyright {
+  font-size: .6em;
+  margin-top: -40px;
 }
 
 .outsidelink a {
