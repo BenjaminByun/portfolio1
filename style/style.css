@@ -13,10 +13,6 @@
           grid-column: 3/ 11;
         }
 /* HOME PAGE */
-        .ben {
-          font-size: 2em;
-        }
-
         .homepage .links a {
           padding: 15px;
         }
@@ -88,8 +84,9 @@
         }
 /*PROJECT PAGE */
         .projectpage .ben {
-          font-size: 1.4em;
+          font-size: 1.2em;
           margin-left: 20px;
+          letter-spacing: 1px;
         }
 
         .projectpage .links a {
@@ -107,12 +104,6 @@
         .solution {
           flex-direction: column;
           grid-column: 3 / 11;
-        }
-
-        .image img {
-          margin-left: auto;
-          margin-right: auto;
-          width: 100px;
         }
 
         .moodie .survey span {
@@ -280,6 +271,10 @@
           font-size: 1.8em;
         }
 
+        .projectpage .links a {
+          margin-right: 75px;
+        }
+
         .roles div+div {
           margin-top: 60px;
         }
@@ -291,12 +286,6 @@
         .solution {
           grid-column: 4 / 10;
           flex-direction: column;
-        }
-
-        .image img {
-          margin-left: auto;
-          margin-right: auto;
-          width: 125px;
         }
 
         .moodie .survey span {
@@ -464,7 +453,7 @@
         }
 
         .projectpage .links a {
-          margin-right: 75px;
+          margin-right: 100px;
         }
 
         .solution {
@@ -495,12 +484,6 @@
 
         .projectnavigation ul{
           display: flex;
-        }
-
-        .image img {
-          margin-left: auto;
-          margin-right: auto;
-          width: 200px;
         }
 
         .moodie .survey span {
@@ -901,6 +884,9 @@ h3::before {
 
 .image {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .moodie .surveyanalysis span {
@@ -1035,20 +1021,6 @@ h3::before {
   border-top: 8px solid #E2E0E1;
 }
 
-.fullimage {
-  grid-column: 2 / 12;
-  height: auto;
-  margin: 1em;
-}
-
-.mediumimage {
-  grid-column: 2 / 12;
-}
-
-.smallimage {
-  grid-column: 3 / 11;
-}
-
 .flows {
   display: flex;
   justify-content: space-around;
@@ -1169,10 +1141,6 @@ ul {
   grid-column: 2 / 12;
   justify-content: center;
   padding-top: 5px;
-}
-
-.projectpage .links a {
-  padding-left: 10px;
 }
 
 .navbar {
