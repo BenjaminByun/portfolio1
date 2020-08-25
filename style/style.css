@@ -1037,6 +1037,7 @@ h3::before {
 
 .fullimage {
   grid-column: 2 / 12;
+  height: auto;
   margin: 1em;
 }
 
