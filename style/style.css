@@ -58,20 +58,21 @@
         }
 
 /*  BIOGRAPHY */
+        .biography {
+          grid-column: 2 / 12;
+        }
+
+
         .inspiration {
           flex-direction: column;
         }
 
-        .inspiration article {
+        .tidbit {
           margin-left: auto;
           margin-right: auto;
-          width: 20%;
+          margin-top: 50px;
+          width: 60%;
         }
-
-        .instructions {
-          display: none;
-        }
-
 /* CONTACT FORM */
         .contactform {
           flex-direction: column;
@@ -241,18 +242,22 @@
           margin-top: 2em;
       }
 /* BIOGRAPHY  */
+      .biography {
+        grid-column: 4 / 10;
+      }
+
+
       .inspiration {
         flex-direction: column;
       }
 
-      .inspiration article {
+      .tidbit {
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-      }
-
-      .instructions {
-        display: none;
+        margin-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
       }
 /* CONTACT FORM */
       .contactform {
@@ -404,6 +409,18 @@
         justify-content: center;
       }
 /* BIOGRAPHY  */
+        .biography {
+          grid-column: 4 / 10;
+        }
+
+        .tidbit {
+          width: 325px;
+        }
+
+        .tidbit p {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
 
 /* CONTACT FORM */
         .contactform {
@@ -533,9 +550,9 @@ body {
   color: #222222;
   font-family: 'open sans', sans-serif;
   font-weight: 300;
-  letter-spacing: 1px;
-  line-height: 34px;
-  font-size: 17px;
+  letter-spacing: .5px;
+  line-height: 35px;
+  font-size: 18px;
   word-spacing: .1px;
 }
 
@@ -681,6 +698,7 @@ h6 {
 }
 
 .button:hover {
+  background-color: #EB9887;
  box-shadow: 0 6px 6px 0 #000000;
  transform: scale(1.05);
 }
@@ -708,66 +726,64 @@ h6 {
    transition: all 0.1s ease-in-out;
 }
 /* BIOGRAPHY */
-.biography span {
-  font-family: 'playfair display', serif;
+.biography {
+  font-size: 24px;
+  letter-spacing: 1.8px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.biography span:first-of-type {
+  color: #585155;
+  font-size: 1.7em;
+  font-weight: 900;
+}
+
+.biography span:first-of-type:hover {
+  color: #F89D70;
+  transition: all .1s ease-in-out;
+}
+
+.biography a:nth-child(1n+2) {
+  color: #585155;
+  font-family: 'kalam', cursive;
+  font-weight: 700;
   font-size: 1.8em;
-  letter-spacing: 1.9px;
-  line-height: 50px;
-  word-spacing: 1.5px;
+}
+
+.biography a:nth-child(1n+2):hover {
+  color: #F89D70;
+  transition: all .1s ease-in-out;
 }
 
 .smalltext span {
   font-size: 8px;
-  letter-spacing: .1px;
 }
 
-.smalltext a {
-  margin-left: auto;
-  margin-right auto;
+#soft {
+  margin-top: 8em;
 }
 
 .bio h3 {
-  text-align: center;
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 0px;
 }
 
 .inspiration {
   display: flex;
-  font-size: 14px;
+  grid-column: 1 / -1;
   justify-content: space-around;
-  letter-spacing: .1px;
-  line-height: 23px;
-  text-align: center;
-  word-spacing: 2px;
-}
-
-.inspiration article {
-  width: 375px;
 }
 
 .inspiration div {
-  margin-top: -30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 14px;
 }
 
-.inspiration h3 {
-  text-align: center;
+.inspiration p {
+  line-height: 32px;
 }
-
-.enjoy {
-  margin-top: 4em;
-}
-
-.enjoy li {
-  list-style-type: disc;
-  margin-bottom: .3em;
-  margin-left: 1em;
-}
-
-.enjoy a {
-  margin-bottom: 0em;
-}
-
 /* PROJECT PAGE */
 .projectnavigation {
   border-top: 1px solid;
@@ -816,17 +832,8 @@ h3::before {
   width: 50%;
 }
 
-
-.bio h3::before {
-  display: block;
-  content: " ";
-  margin-top: -150px;
-  height: 150px;
-  pointer-events: none;
-}
-
 .bold span {
-  border-bottom: 10px solid #FDE1A9;
+  border-bottom: 5px solid #FDE1A9;
 }
 
 .moodie {
@@ -1185,12 +1192,15 @@ textarea {
 }
 
 .contact .button {
-  background-color: #F89D70;
-  border: none;
+  background-color: white;
   display: block;
   text-align: center;
   text-decoration: none;
   transition: all 0.1s ease-in-out;
+}
+
+.contact .button:hover {
+  background-color: #EB9887;
 }
 
 .contactform h2 {
