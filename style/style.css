@@ -62,7 +62,6 @@
           grid-column: 2 / 12;
         }
 
-
         .inspiration {
           flex-direction: column;
         }
@@ -245,7 +244,6 @@
       .biography {
         grid-column: 4 / 10;
       }
-
 
       .inspiration {
         flex-direction: column;
@@ -699,8 +697,8 @@ h6 {
 
 .button:hover {
   background-color: #EB9887;
- box-shadow: 0 6px 6px 0 #000000;
- transform: scale(1.03);
+  box-shadow: 0 6px 6px 0 #000000;
+  transform: scale(1.03);
 }
 
 /* HOME PAGE */
@@ -758,6 +756,18 @@ h6 {
 
 .smalltext span {
   font-size: 8px;
+}
+
+.biolinks {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 / 12;
+  text-align: center;
+}
+
+.biolinks a:hover {
+  color: #EB9887;
+  transition: all 0.1s ease-in-out;
 }
 
 #soft {
