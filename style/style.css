@@ -1,4 +1,4 @@
-      @media (min-width: 300px) and (max-width: 719px) {
+      @media (min-width: 320px) and (max-width: 719px) {
         .container {
           max-width: 100%;
           margin-left: auto;
@@ -106,10 +106,6 @@
           grid-column: 3 / 11;
         }
 
-        .image {
-          width: 80%;
-        }
-
         .moodie .survey span {
           font-size: 2.2em;
           margin-right: 1em;
@@ -151,7 +147,11 @@
           padding-bottom: 1em;
         }
 
-        .userflow {
+        .fullimage {
+          grid-column: 1 / -1;
+        }
+
+        .mediumimage {
           grid-column: 1 / -1;
         }
 
@@ -333,10 +333,14 @@
           padding-bottom: 1em;
         }
 
-        .userflow {
+        .fullimage {
           grid-column: 2 / 12;
           margin-left: auto;
           margin-right: auto;
+        }
+
+        .mediumimage {
+          grid-column: 2 / 12;
         }
 
         .flows img {
@@ -534,10 +538,14 @@
           padding-right: 100px;
         }
 
-        .userflow {
+        .fullimage {
           grid-column: 2 / 12;
           margin-left: auto;
           margin-right: auto;
+        }
+
+        .mediumimage {
+          grid-column: 3 / 11;
         }
 
         .flows img {
@@ -884,8 +892,7 @@ h3::before {
 
 .image {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .moodie .surveyanalysis span {
