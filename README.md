@@ -117,3 +117,13 @@ Color https://user-images.githubusercontent.com/52806406/89820048-5df21400-db1a-
 ![Christina(1)](https://user-images.githubusercontent.com/52806406/91072784-010d5800-e608-11ea-8da4-afb1a7bd1b13.png)
 
 ![bardia-hashemirad-3P7jxpEgkC4-unsplash(1)(1) 1(1)](https://user-images.githubusercontent.com/52806406/91073520-2d75a400-e609-11ea-9701-7cfd5a5da893.png)
+
+
+![Dropbox(1)](https://user-images.githubusercontent.com/52806406/91090566-4d19c600-e623-11ea-8f62-95372075f387.png)
+
+![Notion](https://user-images.githubusercontent.com/52806406/91091009-f52f8f00-e623-11ea-9823-9ddfab24ac52.png
+
+![Google](https://user-images.githubusercontent.com/52806406/91091568-c6fe7f00-e624-11ea-8cdb-3bf01270f443.png)
+)
+![SuperBen(1)](https://user-images.githubusercontent.com/52806406/91112626-9c76eb00-e651-11ea-9b74-7b03bab0832e.png)
+)

@@ -20,7 +20,8 @@
 	<script src="js/scrollmagic/uncompressed/ScrollMagic.js">
 	</script><!-- Global site tag (gtag.js) - Google Analytics -->
 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169461298-1">
+	<script>
+				async src="https://www.googletagmanager.com/gtag/js?id=UA-169461298-1"
 	      AOS.init();
 	</script>
 	<script>
@@ -33,9 +34,9 @@
 </head>
 <body>
 	<nav class="projectpage navbar fixed">
-			<article class="ben">
+			<div class="ben">
 				<a href="index.html">BEN BYUN</a>
-			</article>
+			</div>
 			<ul class="links">
 				<li>
 					<a href="bio.html">About</a>
@@ -51,8 +52,8 @@
 	<header class="blue paddingbelow" id="summary">
 			<img alt="Enbox hero image" src="https://user-images.githubusercontent.com/52806406/88486917-25194300-cf4f-11ea-829e-9a1e745e0d63.png">
 	</header>
-	<section class="container introduction">
-		<article class="paragraph">
+	<div class="container introduction">
+		<section class="paragraph">
 			<h1>ENBOX</h1>
 			<p>In an increasingly digital world, pen and paper are still king to the educators, tutors, and students who teach and study English. Enbox is looking to transport the industry into the 21st century and beyond.</p>
 			<div class="outsidelink smallspaceuptop">
@@ -77,8 +78,8 @@
 					<p>High-fidelity Mockups</p>
 				</section>
 			</div>
-		</article>
-	</section>
+		</section>
+	</div>
 	<nav class="projectnavigation mediumspaceuptop anchor" id="myTopNav">
 			<ul>
 				<li>
@@ -106,20 +107,20 @@
 			<section class="paragraph mediumspaceuptop">
 				<h3>Problem</h3>
 				<p>The problem is three-fold</p>
-				<p><span>First</span>, ESL instructors continue to use mostly paper.</p>
-				<p><span>Second</span>, most cloud-storage services also lack an effective filing system.</p>
+				<p><span>First</span>, ESL instructors continue to use mostly paper. This is unsustainable.</p>
+				<p><span>Second</span>, most cloud-storage services also lack an effective organizational system for teachers.</p>
 				<p><span>Finally</span>, most ESL products are aimed towards children.</p>
 				<div class="spaceuptop" data-aos="fade-up">
 					<h3>Solution</h3>
 				</div><img alt="Enbox desktop/laptop mockup" src="https://user-images.githubusercontent.com/52806406/90965898-6fcca300-e49a-11ea-90a9-88f26f987ade.png">
 				<h4>A clean, minimal dashboard</h4>
-				<p>A schedule and to-do list are featured front-and-center.</p>
+				<p>Sleek and professional, Enbox's dashboard features a schedule and to-do list front-and-center.</p>
 				<h4>Digitized test</h4>
-				<p>All assessments are made in Enbox and sent directly to students.</p>
+				<p>All tests, including essays, can be made in Enbox and sent directly to students.</p>
 				<h4>Student learning objectives</h4>
-				<p>A list of level-specific skills guide both teacher and student.</p>
+				<p>A list of level-specific skills guides students to improve and informs teachers for their lesson plans.</p>
 				<h4>Automated assessments</h4>
-				<p>Grades are automated, analyzed, and recorded. No red pen necessary.</p>
+				<p>Grades are automated, analyzed, and recorded for both teachers and students. No red pen necessary.</p>
 			</section>
 		</div>
 	</div>
@@ -191,11 +192,11 @@
 				<p><span>MEGAN</span></p>
 				<p>English Teacher</p>
 				<p>34</p>
-				<section class="personainfo">
+				<div class="personainfo">
 					<span>GOALS</span><p>Be more digitally organized with her documents</p>
 					<span>FRUSTRATIONS</span><p>Losing track of files and recreating the same documents again</p>
 					<span>MOTIVATIONS</span><p>Megan is the most organized teacher in her school. She has binders of lesson plans and activites that she's collected over the years. The main reason she hasn't switched to digital is that she can't stand the disorganization of her current digital system, so she sticks to paper for now.</p>
-				</section>
+				</div>
 				<div class="quote">
 					<p>I would switch to 100% digital tomorrow, but paper is so much easier for prep work, organization, and grading.</p>
 				</div>
@@ -205,13 +206,13 @@
 				<span>NICHOLAS</span>
 				<p>English Teacher</p>
 				<p>27</p>
-				<section class="personainfo">
+				<div class="personainfo">
 					<span>GOALS</span><p>Improve his teaching, have more time to focus on students</p>
 					<span>FRUSTRATIONS</span><p>Rushing through corrections, difficulty finding specific files</p>
 					<span>MOTIVATIONS</span><p>Nicholas is an excellent teacher. He cares deeply about his job and his students, even the slack-jawed yokels. He wants to have more time and focus for individual students, but with the surfeit of lesson plans, activities, corrections, and assessments on his plate, he has little time for this.</p>
-				</section>
+				</div>
 				<div class="quote">
-					<p>If I had a better system, I feel like I'd have more time for my students.</p>
+					<p>If I had a better system, I would have more time to teach my students gerunds verus infinitives.</p>
 				</div>
 			</article>
 		</div>
@@ -221,12 +222,12 @@
 			<h3 id="informationarchitecture"><i class="fa fa-cogs"></i> Information architecture</h3>
 			<h5>User stories</h5>
 			<p>As I prioritized the navigational and actionable elements of my product, the classroom was always front and center.</p>
-			<p>During initial wireframe testing, over 60% of teachers searched for files by documents, not by class. I realized that the item <span>"I want to create a classroom" wasn't a conclusion reached from my data, but rather, an assumption I had made about the needs of teachers.</span></p>
+			<p>During initial wireframe testing, more than half the teachers mentioned wanting quicker access to their files. I realized that the item <span>"I want to create a classroom" wasn't a conclusion reached from my data, but rather an assumption I had made about the needs of teachers.</span></p>
 			<p>I revisited my userstories and made the simple yet necessary adjustments.</p>
 		</section>
 	</div>
 		<div class="lightblue smallspaceuptop">
-			<article class="userstories" data-aos="slide-up">
+			<div class="userstories" data-aos="slide-up">
 				<section class="card highpriority">
 					<h4>HIGH PRIORITY</h4>
 					<p><span>I want to create classrooms</span></p>
@@ -247,15 +248,17 @@
 					<p>I want to share files with others</p>
 					<p>I want others to share files with me</p>
 				</section>
-			</article>
+			</div>
 		</div>
 	<div class="container mediumspaceuptop">
 		<section class="paragraph bold">
 			<h5>USER FLOWS</h5>
 			<p>My initial user flows also reflected a classroom-centric setup.</p>
-			<figure class="userflow"><img alt="Enbox userflows" src="https://user-images.githubusercontent.com/52806406/90970667-e33fd600-e4d5-11ea-87cd-5acf78b12a25.png"></figure>
-			<p>All roads went through the classroom. This also proved to be a simple fix... I eliminated classrooms altogether.</p>
 		</section>
+			<figure class="userflow"><img alt="Enbox userflows" src="https://user-images.githubusercontent.com/52806406/90970667-e33fd600-e4d5-11ea-87cd-5acf78b12a25.png"></figure>
+			<div class="paragraph">
+			<p>All roads went through the classroom. This also proved to be a simple fix... I eliminated classrooms altogether.</p>
+		</div>
 	</div>
 	<div class="container spaceuptop">
 		<section class="paragraph outsidelink">
@@ -265,7 +268,7 @@
 	</div>
 		<div class="grey mediumspaceuptop">
 			<div class="container">
-				<figure class="userflow mediumspaceuptop" data-aos="slide-up"><img alt="Enbox dashboard wireframe" src="https://user-images.githubusercontent.com/52806406/91042322-8defeb80-e5df-11ea-88bc-768ca90d6413.png"></figure>
+				<figure class="fullimage" data-aos="slide-up"><img alt="Enbox dashboard wireframe" src="https://user-images.githubusercontent.com/52806406/91042322-8defeb80-e5df-11ea-88bc-768ca90d6413.png"></figure>
 			</div>
 		</div>
 	<div class="container mediumspaceuptop">
@@ -289,7 +292,7 @@
 			</div>
 		</div>
 	<div class="container">
-		<section class="paragraph">
+		<section class="paragraph outsidelink">
 			<h3 id="testing" class="spaceuptop"><i class="fa fa-flask"></i> Testing</h3>
 			<p>The high-fidelity mockups went through several rounds of clickable prototypes and preference tests. The most prominent issue emerged when users were tasked with making a test.</p><a href="https://benjaminbyun881231.invisionapp.com/public/share/Q715K940W4#screens/477318525" target="blank">Click here for prototype <i class="fa fa-external-link"></i></a>
 			<figure class="smallspaceuptop"><img alt="Enbox test navigation" src="https://user-images.githubusercontent.com/52806406/90971275-74b24680-e4dc-11ea-990b-32d32a0264d9.png"></figure>
@@ -299,13 +302,13 @@
 		</section>
 	</div>
 	<div class="container spaceuptop outsidelink">
-		<section class="paragraph"
+		<section class="paragraph">
 				<h3 id="visualdesign"><i class="fa fa-eye"></i> Visual design</h3>
 				<h5>STYLE GUIDE</h5>
 				<p>Enbox is essentially a filing system for instructors. I wanted to strike a balance between the professionalism of adult education with the youthfulness of a classroom.</p>
 				<p>We created a moodboard that would not only reflect a product that is neat and organized, but one that displays a brightness and levity that would light up even the dullest classroom.</p><a href="https://www.figma.com/file/qloSeWg2Qjk1scuuDEsSMA/enbox-style-guide?node-id=0%3A1" target="blank">Click here for style guide <i class="fa fa-external-link"></i></a>
 				<figure class="mediumspaceuptop"><img alt="Enbox mood board" src="https://user-images.githubusercontent.com/52806406/85956559-7afcca00-b954-11ea-9d36-4b2855cd965e.png"></figure>
-		</section>
+			</section>
 			<section class="paragraph mediumspaceuptop">
 				<h5>COLOR</h5>
 				<p>Enbox is not catered towards those who educate the young, but for those who work with adults. The brand aims to reflect the vivacity and energy that comes from being in a classroom.</p>
@@ -344,19 +347,16 @@
 						#4214C6
 					</div>
 				</div>
-				<div class="mediumspaceuptop">
 			</section>
-			<section class="paragraph">
+			<section class="paragraph mediumspaceuptop">
 				<h5>LOGO</h5>
 				<p>After some preliminary sketches, I was most drawn to the stack of three boxes. There were several components that aligned with the feel of Enbox.</p>
 				<p>This product promises to keep all of a teacher’s curriculum, lesson plans, quizzes, and grades in neat and pristine order, as if the virtual papers are filed away in its correct corresponding color-coded binder. The logo is representative of these binders.</p>
 			</section>
-	</div>
-		<div class="grey mediumspaceuptop">
-			<div class="container">
-				<div class="paragraph">
-					<figure class="mediumpic"><img alt="Enbox logo evolution" data-aos="slide-up" src="https://user-images.githubusercontent.com/52806406/91051166-b8e13c00-e5ed-11ea-94bb-79cc6a5c98d5.png"></figure>
-				</div>
+		</div>
+			<div class="grey mediumspaceuptop">
+				<div class="container">
+					<figure class="userflow"><img alt="Enbox logo evolution" data-aos="slide-up" src="https://user-images.githubusercontent.com/52806406/91051166-b8e13c00-e5ed-11ea-94bb-79cc6a5c98d5.png"></figure>
 			</div>
 		</div>
 	<div class="container mediumspaceuptop">
@@ -374,7 +374,7 @@
 					<p>The first element I tested was the to-do list. I had initially envisioned that icons would represent the task that needed doing, e.g. exclamation point = high-priority item.</p>
 					<figure class="userflow"><img alt="Preference testing for tasks" src="https://user-images.githubusercontent.com/52806406/90970991-72022200-e4d9-11ea-9927-09cd9839dfbf.png"></figure>
 				</section>
-				<p><span>B was the unanimous winner</span>. The icons in A were not straight-forward, and organizing by tasks was more appealing than having various tasks listed together.</p>
+				<p><span>B was the unanimous winner</span>. The icons were more straight-forward, and organizing by tasks was much more practical than having disparate tasks listed together.</p>
 				<section class="paragraph mediumspaceuptop">
 					<h4>Test #2</h4>
 					<p>The next test was about differentiating between levels.</p>
