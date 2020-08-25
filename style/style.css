@@ -700,7 +700,7 @@ h6 {
 .button:hover {
   background-color: #EB9887;
  box-shadow: 0 6px 6px 0 #000000;
- transform: scale(1.05);
+ transform: scale(1.03);
 }
 
 /* HOME PAGE */
@@ -779,6 +779,7 @@ h6 {
 
 .inspiration div {
   font-size: 14px;
+  margin-top: -30px;
 }
 
 .inspiration p {
@@ -906,7 +907,7 @@ h3::before {
   padding-top: 60px;
 }
 
-h6 {
+.stats h6 {
   font-size: 2em;
   margin-bottom: 15px;
   margin-top: 20px;
