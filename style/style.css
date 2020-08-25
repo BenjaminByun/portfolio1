@@ -892,6 +892,7 @@ h3::before {
 
 .image {
   display: flex;
+  height: auto;
   margin: auto;
 }
 
