@@ -71,6 +71,8 @@
         .contactform {
           flex-direction: column;
           text-align: center;
+          margin-left: 25px;
+          margin-right: 25px;
         }
 
         .contactform .paragraph {
@@ -1223,6 +1225,8 @@ textarea {
 
 .contactform h2 {
   font-size: 1.8em;
+  letter-spacing: 2.5px;
+  line-height: 50px;
   margin-top: auto;
 }
 
