@@ -420,6 +420,18 @@
           grid-column: 4 / 10;
         }
 
+        .biolinks:first-of-type {
+          grid-column: 2;
+          grid-row: 3;
+          margin-top: 200px;
+        }
+
+        .biolinks {
+          grid-column: 2;
+          grid-row: 1;
+          margin-top: 125px;
+        }
+
         .tidbit {
           width: 325px;
         }
@@ -775,7 +787,6 @@ h6 {
 .biolinks {
   display: flex;
   flex-direction: column;
-  grid-column: 2 / 12;
   text-align: center;
 }
 
@@ -1006,7 +1017,7 @@ h3::before {
 .userstories .card h4 {
   color: inherit;
   font-size: 1em;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .userstories .card p+p {
