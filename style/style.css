@@ -85,12 +85,12 @@
 /*PROJECT PAGE */
         .projectpage .ben {
           font-size: 1.2em;
-          margin-left: 20px;
+          margin-left: 10px;
           letter-spacing: 1px;
         }
 
         .projectpage .links a {
-          margin-right: 20px;
+          margin-right: 10px;
         }
 
         .roles div+div {
@@ -894,6 +894,7 @@ h3::before {
   display: flex;
   height: auto;
   margin: auto;
+  object-fit: cover;
 }
 
 .moodie .surveyanalysis span {
