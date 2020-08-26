@@ -31,21 +31,16 @@
 	</script>
 </head>
 <body class="moodie">
-	<nav class="projectpage navbar fixed">
+	<nav class="projectpage navbar fixed" id="myTopNav">
 		<div class="ben">
 				<a href="index.html">BEN BYUN</a>
 			</div>
-		<ul class="links">
-				<li>
-					<a href="bio.html">About</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-				<li>
-					<a href="https://drive.google.com/file/d/1SNQbE_QXkcuqscXxNN4DW27Wk682tMAx/view?usp=sharing" target="blank">Resume</a>
-				</li>
-			</ul>
+		<div class="links">
+				<a href="bio.html">About</a>
+				<a href="contact.html">Contact</a>
+				<a href="https://drive.google.com/file/d/1SNQbE_QXkcuqscXxNN4DW27Wk682tMAx/view?usp=sharing" target="blank">Resume</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>
 	</nav>
 	<header class="heroimage" id="summary">
 		<img alt="Moodie hero image" src="https://user-images.githubusercontent.com/52806406/90567928-eefb6780-e178-11ea-9de9-1e40c45fe519.png">
@@ -154,7 +149,7 @@
 	<div class="container mediumspaceuptop">
 		<section class="paragraph bold">
 			<h6>YUMMLY</h6>
-			<div class="image"><img alt="Yummly onboarding" src="https://user-images.githubusercontent.com/52806406/91067943-8b9e8900-e601-11ea-9e19-170474912eda.png"> <img alt="Yummly dashboard" src="https://user-images.githubusercontent.com/52806406/91069371-5004be80-e603-11ea-9d6a-64a9b3f46954.png"> <img alt="Yummly recipe" src="https://user-images.githubusercontent.com/52806406/91068195-e801a880-e601-11ea-95b7-4017cf720ada.png"></div>
+			<img alt="Yummly onboarding" src="https://user-images.githubusercontent.com/52806406/91067943-8b9e8900-e601-11ea-9e19-170474912eda.png"> <img alt="Yummly dashboard" src="https://user-images.githubusercontent.com/52806406/91069371-5004be80-e603-11ea-9d6a-64a9b3f46954.png"> <img alt="Yummly recipe" src="https://user-images.githubusercontent.com/52806406/91068195-e801a880-e601-11ea-95b7-4017cf720ada.png">
 			<p><span>STRENGTHS</span>: Thousands of recipes, beautiful pictures, smooth onboarding, customizable</p>
 			<p><span>WEAKNESSES</span>: Overwhelming, bloated, claustrophobic, paralysis of choice</p>
 			<p><span>OPPORTUNITIES</span>: Incorporating an ingredient input would enhance user's selection</p>
@@ -162,7 +157,7 @@
 			<div class="mediumspaceuptop">
 				<h6>RECIPE KEEPER</h6>
 			</div>
-			<div class="image"><img alt="Recipekeeper onboarding" src="https://user-images.githubusercontent.com/52806406/91068486-5ba3b580-e602-11ea-947a-466793ee3dea.png"><img alt="Recipekeeper dashboard" src="https://user-images.githubusercontent.com/52806406/91068632-93126200-e602-11ea-8662-6df07c20130f.png"><img alt="Recipekeeper meal planner" src="https://user-images.githubusercontent.com/52806406/91068840-d53ba380-e602-11ea-8058-d348533df82c.png"></div>
+			<img alt="Recipekeeper onboarding" src="https://user-images.githubusercontent.com/52806406/91068486-5ba3b580-e602-11ea-947a-466793ee3dea.png"><img alt="Recipekeeper dashboard" src="https://user-images.githubusercontent.com/52806406/91068632-93126200-e602-11ea-8662-6df07c20130f.png"><img alt="Recipekeeper meal planner" src="https://user-images.githubusercontent.com/52806406/91068840-d53ba380-e602-11ea-8058-d348533df82c.png">
 			<p><span>STRENGTHS</span>: Ease of inputting recipes, clean UI, intuitive, useful meal-planning function</p>
 			<p><span>WEAKNESSES</span>: Basic UI, limited functionality</p>
 			<p><span>OPPORTUNITIES</span>: Automatic scheduling of meals might be a useful feature</p>
@@ -170,7 +165,7 @@
 			<div class="mediumspaceuptop">
 				<h6>EPICURIOUS</h6>
 			</div>
-			<div class="image"><img alt="Epicurious dashboard" src="https://user-images.githubusercontent.com/52806406/91069718-c1447180-e603-11ea-88ad-51855ffec56b.png"> <img alt="Epicurious recipe" src="https://user-images.githubusercontent.com/52806406/91069888-f4870080-e603-11ea-81c5-0c12717b365f.png"> <img alt="Epicurious search" src="https://user-images.githubusercontent.com/52806406/91070076-42036d80-e604-11ea-9d6b-57630b86a06a.png"></div>
+			<img alt="Epicurious dashboard" src="https://user-images.githubusercontent.com/52806406/91069718-c1447180-e603-11ea-88ad-51855ffec56b.png"> <img alt="Epicurious recipe" src="https://user-images.githubusercontent.com/52806406/91069888-f4870080-e603-11ea-81c5-0c12717b365f.png"> <img alt="Epicurious search" src="https://user-images.githubusercontent.com/52806406/91070076-42036d80-e604-11ea-9d6b-57630b86a06a.png">
 			<p><span>STRENGTHS</span>: Thousands of recipes, easy to read, known brand</p>
 			<p><span>WEAKNESSES</span>: Fewer instances of personal customization, too many ads, recipes with zero ratings</p>
 			<p><span>OPPORTUNITIES</span>: A quality control of recipes would elevate user confidence</p>
@@ -402,10 +397,8 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://unpkg.com/aos@next/dist/aos.js">
-	</script>
-	<script>
-	   AOS.init();
-	</script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="scripts/script.js"></script>
+	<script>AOS.init();</script>
 </body>
 </html>

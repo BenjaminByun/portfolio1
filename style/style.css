@@ -6,36 +6,34 @@
         }
 
         header img {
-          grid-column: 3 / 11;
+          grid-column: 2 / 12;
         }
 
         .paragraph {
-          grid-column: 3/ 11;
+          grid-column: 2/ 12;
         }
 /* HOME PAGE */
         .homepage .links a {
           padding: 15px;
         }
 
-        .links a {
-          font-size: .8em;
-        }
-
         .project {
           flex-direction: column;
-          padding-left: 2em;
-          padding-right: 2em;
+          padding-left: 20px;
+          padding-right: 20px;
           text-align: center;
         }
 
+        .intro {
+          grid-column: 2 / 12;
+        }
+
         .intro p {
-          font-size: 16px;
-          margin-left: 5%;
-          margin-right: 5%;
+          font-size: 20px;
         }
 
         .intro p + p {
-          margin-top: 2em;
+          margin-top: 40px;
         }
 
         .description p {
@@ -86,13 +84,39 @@
         }
 /*PROJECT PAGE */
         .projectpage .ben {
-          font-size: 1.2em;
-          margin-left: 10px;
-          letter-spacing: 1px;
+          font-size: 1.4em;
+          margin-left: auto;
+          margin-right: auto;
         }
 
-        .projectpage .links a {
-          margin-right: 10px;
+        .navbar .links a {
+          display: none;
+        }
+
+        .navbar a.icon {
+          display: block;
+          font-size: 30px;
+          margin-right: 25px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+}
+
+@media (min-width: 320px) and (max-width: 719px) {
+        .navbar.responsive {
+          position: relative;
+        }
+
+        .navbar.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+
+        .navbar.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
         }
 
         .roles div+div {
@@ -199,6 +223,10 @@
         padding: 20px;
       }
 
+      .intro {
+        grid-column: 3 / 11;
+      }
+
       .projectpage .ben {
         margin-left: 75px;
       }
@@ -275,6 +303,7 @@
 
         .projectpage .links a {
           margin-right: 75px;
+          margin-top: 15px;
         }
 
         .roles div+div {
@@ -391,6 +420,10 @@
         padding: 20px;
       }
 
+      .intro {
+        grid-column: 5 / 9;
+      }
+
       .intro p {
         font-size: 18px;
       }
@@ -472,6 +505,7 @@
 
         .projectpage .links a {
           margin-right: 100px;
+          margin-top: 15px;
         }
 
         .solution {
@@ -733,7 +767,6 @@ h6 {
 .intro {
     font-size: 16px;
     font-weight: 300;
-    grid-column: 4 / 10;
     letter-spacing: .6px;
     line-height: 40px;
     margin-bottom: 6em;
@@ -903,12 +936,12 @@ h3::before {
   margin-bottom: -10px;
 }
 
-.image {
+/* .image {
   display: flex;
   height: auto;
   margin: auto;
   object-fit: cover;
-}
+} */
 
 .moodie .surveyanalysis span {
   font-style: italic;
@@ -1146,8 +1179,13 @@ ul {
 
 .projectpage .ben {
   letter-spacing: 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   word-spacing: 5px;
-  padding-top: 20px;
+}
+
+.navbar .icon {
+  display: none;
 }
 
 .projectpage ul {
@@ -1230,6 +1268,10 @@ textarea {
   margin-top: auto;
 }
 
+.contactme {
+  text-align: center;
+}
+
 .contactme .button {
   margin-right: auto;
   margin-left: auto;
@@ -1237,30 +1279,19 @@ textarea {
   width: 250px;
 }
 
-.contactme .button:hover {
-  color: inherit;
-}
-
-.contactme {
-  text-align: center;
-}
-
-.contactme h3 {
-  font-family: 'open sans', sans-serif;
-  font-size: 2em;
-  font-weight: 300;
-}
-
 .contactme span {
   font-size: 2.4em;
+  letter-spacing: 2px;
+  line-height: 70px;
 }
 
-.contactme p+p {
-  margin-top: -1em;
+.contactme p {
+  letter-spacing: .5px;
+  line-height: 28px;
 }
 
 footer {
-  margin-top: 8em;
+  margin-top: 150px;
 }
 
 .footer {
