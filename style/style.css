@@ -130,10 +130,6 @@
           grid-column: 3 / 11;
         }
 
-        /* .image {
-          max-height: 305px;
-        } */
-
         .moodie .survey span {
           font-size: 2.2em;
           margin-right: 1em;
@@ -946,6 +942,11 @@ h3::before {
 .image {
   display: flex;
   align-self: center;
+}
+
+.image img {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .moodie .surveyanalysis span {
