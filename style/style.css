@@ -130,6 +130,13 @@
           grid-column: 3 / 11;
         }
 
+        .image {
+          display: flex;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
         .moodie .survey span {
           font-size: 2.2em;
           margin-right: 1em;
