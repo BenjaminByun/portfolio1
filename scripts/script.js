@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElementById("myTopNav");
+  var x = document.getElementById("projectNavigation");
   if (x.className === "projectnavigation") {
     x.className += " responsive";
   } else {
@@ -10,9 +10,9 @@ function myFunction() {
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "navbar") {
+  if (x.className === "links") {
     x.className += "responsive";
   } else {
-    x.className = "navbar";
+    x.className = "links";
   }
 }
