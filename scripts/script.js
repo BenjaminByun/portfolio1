@@ -10,9 +10,9 @@ function myFunction() {
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "links") {
+  if (x.className === "topnav") {
     x.className += "responsive";
   } else {
-    x.className = "links";
+    x.className = "topnav";
   }
 }

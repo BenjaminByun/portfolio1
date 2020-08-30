@@ -13,24 +13,27 @@
           grid-column: 2/ 12;
         }
 /* HOME PAGE */
-        nav {
-          flex-direction: column;
+
+        .topnav ul li {
+          display: none;
         }
 
-        .ben {
+        .topnav a.icon {
+          display: block;
           margin-left: auto;
           margin-right: auto;
         }
 
-        .links li a {
-          margin: 0px;
-        }
+        .topnav.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
 
-        .links {
-          width: 320px;
-          margin-top: 0px;
-          margin-left: auto;
-          margin-right: auto;
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
         }
 
         .project {
@@ -151,8 +154,8 @@
 
         .flows {
           flex-direction: column;
-          margin-left: 25px;
-          margin-right: 25px;
+          margin-left: 40px;
+          margin-right: 40px;
         }
 
         .preferencetesting {
@@ -331,7 +334,7 @@
   .container { */
       @media (min-width: 992px) {
         .container {
-          max-width: 100%;
+          max-width: 1280px;
           margin-left: auto;
           margin-right: auto;
         }
@@ -669,17 +672,46 @@ h6 {
   box-shadow: 0 6px 6px 0 #000000;
   transform: scale(1.03);
 }
+/* NAV BAR */
+nav {
+  display: flex;
+  font-size: 16px;
+  grid-column: 2 / 12;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav a img {
+  height: 25px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  height: 100px;
+  width: 75px;
+}
+
+.menu-icon li {
+  padding: 15px;
+}
+
+.topnav .icon {
+  display: none;
+  font-size: 24px;
+}
 
 /* HOME PAGE */
 .intro {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 300;
+    grid-column: 2 / 12;
     letter-spacing: .6px;
-    line-height: 30px;
+    line-height: 65px;
     margin-bottom: 150px;
     margin-top: 100px;
     max-width: 860px;
-    text-align: center;
 }
 
 .intro p+p {
@@ -1033,57 +1065,19 @@ h3::before {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .container ul {
-  list-style-type: none;
-  line-height: 1.3em;
-  letter-spacing: .3px;
-} */
 /* NAVBAR */
-nav {
-  background: rgba(255,255,255, 0.8);
-  background: white;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-nav ul {
-  align-items: center;
-  display: flex;
-  font-size: 14px;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0px;
-}
-
-.links a {
-  margin-left: 40px;
-}
-
-.ben {
-  width: 250px;
-}
-
-.fixed {
-  position: fixed;
-  margin: 0px;
-  width: 100%;
-  z-index: 10;
-}
-
 
 .projectnavigation {
-  background: #173140;
-  color: white;
   font-family: 'playfair display', sans-serif;
   font-size: 12px;
   font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   position: sticky;
   top: 73px;
+  width: 90%;
   z-index: 10;
   text-transform: uppercase;
 }
