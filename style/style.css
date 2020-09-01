@@ -13,22 +13,24 @@
           grid-column: 2/ 12;
         }
 /* HOME PAGE */
-
-        .topnav ul li {
+        .topnav ul li:not(:first-child) {
           display: none;
         }
 
         .topnav a.icon {
+          float: right;
           display: block;
-          margin-left: auto;
-          margin-right: auto;
         }
 
-        .topnav.responsive a.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-          }
+        .topnav.responsive {
+          position: relative;
+        }
+
+        .topnav.responsive .menu-icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
 
         .topnav.responsive a {
           float: none;
@@ -681,25 +683,69 @@ nav {
   width: 100%;
 }
 
-nav a img {
-  height: 25px;
+.ben img {
+  height: 30px;
+  margin-top: 30px;
 }
 
 .menu-icon {
   display: flex;
-  flex-direction: column;
   list-style-type: none;
-  height: 100px;
-  width: 75px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-icon a {
+  width: 30px;
 }
 
 .menu-icon li {
-  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .topnav .icon {
   display: none;
-  font-size: 24px;
+}
+
+.projectnavigation {
+  font-family: 'playfair display', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  position: sticky;
+  top: 73px;
+  width: 90%;
+  z-index: 10;
+  text-transform: uppercase;
+}
+
+.projectnavigation ul {
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  position: sticky;
+  width: 80%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a:hover {
+  transition: all 0.1s ease-in-out;
+  color: #EB9887;
+}
+
+.active {
+  color: #EB9887;
+  font-weight: 500;
 }
 
 /* HOME PAGE */
@@ -1065,48 +1111,6 @@ h3::before {
   margin-left: auto;
   margin-right: auto;
 }
-/* NAVBAR */
-
-.projectnavigation {
-  font-family: 'playfair display', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 0px;
-  position: sticky;
-  top: 73px;
-  width: 90%;
-  z-index: 10;
-  text-transform: uppercase;
-}
-
-.projectnavigation ul {
-  justify-content: space-between;
-  list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  position: sticky;
-  width: 80%;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-nav a:hover {
-  transition: all 0.1s ease-in-out;
-  color: #EB9887;
-}
-
-.active {
-  color: #EB9887;
-  font-weight: 500;
-}
-
 /* CONTACT FORM */
 .contactform {
   display: flex;
