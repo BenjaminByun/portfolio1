@@ -13,31 +13,6 @@
           grid-column: 2/ 12;
         }
 /* HOME PAGE */
-        .topnav ul li:not(:first-child) {
-          display: none;
-        }
-
-        .topnav a.icon {
-          float: right;
-          display: block;
-        }
-
-        .topnav.responsive {
-          position: relative;
-        }
-
-        .topnav.responsive .menu-icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-
-        .topnav.responsive a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
-
         .project {
           flex-direction: column;
           padding-left: 20px;
@@ -78,8 +53,6 @@
         .contactform {
           flex-direction: column;
           text-align: center;
-          margin-left: 25px;
-          margin-right: 25px;
         }
 
         .contactform .paragraph {
@@ -92,6 +65,18 @@
           padding-right: 2em;
         }
 /*PROJECT PAGE */
+        .projectpage nav {
+          flex-direction: column;
+        }
+
+        .projectpage .fixed {
+          position: absolute;
+        }
+
+        .projectpage header {
+          padding-top: 50px;
+        }
+
         .roles div+div {
           margin-top: 60px;
         }
@@ -247,6 +232,10 @@
         padding-right: 2em;
       }
 /* PROJECT PAGE CODE */
+        .projectpage nav {
+          flex-direction: row;
+        }
+
         .moodie .introduction {
           padding-top: 4em;
         }
@@ -423,6 +412,10 @@
         }
 
 /* PROJECT PAGE */
+        .projectpage nav {
+          flex-direction: row;
+        }
+
         header img {
           grid-column: 3 / 11;
         }
@@ -677,35 +670,50 @@ h6 {
 /* NAV BAR */
 nav {
   display: flex;
+  flex-direction: column;
   font-size: 16px;
   grid-column: 2 / 12;
-  justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
-.ben img {
-  height: 30px;
-  margin-top: 30px;
+.ben {
+  width: 375px;
 }
 
-.menu-icon {
+.menu-items {
   display: flex;
   list-style-type: none;
+  justify-content: space-between;
   margin: 0;
+  margin-top: 50px;
   padding: 0;
+  width: 325px;
 }
 
-.menu-icon a {
-  width: 30px;
+.projectpage nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.menu-icon li {
-  margin-top: 20px;
-  margin-right: 20px;
+.projectpage .ben {
+  margin-left: 50px;
+  width: 250px;
 }
 
-.topnav .icon {
-  display: none;
+.links {
+  display: flex;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+.links a {
+  margin-left: 50px;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 1;
 }
 
 .projectnavigation {
@@ -756,8 +764,11 @@ nav a:hover {
     letter-spacing: .6px;
     line-height: 65px;
     margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
     max-width: 860px;
+    text-align: center;
 }
 
 .intro p+p {
@@ -1114,20 +1125,29 @@ h3::before {
 /* CONTACT FORM */
 .contactform {
   display: flex;
-  grid-column: 2 / 12;
+}
+
+#fs-frm-inputs {
+  border: none;
 }
 
 input {
   width: 100%;
   margin-bottom: 1em;
   height: 3em;
+  padding-left: 10px;
 }
 
 textarea {
   width: 100%;
   height: 9em;
   padding-top: 10px;
-  padding-left: 3px;
+  padding-left: 10px;
+}
+
+.contact {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .contact .button {
