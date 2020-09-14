@@ -194,8 +194,7 @@
         display: flex;
         font-size: 16px;
         flex-direction: column;
-        padding-right: 4em;
-        width: 100%;
+        /* width: 100%; */
         justify-content: center;
       }
 
@@ -348,6 +347,10 @@
 /* HOME PAGE */
       .project {
         text-align: left;
+      }
+
+      .index .project2 {
+        flex-direction: row-reverse;
       }
 
       .project .preview {
@@ -519,6 +522,7 @@
 
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
 body {
+  /* background: #EAE2E5; */
   color: #222222;
   font-family: 'open sans', sans-serif;
   font-weight: 300;
@@ -577,6 +581,10 @@ h1 {
   font-family: 'pt sans', sans-serif;
   font-size: 3em;
   font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 .roles h2 {
@@ -652,6 +660,10 @@ h6 {
   background-color: #E0E0E0;
 }
 
+.other {
+  background-color: #C5C5D7;
+}
+
 .button {
   border: 1px solid;
   display: block;
@@ -663,7 +675,7 @@ h6 {
 }
 
 .button:hover {
-  background-color: #EB9887;
+  /* background-color: #EB9887; */
   box-shadow: 0 6px 6px 0 #000000;
   transform: scale(1.03);
 }
@@ -677,18 +689,15 @@ nav {
   width: 100%;
 }
 
-.ben {
-  width: 375px;
-}
-
 .menu-items {
   display: flex;
+  font-size: 14px;
   list-style-type: none;
   justify-content: space-between;
   margin: 0;
   margin-top: 50px;
   padding: 0;
-  width: 325px;
+  width: 220px;
 }
 
 .projectpage nav {
@@ -698,7 +707,8 @@ nav {
 
 .projectpage .ben {
   margin-left: 50px;
-  width: 250px;
+  margin-top: 10px;
+  width: 200px;
 }
 
 .links {
@@ -722,11 +732,11 @@ nav {
   font-weight: 300;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 5px;
   position: sticky;
   top: 73px;
-  width: 90%;
+  width: 100%;
   z-index: 10;
   text-transform: uppercase;
 }
@@ -752,39 +762,53 @@ nav a:hover {
 }
 
 .active {
-  color: #EB9887;
+  color: #BA3028;
   font-weight: 500;
 }
 
 /* HOME PAGE */
+.index {
+  background-color: #EAE2E5;
+}
+
 .intro {
-    font-size: 24px;
+    font-size: .9em;
     font-weight: 300;
     grid-column: 2 / 12;
     letter-spacing: .6px;
-    line-height: 65px;
+    line-height: 35px;
     margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     max-width: 860px;
-    text-align: center;
 }
 
 .intro p+p {
-  margin-top: 50px;
+  margin-top: 0px;
+}
+
+.intro h1 {
+  color: #451825;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 65px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .project {
-   transform: scale(1.05);
-    display: flex;
-    grid-column: 2 / 12;
+  transform: scale(1.05);
+  display: flex;
+  grid-column: 3 / 11;
+  line-height: 32px;
 }
 
 a img:hover {
    transform: scale(1.05);
    transition: all 0.1s ease-in-out;
 }
+
 /* BIOGRAPHY */
 .biography {
   font-size: 24px;
@@ -1215,8 +1239,9 @@ footer {
 }
 
 .outsidelink a {
+  color: #FF5A5A;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1.3px;
 }
