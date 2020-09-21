@@ -11,6 +11,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<script src="https://use.fontawesome.com/2e49b09df4.js">
 	</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,8 +32,21 @@
 	             gtag('config', 'UA-169461298-1');
 	</script>
 </head>
-<body class="projectpage">
-	<nav class="fixed">
+<body class="projectpage enbox">
+	<div class="container">
+		<nav>
+			<a href="index.html" class="ben"><img src="https://user-images.githubusercontent.com/52806406/93285156-32f68200-f7a2-11ea-8ff9-2d64c882d2c6.png" alt="Ben Byun logo"></a>
+			 <ul class="menu-items">
+				 <li>
+					 <a href="index.html" class="active">WORK</a>
+				 </li>
+				 <li>
+					 <a href="bio.html">ABOUT</a>
+				 </li>
+			 </ul>
+		</nav>
+	</div>
+	<!-- <nav>
 		<div class="ben">
 			<a href="index.html"><img src="https://user-images.githubusercontent.com/52806406/93259083-4a674800-f76d-11ea-9bb4-a2c318d41ca5.png" alt="Ben Byun logo"></a>
 		</div>
@@ -43,44 +61,46 @@
 				<a href="contact.html">CONTACT</a>
 			</li>
 		</ul>
-	</nav>
-	<header class="blue paddingbelow" id="summary">
-			<img alt="Enbox hero image" src="https://user-images.githubusercontent.com/52806406/88486917-25194300-cf4f-11ea-829e-9a1e745e0d63.png">
-	</header>
-	<div class="container introduction">
-		<section class="paragraph">
-			<figure class="logo">
-				<img src="https://user-images.githubusercontent.com/52806406/93145926-93f75a80-f6bb-11ea-8159-76c2585811e2.png" alt="">
-			</figure>
-			<p>In an increasingly digital world, pen and paper are still king to the educators, tutors, and students who teach and study English. Enbox is looking to transport the industry into the 21st century and beyond.</p>
-			<div class="outsidelink smallspaceuptop">
-				<a href="https://benjaminbyun881231.invisionapp.com/public/share/Q715K940W4#screens/477318525" target="blank">Click here for Prototype <i class="fa fa-external-link"></i></a>
-			</div>
-			<div class="roles mediumspaceuptop">
-				<section>
-					<h2>Roles</h2>
-					<p>Research</p>
-					<p>Information Architecture</p>
-					<p>Interaction Design</p>
-				</section>
-				<section>
-					<h2>Tools</h2>
-					<p>Draw.io</p>
-					<p>Figma</p>
-					<p>Invision</p>
-				</section>
-				<section>
-					<h2>Deliverables</h2>
-					<p>Clickable Prototype</p>
-					<p>High-fidelity Mockups</p>
-				</section>
-			</div>
-		</section>
+	</nav> -->
+	<div class="blue">
+		<!-- <header>
+				<img alt="Enbox hero image" src="https://user-images.githubusercontent.com/52806406/88486917-25194300-cf4f-11ea-829e-9a1e745e0d63.png">
+		</header> -->
+		<div class="container introduction">
+			<section class="paragraph" id="summary">
+				<figure class="logo">
+					<img src="https://user-images.githubusercontent.com/52806406/93145926-93f75a80-f6bb-11ea-8159-76c2585811e2.png" alt="">
+				</figure>
+				<p>In an increasingly digital world, pen and paper are still king to the educators, tutors, and students who teach and study English. Enbox is looking to transport the industry into the 21st century and beyond.</p>
+				<div class="outsidelink smallspaceuptop">
+					<a href="https://benjaminbyun881231.invisionapp.com/public/share/Q715K940W4#screens/477318525" target="blank">Click here for Prototype <i class="fa fa-external-link"></i></a>
+				</div>
+				<div class="roles mediumspaceuptop">
+					<section>
+						<h2>Roles</h2>
+						<p>Research</p>
+						<p>Information Architecture</p>
+						<p>Interaction Design</p>
+					</section>
+					<section>
+						<h2>Tools</h2>
+						<p>Draw.io</p>
+						<p>Figma</p>
+						<p>Invision</p>
+					</section>
+					<section>
+						<h2>Deliverables</h2>
+						<p>Clickable Prototype</p>
+						<p>High-fidelity Mockups</p>
+					</section>
+				</div>
+			</section>
+		</div>
 	</div>
-	<div class="projectnavigation mediumspaceuptop anchor" id="myTopNav">
+	<div class="projectnavigation anchor" id="myTopNav">
 			<ul>
 				<li>
-					<a href="#summary">Summary</a>
+					<a href="#summary">Introduction</a>
 				</li>
 				<li>
 					<a href="#research">Research</a>
@@ -388,11 +408,11 @@
 		</div>
 	</div>
 	<footer>
-		<div class="contactme outsidelink">
+		<div class="contactme">
 			<span>Let's work together!</span>
 			<p>I am available for work, remote and local, and for collaboration</p>
-			<div class="smallspaceuptop">
-				<a class="button" href="contact.html">Message me</a>
+			<div class="outsidelink smallspaceuptop">
+				<a class="button" href="mailto:benjaminbyun@gmail.com">Email me</a>
 			</div>
 		</div>
 		<div class="footer smallspaceuptop">
@@ -400,7 +420,7 @@
 				<a href="https://www.linkedin.com/in/benjamin-byun-36709316/" target="blank"><img alt="LinkedIn Icon" src="https://user-images.githubusercontent.com/52806406/83568396-07040900-a4f1-11ea-990c-3c7edeee1386.png"></a> <a href="https://github.com/BenjaminByun/" target="blank"><img alt="Github Icon" src="https://user-images.githubusercontent.com/52806406/83568344-f2c00c00-a4f0-11ea-9996-592d23ea9542.png"></a>
 			</div>
 			<div class="copyright">
-				<p>Designed and developed by Ben Byun© 2020.</p>
+				<p>Handcrafted with care by Ben Byun© 2020.</p>
 			</div>
 		</div>
 	</footer>

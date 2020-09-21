@@ -13,6 +13,10 @@
           grid-column: 2/ 12;
         }
 /* HOME PAGE */
+        .projectpage nav {
+          margin-bottom: 30px;
+        }
+
           .project {
             grid-column: 2 / 12;
           }
@@ -117,13 +121,13 @@
         .userstories {
           margin-left: auto;
           margin-right: auto;
-          width: 70%;
+          padding-bottom: 30px;
+          padding-top: 30px;
+          width: 50%;
         }
 
-        .moodie .dark:nth-child(1n+2) {
-          margin-top: 2em;
-          padding-top: 1em;
-          padding-bottom: 1em;
+        .userstories .card+.card {
+          margin-top: 60px;
         }
 
         .fullimage {
@@ -152,7 +156,6 @@
 /* TABLET */
       @media (min-width: 720px) and (max-width: 991px) {
         .container {
-          /* max-width: 100%; */
           margin-left: auto;
           margin-right: auto;
         }
@@ -170,16 +173,20 @@
         }
 /* HOME PAGE */
         .project {
-          grid-column: 3 / 11;
+          grid-column: 2 / 12;
         }
 
-        .project-thumb {
-          margin: 0;
-          padding: 0;
+        .project figure {
+          margin-left: 0;
+          margin-right: 0;
         }
 /* BIOGRAPHY  */
       .biography {
-        grid-column: 3 / 11;
+        grid-column: 2 / 8;
+      }
+
+      .bio .paragraph {
+        grid-column: 2 / 8;
       }
 
       .inspiration {
@@ -267,13 +274,19 @@
         .userstories {
           margin-left: auto;
           margin-right: auto;
-          width: 50%;
+          width: 40%;
         }
 
-        .moodie .dark:nth-child(1n+2) {
-          margin-top: 2em;
-          padding-top: 1em;
-          padding-bottom: 1em;
+        .userstories {
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 30px;
+          padding-top: 30px;
+          width: 30%;
+        }
+
+        .userstories .card+.card {
+          margin-top: 60px;
         }
 
         .fullimage {
@@ -326,11 +339,24 @@
 /* HOME PAGE */
         .project {
           display: flex;
+          justify-content: space-between;
           grid-column: 2 / 12;
+        }
+
+        .project figure {
+          margin: 0;
+        }
+
+        .project figure+figure {
+          margin-left: 10px;
         }
 /* BIOGRAPHY  */
         .biography {
-          grid-column: 4 / 10;
+          grid-column: 2 / 8;
+        }
+
+        .bio .paragraph {
+          grid-column: 2 / 8;
         }
 
         .biolinks:first-of-type {
@@ -446,15 +472,15 @@
           display: flex;
           margin-left: auto;
           margin-right: auto;
-          width: 950px;
+          padding-bottom: 60px;
+          padding-top: 60px;
+          max-width: 1200px;
         }
 
-        .card {
-          width: 45%;
-        }
-
-        .userpersona .card {
-          width: 450px;
+        .userstories .card {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 20%;
         }
 
         .personainfo {
@@ -483,7 +509,7 @@
 
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
 body {
-  /* color: #222222; */
+  color: #222222;
   font-family: 'open sans', sans-serif;
   font-weight: 300;
   letter-spacing: .5px;
@@ -534,11 +560,9 @@ img {
 header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin-bottom: 4em;
 }
 
 h1 {
-  /* font-family: 'pt sans', sans-serif; */
   font-size: 3em;
   font-weight: 700;
 }
@@ -548,7 +572,6 @@ h2 {
 }
 
 .roles h2 {
-  /* font-family: 'playfair display', serif; */
   font-size: 1em;
   font-weight: 800;
   margin-bottom: -20px;
@@ -601,29 +624,14 @@ h6 {
   word-spacing: 1px;
 }
 
-/* .grey {
-  background-color: #F7F5F9;
+.moodie .dark {
+  color: #e5e5e5;
+  background: #173140;
 }
 
 .blue {
-  background-color: #BADCF6;
+  background-color: #94B4E2;
 }
-
-.dark {
-  background-color: #173140;
-}
-
-.lightblue {
-    background-color: #E0EEF7;
-}
-
-.red {
-  background-color: #E0E0E0;
-}
-
-.other {
-  background-color: #C5C5D7;
-} */
 
 .button {
   border: 1px solid;
@@ -645,20 +653,22 @@ nav {
   background: white;
   display: flex;
   flex-direction: column;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 500;
   grid-column: 2 / 12;
   align-items: center;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-items {
   display: flex;
-  font-size: 16px;
   list-style-type: none;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  width: 250px;
+  width: 200px;
 }
 
 .projectpage nav {
@@ -667,14 +677,8 @@ nav {
 }
 
 .projectpage .ben {
-  width: 45px;
+  width: 42px;
 }
-
-/* .ben {
-  margin-left: auto;
-  margin-right: auto;
-  width: 55px;
-} */
 
 .links {
   display: flex;
@@ -692,12 +696,11 @@ nav {
 }
 
 .projectnavigation {
-  background: rgb(99,128,138,.2);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 800;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 5px;
   position: sticky;
   top: 0;
@@ -716,20 +719,30 @@ nav {
   width: 80%;
 }
 
+.moodie .projectnavigation {
+  color: #e5e5e5;
+  background: #173140;
+}
+
+.enbox .projectnavigation {
+  background-color: #94B4E2;
+  opacity: 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-nav a:hover {
+/* nav a:hover {
   transition: all 0.1s ease-in-out;
-  /* color: #EB9887; */
-}
+  color: #63808a;
+} */
 
-.active {
-  color: #b1d7d1;
-  font-weight: 500;
-}
+/* .active {
+  color: #9cca9e;
+  font-weight: 800;
+} */
 
 /* HOME PAGE */
 .vw {
@@ -742,7 +755,6 @@ nav a:hover {
     grid-column: 2 / 12;
     letter-spacing: .6px;
     line-height: 35px;
-    margin-top: 100px;
     text-align: left;
 }
 
@@ -753,14 +765,9 @@ nav a:hover {
   max-width: 700px;
 }
 
-/* .intro h1 span {
-  color: #63808A;
-} */
-
 .intro p span {
   font-size: 28px;
 }
-
 
 .intro p {
   max-width: 550px;
@@ -787,29 +794,26 @@ a img:hover {
   font-size: 24px;
   letter-spacing: 1.8px;
   line-height: 60px;
-  text-align: center;
 }
 
 .biography span:first-of-type {
-  /* color: #585155; */
+  color: #585155;
   font-size: 1.7em;
   font-weight: 900;
 }
 
 .biography span:first-of-type:hover {
-  /* color: #F89D70; */
   transition: all .1s ease-in-out;
 }
 
 .biography a:nth-child(1n+2) {
-  /* color: #585155; */
-  /* font-family: 'kalam', cursive; */
+  color: #585155;
+  font-family: 'kalam', cursive;
   font-weight: 700;
   font-size: 1.8em;
 }
 
 .biography a:nth-child(1n+2):hover {
-  /* color: #F89D70; */
   transition: all .1s ease-in-out;
 }
 
@@ -854,14 +858,10 @@ a img:hover {
   line-height: 32px;
 }
 /* PROJECT PAGE */
-header img {
-  margin-top: 150px;
-}
-
 .logo {
   width: 250px;
   padding: 0;
-  margin: 0;
+  margin-left: 0px;
   margin-bottom: -50px;
 }
 
@@ -874,19 +874,7 @@ h3::before {
 }
 
 .bold span {
-  /* border-bottom: 5px solid #FDE1A9; */
-}
-
-.moodie {
-  /* background-color: #EEEEEE; */
-}
-
-.moodie .introduction {
-  /* color: white; */
-}
-
-.moodie .link a {
-  /* color: #EB6E00; */
+  border-bottom: 8px solid #63808A;
 }
 
 .problem p+h4 {
@@ -958,8 +946,6 @@ h3::before {
 .card {
   font-size: 13px;
   line-height: 16px;
-  padding-bottom: 2em;
-  margin-top: 20px;
 }
 
 /* USER PERSONA CARD */
@@ -970,12 +956,7 @@ h3::before {
   text-align: center;
 }
 
-.userpersona .card {
-  margin: 10px;
-}
-
 .userpersona .card span {
-  /* color: #548BA1; */
   font-size: 18px;
   font-weight: 900;
 }
@@ -1005,10 +986,6 @@ h3::before {
 }
 
 .userstories .card {
-  /* background-color: white; */
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 30px;
   text-align: center;
   word-spacing: .1px;
 }
@@ -1018,30 +995,28 @@ h3::before {
 }
 
 .userstories .card h4 {
-  color: inherit;
-  font-size: 1em;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin: 0;
 }
 
 .userstories .card p+p {
-  margin-top: 30px;
 }
 
-.highpriority {
-  /* border-top: 8px solid #45A663; */
-}
+/* .highpriority {
+  border-top: 8px solid #45A663;
+} */
 
 .highpriority span {
   text-decoration: line-through red 3px;
 }
-
+/*
 .mediumpriority {
-  /* border-top: 8px solid #C4EAB6; */
+  border-top: 8px solid #C4EAB6;
 }
 
 .lowpriority {
-  /* border-top: 8px solid #E2E0E1; */
-}
+  border-top: 8px solid #E2E0E1;
+} */
 
 .flows {
   display: flex;
@@ -1201,7 +1176,7 @@ footer {
 }
 
 .footer {
-   display: flex;
+   /* display: flex; */
    flex-direction: column;
    list-style-type: none;
    margin-left: auto;
@@ -1227,9 +1202,6 @@ footer {
 }
 
 /*  Project Thumbnail Hover CSS Effect */
-.project {
-  margin-top: 100px;
-}
 .project-thumb {
   height: auto;
   position: relative;
@@ -1328,7 +1300,7 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-  padding-top: 20%;
+  padding-top: 25%;
   opacity: 0;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.45s;
@@ -1357,4 +1329,50 @@ figure.effect-bubba:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+
+.about-slideshow-container {
+  display: flex;
+  grid-column: 2 / 12;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 400px;
+  position: relative;
+}
+
+.about-slideshow-container {
+  text-align: center;
+}
+
+.about-slideshow-container h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.mySlides {
+  display: block;
+}
+
+.mySlides img {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.about-prev, .about-next {
+  color: #222222;
+  cursor: pointer;
+  font-size: 3rem;
+  position: absolute;
+  top: 210px;
+}
+
+.about-next {
+  right: 0px;
+}
+.about-prev:hover, .about-next:hover {
+  color: #63808A;
+  transition: all 0.1s ease-in-out;
 }
