@@ -861,10 +861,9 @@ a {
 .intro ul {
   display: flex;
   justify-content: space-between;
-  margin: 0;
   margin-top: 20px;
   padding: 0;
-  width: 300px;
+  width: 250px;
 }
 
 .intro ul li {
@@ -1624,10 +1623,12 @@ figure.effect-bubba:hover p {
 
 .slideshow-container {
   display: inline-flex;
+  align-self: center;
   grid-column: 2 / 12;
 }
 
 .slideshow-container img{
+  align-self: center;
   margin: 5px;
 }
 
@@ -1642,15 +1643,14 @@ figure.effect-bubba:hover p {
 }
 
 .wireframe-container {
+  align-self: center;
   display: flex;
   grid-column: 2 / 12;
   justify-content: space-around;
 }
 
 .wireframe-container2 img {
-  display: flex;
-  grid-column: 2 / 12;
-  justify-content: space-around;
+  align-self: center;
   max-width: 300px;
   margin: 10px;
 }
