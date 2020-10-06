@@ -33,35 +33,13 @@
       </script>
     </head>
    <body class="projectpage">
-     <!-- <nav>
-       <div class="ben">
-   			<a href="index.html"><img src="https://user-images.githubusercontent.com/52806406/93168963-0e42d180-f6f2-11ea-86fe-a47ce0e88f6c.png" alt="Ben Byun logo"></a>
-       </div>
-     		<ul class="links">
-     			<li>
-     				<a href="index.html" class="active">WORK</a>
-     			</li>
-     			<li>
-     				<a href="bio.html">ABOUT</a>
-     			</li>
-          <li class="resume" >
-            <a href="#" target="blank">RESUME</a>
-          </li>
-     			<li>
-     				<a href="contact.html">CONTACT</a>
-     			</li>
-     		</ul>
-    </nav> -->
     <div class="vw">
      <div class="container">
        <nav>
-         <!-- <a href="index.html" class="ben"><img src="https://user-images.githubusercontent.com/52806406/93933942-69775400-fcf0-11ea-999a-6eeb2d04480e.png" alt="Ben Byun logo"></a> -->
-         <!-- <a href="index.html" class="ben"><img src="https://user-images.githubusercontent.com/52806406/93933331-7b0c2c00-fcef-11ea-8d67-59ed2ccec920.png" alt="Ben Byun logo"></a> -->
-         <a href="index.html" class="ben"><img src="https://user-images.githubusercontent.com/52806406/93285156-32f68200-f7a2-11ea-8ff9-2d64c882d2c6.png" alt="Ben Byun logo"></a>
-         <!-- <a href="index.html" class="ben"><img src="https://user-images.githubusercontent.com/52806406/93544623-8563aa00-f92c-11ea-8025-c4888b8016f0.png" alt="Ben Byun logo shadow"></a> -->
+         <a href="index.html" class="ben"><img src="assets/ben_logo.png" alt="Ben Byun logo"></a>
           <ul class="menu-items">
             <li>
-              <a href="#work">WORK</a>
+              <a href="#work" class="active">WORK</a>
             </li>
             <li>
               <a href="bio.html">ABOUT</a>
@@ -70,19 +48,30 @@
        </nav>
      </div>
       <div class="container">
+        <figure class="introben">
+          <img src="assets/benpicc 3.png" alt="Picture of Ben">
+        </figure>
        <div class="intro">
-         <h1>Hi, I'm <span>Ben</span>.</h1>
-         <p><span>I'm a Boston-based UX designer who codes.<span></p>
-          <p>I build simple solutions from the ground up with a solid foundation of user insight and research. You can connect with me on <a href="https://www.linkedin.com/in/benbyun" target="blank">LinkedIn</a>, download my <a href="https://drive.google.com/file/d/18CITeYmRELYBF1FBSMxhqU6zGMp8MSje/view?usp=sharings">resume</a>, or shoot me an <a href="mailto:benjaminbyun@gmail.com">email.</a></p>
-          <p>Otherwise, take a look around. Let's go exploring!</p>
+         <h1><span class="link1">Hi</span>, <span class="link2">I'm</span> <span><a href="bio.html" class="link3">Ben</a>.</span></h1>
+         <h2>I'm a Boston-based UX designer who can code.</h2>
+          <p>I create simple solutions from the ground up. My process and approach begins from a solid foundation of user insights and research.</p>
+          <h4>Let’s connect and ideate together!</h4>
+        <ul>
+          <li><a href="mailto:benjaminbyun@gmail.com" target="blank" class="anchor"><img alt="email icon" src="assets/email.png"></a><p class="message">Email</p></li>
+          <li><a href="https://www.linkedin.com/in/benjamin-byun-36709316/" target="blank" class="anchor"><img alt="LinkedIn icon" src="assets/linkedin.jpg"></a><p class="message">LinkedIn</p></li>
+          <li><a href="https://github.com/BenjaminByun/" target="blank" class="anchor"><img alt="Github icon" src="assets/github.png"></a><p class="message">Github</p></li>
+          <li><a href="https://drive.google.com/file/d/1pDy_IPQsMkKWG60IhCUUj2uCCuxE0SJL/view?usp=sharing" target="blank" class="anchor"><img alt="Resume icon" src="assets/resume.png"></a><p class="message">Resume</p></li>
+        </ul>
+        <div class="mediumspaceuptop">
+          <p>In the meantime, check out my work below <a href="#work"><i class="fa fa-chevron-down"></i></a></p>
+        </div>
         </div>
       </div>
     </div>
       <div class="container" id="work">
         <div class="project">
           <figure class="project-thumb effect-bubba">
-            <!-- <img src="https://user-images.githubusercontent.com/52806406/93283516-aeeecb00-f79e-11ea-8da4-0cf70238e0f1.png" alt="Moodie green theme"> -->
-            <img src="https://user-images.githubusercontent.com/52806406/93328686-0c5c3980-f7ea-11ea-9607-49552f5de789.png" alt="Moodie dark theme">
+            <img src="assets/moodie/moodie_link.png" alt="Moodie link">
             <figcaption>
                 <h2>Moodie</h2>
                 <p>iOS app | UI + UX design</p>
@@ -90,8 +79,7 @@
             </figcaption>
           </figure>
           <figure class="project-thumb effect-bubba">
-            <!-- <img src="https://user-images.githubusercontent.com/52806406/93283521-b1512500-f79e-11ea-8c75-021ed52f018d.png" alt="Enbox blue theme"> -->
-            <img src="https://user-images.githubusercontent.com/52806406/93330601-03209c00-f7ed-11ea-9fba-bab98f7ebadb.png" alt="Enbox dark theme">
+            <img src="assets/enbox_link.png" alt="Enbox link">
             <figcaption>
                 <h2>Enbox</h2>
                 <p>SaaS web application | UI + UX design</p>
@@ -99,91 +87,19 @@
             </figcaption>
         </div>
       </div>
-
-
-
-
-      <!-- <div class="grid-x project-section">
-        <div class="cell medium-6">
-            <figure class="project-thumb effect-bubba">
-                <img src="https://user-images.githubusercontent.com/52806406/93274143-a17a1680-f787-11ea-8e08-73a143bf6414.png" alt="">
-                <figcaption>
-                    <h2>Moodie</h2>
-                    <p>iOS APP | UI/UX Design</p>
-                    <a href="bombox.html"></a>
-                </figcaption>
-            </figure>
-        </div> -->
-
-
-      <!-- <div class="container">
-        <div class="preview">
-          <a href="#">
-            <img src="https://user-images.githubusercontent.com/52806406/93263434-c6648e80-f773-11ea-9a1f-dd7f1870ec86.png" alt="">
-          </a>
-        <div class="middle">
-          <div class="text"> <a href="#">Moodie
-            <p>iOS app | UX/UI design</p> </a>
-          </div>
-        </div>
-      </div>
-      </div> -->
-
-
-      <!-- <div class="index">
-        <div class="container">
-         <article class="project project2 paddingbelow paddingabove">
-          <figure class="preview">
-            <a href="moodie.html"><img src="https://user-images.githubusercontent.com/52806406/89541469-65d54f80-d7cc-11ea-9b9a-b2fefd16dc2d.png" alt="Enbox preview"></a>
-            </figure>
-          <div class="description" id="work">
-            <h2>Moodie</h2>
-            <p>The right recipes, whatever your mood, whatever is in your kitchen.</p>
-            <a class="button" href="moodie.html">View case study</a>
-          </div>
-        </article>
-      </div>
-        <div class="container spaceuptop">
-          <article class="project paddingbelow paddingabove">
-            <figure class="preview">
-              <a href="project.html"><img src="https://user-images.githubusercontent.com/52806406/89540447-0a569200-d7cb-11ea-86af-c2d454273af7.png" alt="Moodie preview"></a>
-            </figure>
-            <div class="description">
-              <h2>Enbox</h2>
-              <p>Create curriculums, lesson plans, tests, and grades without wasting a single sheet of paper.</p>
-                <a class="button" href="project.html">View case study</a>
-             </div>
-           </article>
-         </div>
-       </div> -->
-        <!-- <footer>
-          <div class="contactme">
-            <span>Let's get in touch!</span>
-            <p>I am available for work, remote or local, and for collaboration</p>
-          </div>
-            <div class="footer">
-              <div><p>Connect with me on LinkedIn
-                <a href="https://www.linkedin.com/in/benjamin-byun-36709316/" target="blank"><img src="https://user-images.githubusercontent.com/52806406/83568396-07040900-a4f1-11ea-990c-3c7edeee1386.png" alt="LinkedIn Icon"></a></p>
-                <a href="https://github.com/BenjaminByun/" target="blank"><img src="https://user-images.githubusercontent.com/52806406/83568344-f2c00c00-a4f0-11ea-9996-592d23ea9542.png" alt="Github Icon"></a>
-              </div>
-             <div class="copyright">
-               <p>Handcrafted with care by Ben Byun© 2020.</p>
-             </div>
-           </div>
-        </footer> -->
         <footer>
           <div class="contactme">
             <span>Let's work together!</span>
             <p>I am available for work, remote and local, and for collaboration</p>
-            <div class="outsidelink smallspaceuptop">
-              <a class="button" href="mailto:benjaminbyun@gmail.com">Email me</a>
-            </div>
           </div>
-          <div class="footer smallspaceuptop">
-            <div>
-              <a href="https://www.linkedin.com/in/benjamin-byun-36709316/" target="blank"><img alt="LinkedIn Icon" src="https://user-images.githubusercontent.com/52806406/83568396-07040900-a4f1-11ea-990c-3c7edeee1386.png"></a> <a href="https://github.com/BenjaminByun/" target="blank"><img alt="Github Icon" src="https://user-images.githubusercontent.com/52806406/83568344-f2c00c00-a4f0-11ea-9996-592d23ea9542.png"></a>
+          <div class="footer">
+              <ul>
+                <li><a href="mailto:benjaminbyun@gmail.com" target="blank" class="anchor"><img alt="email icon" src="assets/email.png"></a><p class="message">Email</p></li>
+                <li><a href="https://www.linkedin.com/in/benjamin-byun-36709316/" target="blank" class="anchor"><img alt="LinkedIn icon" src="assets/linkedin.jpg"></a><p class="message">LinkedIn</p></li>
+                <li><a href="https://github.com/BenjaminByun/" target="blank" class="anchor"><img alt="Github icon" src="assets/github.png"></a><p class="message">Github</p></li>
+              </ul>
             </div>
-            <div class="copyright">
+            <div class="copyright mediumspaceuptop">
               <p>Handcrafted with care by Ben Byun© 2020.</p>
             </div>
           </div>
@@ -191,8 +107,5 @@
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
       <script src="scripts/script.js"></script>
-      <script>
-          AOS.init();
-      </script>
    </body>
 </html>

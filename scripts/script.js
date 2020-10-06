@@ -1,19 +1,65 @@
-function myFunction() {
-  var x = document.getElementById("projectNavigation");
-  if (x.className === "projectnavigation") {
-    x.className += " responsive";
-  } else {
-    x.className = "projectnavigation";
-  }
-}
+// function myFunction() {
+//   var x = document.getElementById("projectNavigation");
+//   if (x.className === "projectnavigation") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "projectnavigation";
+//   }
+// }
+//
+// function onclick(event) {
+//   plusSlides(-1)
+// }
+//
+// function onclick(event) {
+//   plusSlides(1)
+// }
+//
+// var slideIndex = 1;
+// showSlides(slideIndex);
 
-function onclick(event) {
-  plusSlides(-1)
-}
+// Next/previous controls
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
 
-function onclick(event) {
-  plusSlides(1)
-}
+// Thumbnail image controls
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+//
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) { slideIndex = 1; }
+//   if (n < 1) { slideIndex = slides.length; }
+//   for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//       dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+// }
+//
+// function(e) {
+//   e.preventDefault();
+//   $brandGallery.eq(2).click();
+// }
+
+// function(e) {
+  // Discard the second event of a jQuery.event.trigger() and
+  // when an event is called after a page has unloaded
+//   return typeof jQuery !== 'undefined' &&
+//     jQuery.event.triggered !== e.type ? jQuery.event.dispatch.apply(elem, arguments) : undefined;
+// }
+
+
+
+
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
