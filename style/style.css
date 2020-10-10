@@ -17,6 +17,10 @@
           grid-column: 2 / 12;
         }
 
+        .introben {
+          display: none;
+        }
+
         .projectpage nav {
           margin-bottom: 30px;
         }
@@ -160,6 +164,10 @@
           padding: 2em;
         }
 /* HOME PAGE */
+        .introben {
+          display: none;
+        }
+
         .vw {
           height: 100vh;
         }
@@ -837,7 +845,6 @@ a {
 }
 
 .intro h1 {
-  font-size: 60px;
   font-weight: 500;
   line-height: 65px;
   max-width: 700px;
@@ -1622,13 +1629,13 @@ figure.effect-bubba:hover p {
 }
 
 .slideshow-container {
+  align-items: center;
   display: inline-flex;
-  align-self: center;
+  align-items: center;
   grid-column: 2 / 12;
 }
 
 .slideshow-container img{
-  align-self: center;
   margin: 5px;
 }
 
@@ -1643,14 +1650,13 @@ figure.effect-bubba:hover p {
 }
 
 .wireframe-container {
-  align-self: center;
+  align-items: center;
   display: flex;
   grid-column: 2 / 12;
   justify-content: space-around;
 }
 
 .wireframe-container2 img {
-  align-self: center;
   max-width: 300px;
   margin: 10px;
 }
