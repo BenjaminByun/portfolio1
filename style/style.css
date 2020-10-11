@@ -122,6 +122,10 @@
           grid-column: 3 / 11;
         }
 
+        .side-by-side2 {
+          grid-column: 3 / 11;
+        }
+
         .flows {
           flex-direction: column;
           max-width: 325px;
@@ -286,6 +290,16 @@
 
         .side-by-side img {
           margin: 10px;
+        }
+
+        .side-by-side2 {
+          display: flex;
+          grid-column: 2 / 12;
+          justify-content: space-around;
+        }
+
+        .side-by-side2 img {
+          max-width: 200px;
         }
 
         .mockup figure {
