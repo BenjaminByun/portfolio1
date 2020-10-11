@@ -1636,6 +1636,8 @@ figure.effect-bubba:hover p {
 }
 
 .slideshow-container img{
+  width: 100%;
+  height: auto;
   margin: 5px;
 }
 
@@ -1658,7 +1660,7 @@ figure.effect-bubba:hover p {
 
 .wireframe-container2 img {
   max-width: 300px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .logos {
