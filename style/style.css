@@ -1327,15 +1327,21 @@ h4 {
 .ptsans {
   flex-direction: column;
   font-family: 'pt sans', sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   grid-column: 2 / 12;
   letter-spacing: .1em;
   line-height: 2em;
   padding: 2em;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .ptsans h4 {
   text-align: center;
+}
+
+.ptsans figcaption {
+  font-family: "open sans", sans-serif;
 }
 
 .bold span {
