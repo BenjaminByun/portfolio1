@@ -118,12 +118,8 @@
           margin: 20px
         }
 
-        .fullimage {
-          grid-column: 1 / -1;
-        }
-
-        .mediumimage {
-          grid-column: 1 / -1;
+        .side-by-side {
+          grid-column: 3 / 11;
         }
 
         .flows {
@@ -280,6 +276,16 @@
 
         .flows img {
           margin: 20px;
+        }
+
+        .side-by-side {
+          display: flex;
+          grid-column: 2 / 12;
+          justify-content: space-around;
+        }
+
+        .side-by-side img {
+          margin: 10px;
         }
 
         .mockup figure {
@@ -528,10 +534,24 @@
           display: flex;
         }
 
-        .fullimage {
+        .side-by-side {
+          display: flex;
           grid-column: 2 / 12;
-          margin-left: auto;
-          margin-right: auto;
+          justify-content: space-around;
+        }
+
+        .side-by-side img {
+          margin: 10px;
+        }
+
+        .side-by-side2 {
+          display: flex;
+          grid-column: 2 / 12;
+          justify-content: space-around;
+        }
+
+        .side-by-side2 img {
+          max-width: 300px;
         }
 
         .mediumimage {
@@ -1279,15 +1299,22 @@ h4 {
 }
 
 .fullimage {
-  margin: 0;
+  grid-column: 2 / 12;
+  margin: 0 auto;
   padding: 0;
+  }
+}
+
+
+.ptsans {
+  grid-column: 2 / 12;
 }
 
 .ptsans {
-  display: flex;
   flex-direction: column;
   font-family: 'pt sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 30px;
+  grid-column: 2 / 12;
   letter-spacing: .1em;
   line-height: 2em;
   padding: 2em;
@@ -1628,18 +1655,13 @@ figure.effect-bubba:hover p {
  transform:scaleY(.2)
 }
 
-.slideshow-container {
-  align-items: center;
-  display: inline-flex;
-  align-items: center;
+/* .slideshow-container {
   grid-column: 2 / 12;
 }
 
 .slideshow-container img{
-  width: 100%;
-  height: auto;
   margin: 5px;
-}
+} */
 
 .wireframes figcaption {
   grid-column: 2 / 12;
@@ -1651,17 +1673,14 @@ figure.effect-bubba:hover p {
   text-align: center;
 }
 
-.wireframe-container {
-  align-items: center;
-  display: flex;
+/* .wireframe-container {
   grid-column: 2 / 12;
-  justify-content: space-around;
 }
 
 .wireframe-container2 img {
   max-width: 300px;
   margin: 5px;
-}
+} */
 
 .logos {
   justify-content: space-around;
