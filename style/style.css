@@ -261,7 +261,6 @@
         .side-by-side {
           display: flex;
           grid-column: 2 / 12;
-          justify-content: space-around;
         }
 
         .side-by-side img {
@@ -271,7 +270,7 @@
         .side-by-side2 {
           display: flex;
           grid-column: 2 / 12;
-          justify-content: space-around;
+          justify-content: center;
         }
 
         .side-by-side2 img {
@@ -940,7 +939,7 @@ a img:hover {
 }
 
 .biography span:first-of-type:hover {
-  transition: all .1s ease-in-out;
+  color: #81A9B8;
 }
 
 .biography a:nth-child(1n+2) {
@@ -950,43 +949,18 @@ a img:hover {
   font-size: 1.8em;
 }
 
-.biography a:nth-child(1n+2):hover {
-  transition: all .1s ease-in-out;
+.biography a:hover {
+  color: #c73aca;
 }
 
 .smalltext span {
   font-size: 8px;
 }
 
-.biolinks {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.biolinks a:hover {
-  transition: all 0.1s ease-in-out;
-}
-
 .bio h3 {
   font-size: 16px;
   font-weight: 900;
   margin-bottom: 0px;
-}
-
-.inspiration {
-  display: flex;
-  grid-column: 1 / -1;
-  justify-content: space-around;
-}
-
-.inspiration div {
-  font-size: 14px;
-  margin-top: -30px;
-}
-
-.inspiration p {
-  line-height: 32px;
 }
 
 .bio .stats {
