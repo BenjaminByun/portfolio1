@@ -974,11 +974,12 @@ a img:hover {
 }
 
 .bio .stats .stat i {
-  color: black;
+  color: white;
   font-size: 50px;
 }
 
 .bio .stats .stat p {
+  font-weight: 800;
   line-height: 20px;
 }
 
