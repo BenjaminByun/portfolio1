@@ -45,17 +45,6 @@
         .biography {
           grid-column: 2 / 12;
         }
-
-        .inspiration {
-          flex-direction: column;
-        }
-
-        .tidbit {
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 50px;
-          width: 60%;
-        }
 /* CONTACT FORM */
         .contactform {
           flex-direction: column;
@@ -190,20 +179,7 @@
       }
 
       .bio .paragraph {
-        grid-column: 4 / 10;
-      }
-
-      .inspiration {
-        flex-direction: column;
-      }
-
-      .tidbit {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
+        grid-column: 2 / 12;
       }
 /* CONTACT FORM */
       .contactform {
@@ -367,33 +343,52 @@
         }
 /* BIOGRAPHY  */
         .biography {
-          grid-column: 4 / 10;
+          grid-column: 3 / 11;
         }
 
         .bio .paragraph {
-          grid-column: 4 / 10;
+          grid-column: 3 / 11;
         }
 
-        .biolinks:first-of-type {
-          grid-column: 2;
-          grid-row: 3;
-          margin-top: 200px;
-        }
-
-        .biolinks {
-          grid-column: 2;
-          grid-row: 1;
-          margin-top: 125px;
+        .bio .stats .stat {
+          width: 10%;
         }
 
         .tidbit {
-          width: 325px;
+          display: flex;
         }
 
-        .tidbit p {
-          padding-left: 20px;
-          padding-right: 20px;
+        .tidbit figure {
+          align-self: center;
+          margin: 0 auto;
         }
+
+        .tidbit figure img {
+          width: 200px;
+        }
+
+        .tidbit div {
+          margin-left: 100px;
+        }
+
+        .tidbit2 {
+          display: flex;
+          flex-direction: row-reverse;
+          text-align: right;
+        }
+
+        .tidbit2 figure {
+          align-self: center;
+        }
+
+        .tidbit2 figure img {
+          width: 200px;
+        }
+
+        .tidbit2 div {
+          margin-right: 100px;
+        }
+
 
 /* CONTACT FORM */
         .contactform {
@@ -551,7 +546,7 @@
         .side-by-side {
           display: flex;
           grid-column: 2 / 12;
-          justify-content: space-around;
+          justify-content: center;
         }
 
         .side-by-side img {
@@ -561,7 +556,7 @@
         .side-by-side2 {
           display: flex;
           grid-column: 2 / 12;
-          justify-content: space-around;
+          justify-content: center;
         }
 
         .side-by-side2 img {
@@ -859,16 +854,6 @@ a {
   text-decoration: none;
 }
 
-/* nav a:hover {
-  transition: all 0.1s ease-in-out;
-  color: #63808a;
-} */
-
-/* .active {
-  color: #9cca9e;
-  font-weight: 800;
-} */
-
 /* HOME PAGE */
 .intro {
     font-size: .9em;
@@ -942,7 +927,7 @@ a img:hover {
 
 /* BIOGRAPHY */
 .biography {
-  font-size: 32px;
+  font-size: 12px;
   letter-spacing: 1.8px;
   line-height: 60px;
   margin-bottom: 50px;
@@ -983,10 +968,6 @@ a img:hover {
   transition: all 0.1s ease-in-out;
 }
 
-#soft {
-  margin-top: 8em;
-}
-
 .bio h3 {
   font-size: 16px;
   font-weight: 900;
@@ -1007,6 +988,53 @@ a img:hover {
 .inspiration p {
   line-height: 32px;
 }
+
+.bio .stats {
+  grid-column: 1 / -1;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.bio .stats .stat {
+  background: #81A9B8;
+}
+
+.bio .stats .stat i {
+  color: black;
+  font-size: 50px;
+}
+
+.bio .stats .stat p {
+  line-height: 20px;
+}
+
+.bio h3 {
+  color: inherit;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bio .link2 {
+  font-family: 'kalam', cursive;
+}
+
+.bio .tidbit figure {
+  margin: 0 auto;
+}
+
+.bio .tidbit2 figure {
+  margin: 0 auto;
+}
+
+.bio .tidbit img {
+  max-width: 200px;
+}
+
+.bio .tidbit2 img {
+  max-width: 200px;
+}
+
 /* PROJECT PAGE */
 header {
   font-size: 35px;
@@ -1052,21 +1080,6 @@ header {
 .swotanalysis figure img {
   max-width: 250px;
 }
-
-/* .enbox .swotanalysis .swot {
-  display: flex;
-  flex-direction: row;
-}
-
-.enbox .swotanalysis .swot p {
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  text-align: center;
-  padding: 20px;
-  margin: 20px;
-} */
 
 h3::before {
   display: block;
@@ -1251,38 +1264,6 @@ h4 {
   line-height: 45px;
   word-spacing: 1.2px;
 }
-/* .stats {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.moodie .stats {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2em;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-  line-height: 20px;
-  margin-top: 60px;
-  padding: 30px;
-  text-align: center;
-  -webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
-  filter: drop-shadow(5px 5px 5px #e0e0e0);
-}
-
-.stats h6 {
-  font-size: 2em;
-  margin-bottom: 15px;
-  margin-top: 20px;
-} */
 
 .list p+h4 {
   margin-top: 3em;
@@ -1716,7 +1697,7 @@ figure.effect-bubba:hover p {
   font-weight: 500;
 }
 
-.CYD-slideshow-container {
+/* .CYD-slideshow-container {
   display: flex;
   flex-direction: row;
   grid-column: 2 / 12;
@@ -1754,7 +1735,6 @@ figure.effect-bubba:hover p {
   font-size: 3rem;
   font-weight: bold;
   margin: 0 4%;
-  /* padding: 5px 5px; */
   position: absolute;
   top: 200px;
   user-select: none;
@@ -1766,7 +1746,7 @@ figure.effect-bubba:hover p {
 
 .CYD-prev:hover, .CYD-next:hover {
   text-shadow: 0 0 30px #FEF0AE;
-}
+} */
 
 .scroll-please {
   display: none;
