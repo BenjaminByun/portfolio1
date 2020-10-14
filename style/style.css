@@ -559,6 +559,7 @@
         }
 
         .side-by-side2 img {
+          margin: 20px;
           max-width: 300px;
         }
 
