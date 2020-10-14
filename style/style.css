@@ -45,6 +45,15 @@
         .biography {
           grid-column: 2 / 12;
         }
+
+        .bio .tidbit img {
+          max-width: 200px;
+        }
+
+        .bio .tidbit2 img {
+          max-width: 200px;
+        }  
+
 /* CONTACT FORM */
         .contactform {
           flex-direction: column;
@@ -180,6 +189,14 @@
 
       .bio .paragraph {
         grid-column: 2 / 12;
+      }
+
+      .bio .tidbit img {
+        max-width: 200px;
+      }
+
+      .bio .tidbit2 img {
+        max-width: 200px;
       }
 /* CONTACT FORM */
       .contactform {
@@ -360,14 +377,15 @@
         .tidbit figure {
           align-self: center;
           margin: 0 auto;
+          width: 50%;
         }
 
         .tidbit figure img {
-          width: 200px;
+          width: 250px;
         }
 
         .tidbit div {
-          margin-left: 100px;
+          width: 50%;
         }
 
         .tidbit2 {
@@ -378,14 +396,15 @@
 
         .tidbit2 figure {
           align-self: center;
+          width: 50%;
         }
 
         .tidbit2 figure img {
-          width: 200px;
+          width: 250px;
         }
 
         .tidbit2 div {
-          margin-right: 100px;
+          width: 50%;
         }
 
 
@@ -1001,14 +1020,6 @@ a img:hover {
 
 .bio .tidbit2 figure {
   margin: 0 auto;
-}
-
-.bio .tidbit img {
-  max-width: 200px;
-}
-
-.bio .tidbit2 img {
-  max-width: 200px;
 }
 
 /* PROJECT PAGE */
