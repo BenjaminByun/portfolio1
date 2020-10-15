@@ -5,6 +5,10 @@
           margin-right: auto;
         }
 
+        body {
+          overflow-x: hidden;
+        }
+
         header img {
           grid-column: 2 / 12;
         }
@@ -88,6 +92,27 @@
 
         .projectnavigation {
           display: none;
+          position: absolute;
+          text-align: center;
+          font-size: 22px;
+        }
+
+        .projectnavigation ul {
+          background: white;
+          display: flex;
+          flex-direction: column;
+          align-content: space-around;
+          height: 90vh;
+          width: 100%;
+          transform: translateX(100%);
+        }
+
+        .projectNavigation ul li {
+          opacity: 0;
+        }
+
+        .burger {
+          display: block;
         }
 
         .problem {
@@ -553,6 +578,10 @@
           width: 45%;
         }
 
+        .projectnavigation {
+          font-size: 13px;
+        }
+
         .projectnavigation .icon {
           display: none;
         }
@@ -680,8 +709,9 @@ h3 {
 h5 {
   font-weight: 800;
   font-size: 1em;
-  letter-spacing: 1.5px;
-  line-height: 1.4em;
+  /* letter-spacing: 1.5px; */
+  line-height: 2rem;
+  width: 80%;
 }
 
 h6 {
@@ -749,16 +779,6 @@ h6 {
   background-color: #FFECA1;
 }
 
-/* .button {
-  border: 1px solid;
-  display: block;
-  margin-top: 2em;
-  padding: 1em;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.1s ease-in-out;
-} */
-
 .button:hover {
   border: none;
   box-shadow: 0 2px 2px 0 #1F4657;
@@ -776,6 +796,7 @@ nav {
   margin: 0;
   margin-top: 20px;
   padding: 0;
+  letter-spacing: 3px;
 }
 
 .menu-items {
@@ -794,26 +815,128 @@ nav {
 .menu-items li a::after {
   position: absolute;
   content: "";
-  width: 50px;
+  width: 60px;
   height: 3px;
   top: 100%;
   left: 0;
-  background: #FFB3EC;
+  background: #D9042B;
   transition: transform 0.5s;
   transform: scaleX(0);
   transform-origin: right;
 }
 
-/* .menu-items li a:hover {
-  color: #FFECA1;
-} */
-
 .menu-items .active {
-  color: #81A9B8;
+  color: #A6032F;
   font-weight: 800;
 }
 
 .menu-items li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.link3 {
+  position: relative;
+}
+
+.link3::after {
+  position: absolute;
+  content: "";
+  width: 88px;
+  height: 3px;
+  top: 85%;
+  left: 0;
+  background: #D9042B;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.link3:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#email {
+  position: relative;
+}
+
+#email::after {
+  position: absolute;
+  content: "Email";
+  top: 85%;
+  left: 0;
+  color: #D9042B;
+  font-weight: 800;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+#email:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#resume {
+  position: relative;
+}
+
+#resume::after {
+  position: absolute;
+  content: "Email";
+  top: 85%;
+  left: 0;
+  color: #D9042B;
+  font-weight: 800;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+#resume:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#github {
+  position: relative;
+}
+
+#github::after {
+  position: absolute;
+  content: "Github";
+  top: 85%;
+  left: 0;
+  color: #D9042B;
+  font-weight: 800;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+#github:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#linkedin {
+  position: relative;
+}
+
+#linkedin::after {
+  position: absolute;
+  content: "LinkedIn";
+  top: 85%;
+  left: 0;
+  color: #D9042B;
+  font-weight: 800;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+#linkedin:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -845,7 +968,6 @@ nav {
 
 .projectnavigation {
   background: rgb(255,255,255,.9);
-  font-size: 13px;
   font-weight: 800;
   margin-left: auto;
   margin-right: auto;
@@ -866,6 +988,17 @@ nav {
   margin-top: 0px;
   position: sticky;
   width: 80%;
+}
+
+.burger div {
+  background-color: black;
+  margin: 3px;
+  width: 20px;
+  height: 3px;
+}
+
+.burger {
+  display: none;
 }
 
 a {
@@ -919,25 +1052,21 @@ a {
   width: 36px;
 }
 
-.link3:hover {
-  color: #FFECA1;
-}
-
-.message {
+/* .message {
     display:none;
     font-weight: 800;
     position:absolute;
     top: 20px;
-}
+} */
 
 .intro li{
     position:relative;
 }
 
-.anchor:hover + .message{
+/* .anchor:hover + .message{
     display:block;
     z-index:10;
-}
+} */
 
 a img:hover {
    transform: scale(1.05);
@@ -991,11 +1120,13 @@ a img:hover {
 
 .bio .stats .stat {
   background: #81A9B8;
+  width: 150px;
+  height: 150px;
 }
 
 .bio .stats .stat i {
-  color: white;
-  font-size: 50px;
+  color: inherit;
+  font-size: 30px;
 }
 
 .bio .stats .stat p {
@@ -1744,7 +1875,7 @@ figure.effect-bubba:hover p {
 }
 
 .scroll-please:hover {
-  box-shadow: 0 0 12px #FEF0AE;
+  box-shadow: 0 0 12px #D9042B;
 }
 
 .intro-set {
@@ -1761,4 +1892,26 @@ figure.effect-bubba:hover p {
 
 .intro-icon:hover {
   box-shadow: 0 0 8px #FEF0AE;
+}
+
+#btnScrollToTop {
+  display: none;
+  background: #FF365E;
+  position: fixed;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  font-size: 30px;
+  color: white;
+  z-index: 99;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+#btnScrollToTop:hover {
+  background: #FFB3EC;
+  transition: all 0.1s ease-in-out;
 }
