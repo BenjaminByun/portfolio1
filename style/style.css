@@ -1053,21 +1053,27 @@ a {
   width: 36px;
 }
 
-/* .message {
-    display:none;
-    font-weight: 800;
-    position:absolute;
-    top: 20px;
-} */
-
 .intro li{
     position:relative;
 }
 
-/* .anchor:hover + .message{
-    display:block;
-    z-index:10;
-} */
+#workbelow {
+  border-radius: 50%;
+  font-size: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #D9042B;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  margin-left: 10px;
+
+}
+
+#workbelow:hover {
+  background-color: #FFB3EC;
+  transition: all 0.1s ease-in-out;
+}
 
 a img:hover {
    transform: scale(1.05);
