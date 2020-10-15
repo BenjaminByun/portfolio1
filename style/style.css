@@ -1331,6 +1331,10 @@ h3::before {
   margin-top: -30px;
 }
 
+.persona .goals h5 {
+  width: 100%;
+}
+
 .goals p {
   margin: 0 auto;
   width: 60%;
