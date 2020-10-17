@@ -884,7 +884,7 @@ nav {
 
 #resume::after {
   position: absolute;
-  content: "Email";
+  content: "Resume";
   top: 85%;
   left: 0;
   color: #D9042B;
@@ -1915,7 +1915,7 @@ figure.effect-bubba:hover p {
   right: 20px;
   bottom: 20px;
   border: none;
-  font-size: 30px;
+  font-size: 15px;
   color: white;
   z-index: 99;
   cursor: pointer;
