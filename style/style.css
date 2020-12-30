@@ -1246,7 +1246,7 @@ h3::before {
 
 .gif {
   margin: 100px auto;
-  width: 300px;
+  width: 200px;
 }
 
 .gif2 figcaption {
@@ -1329,7 +1329,9 @@ h3::before {
 .persona {
   text-align: center;
   border: 1px solid #bfbfbf;
+  line-height: 30px;
   margin: 5px;
+  padding-bottom: 30px;
 }
 
 .persona figure {
