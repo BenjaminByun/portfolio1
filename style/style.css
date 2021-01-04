@@ -1639,6 +1639,14 @@ footer {
   font-size: 0.85rem;
 }
 
+.ead h2 {
+  font-size: .9rem;
+}
+
+.ead p {
+  font-size: 2rem;
+}
+
 figure.effect-bubba img {
   /* -webkit-transition: opacity 0.45s;
   transition: opacity 0.45s; */
@@ -1646,7 +1654,7 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-  filter: brightness(30%);
+  filter: brightness(0%);
 }
 
 figure.effect-bubba figcaption::before,
