@@ -5,10 +5,6 @@
           margin-right: auto;
         }
 
-/*      body {
-          overflow-x: hidden;
-        } */
-
         header img {
           grid-column: 2 / 12;
         }
