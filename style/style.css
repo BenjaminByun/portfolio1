@@ -39,6 +39,11 @@
           width: 100%;
         }
 
+        .ead h2 {
+          font-size: 1.5rem;
+          line-height: 35px;
+        }
+
         .contactme {
           margin-left: auto;
           margin-right: auto;
@@ -399,17 +404,16 @@
         }
 
         .project {
-          display: flex;
-          justify-content: space-between;
+          /* display: flex;
+          justify-content: space-between; */
           grid-column: 2 / 12;
+          grid-gap: 1rem;
+          margin: 0 auto;
         }
 
         .project figure {
-          margin: 0;
-        }
-
-        .project figure+figure {
-          margin-left: 10px;
+          margin: 20px;
+          width: 700px;
         }
 /* BIOGRAPHY  */
           .hero figure {
@@ -501,6 +505,18 @@
 
         .solution p {
           margin: 0 auto;
+        }
+
+        .solution figure {
+          margin: 0 auto;
+          padding-top: 50px;
+          width: 40%;
+        }
+
+        .solution figcaption {
+          line-height: 24px;
+          font-size: .9rem;
+          font-style: italic;
         }
 
         .gif2 {
@@ -705,6 +721,11 @@ h2 {
 
 .roles p+p {
   margin-top: -60px;
+}
+
+.roles a {
+  color: #81a9b8;
+  font-weight: 900;
 }
 
 h3 {
@@ -1092,6 +1113,28 @@ a img:hover {
    transition: all 0.1s ease-in-out;
 }
 
+.ead figcaption h2{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.eadmessage {
+  border: 1px solid #D9042B;
+  color: #D9042B;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  width: 350px;
+}
+
+/* .murrica {
+  background-image: url(../assets/ead_hero2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: brightness(70%);
+} */
+
 /* BIOGRAPHY */
 /* .about {
   display: flex;
@@ -1185,6 +1228,11 @@ header {
   word-spacing: 2px;
   letter-spacing: 1.4px;
   text-align: center;
+}
+
+.introduction h1 {
+  font-size: 3rem;
+  line-height: 120%;
 }
 
 .logo {
@@ -1637,14 +1685,6 @@ footer {
 
 .project-thumb p {
   font-size: 0.85rem;
-}
-
-.ead h2 {
-  font-size: .9rem;
-}
-
-.ead p {
-  font-size: 2rem;
 }
 
 figure.effect-bubba img {
