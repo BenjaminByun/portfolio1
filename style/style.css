@@ -5,6 +5,10 @@
           margin-right: auto;
         }
 
+/*      body {
+          overflow-x: hidden;
+        } */
+
         header img {
           grid-column: 2 / 12;
         }
@@ -336,7 +340,7 @@
 
         .side-by-side {
           display: flex;
-          grid-column: 2 / 7;
+          grid-column: 2 / 12;
         }
 
         .side-by-side img {
@@ -617,9 +621,8 @@
         }
 
         .side-by-side {
-          grid-column: 2 / 6;
+          grid-column: 2 / 12;
           display: flex;
-
         }
 
         .side-by-side img {
