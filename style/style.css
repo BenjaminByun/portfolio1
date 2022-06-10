@@ -35,6 +35,11 @@
           width: 100%;
         }
 
+        .ead h2 {
+          font-size: 1.5rem;
+          line-height: 35px;
+        }
+
         .contactme {
           margin-left: auto;
           margin-right: auto;
@@ -180,6 +185,17 @@
 
         .mediumimage {
           grid-column: 2 / 12;
+        }
+
+        .percentage {
+          grid-column: 2 / 12;
+          height: 100vh;
+        }
+
+        .percentage p {
+          font-size: 1.7rem;
+          line-height: 44px;
+          word-spacing: 4px;
         }
       }
 /* TABLET */
@@ -382,30 +398,29 @@
         }
 
         .intro {
-          grid-column: 6 / 12;
+          grid-column: 4 / 10;
         }
 
-        .introben {
+        /* .introben {
           grid-column: 1 / 4;
 
-        }
+        } */
 
-        .introben img {
+        /* .introben img {
           width: 400px;
-        }
+        } */
 
         .project {
-          display: flex;
-          justify-content: space-between;
+          /* display: flex;
+          justify-content: space-between; */
           grid-column: 2 / 12;
+          grid-gap: 1rem;
+          margin: 0 auto;
         }
 
         .project figure {
-          margin: 0;
-        }
-
-        .project figure+figure {
-          margin-left: 10px;
+          margin: 20px;
+          width: 700px;
         }
 /* BIOGRAPHY  */
           .hero figure {
@@ -497,6 +512,18 @@
 
         .solution p {
           margin: 0 auto;
+        }
+
+        .solution figure {
+          margin: 0 auto;
+          padding-top: 50px;
+          width: 40%;
+        }
+
+        .solution figcaption {
+          line-height: 24px;
+          font-size: .9rem;
+          font-style: italic;
         }
 
         .gif2 {
@@ -628,6 +655,10 @@
 }
 
 /* GENERAL NON-RESPONSIVE CSS FOR THE REST OF THE SITE */
+.percentage span {
+  font-size: 6rem;
+}
+
 body {
   color: #222222;
   font-family: 'open sans', sans-serif;
@@ -701,6 +732,11 @@ h2 {
 
 .roles p+p {
   margin-top: -60px;
+}
+
+.roles a {
+  color: #81a9b8;
+  font-weight: 900;
 }
 
 h3 {
@@ -1016,21 +1052,24 @@ a {
     font-weight: 300;
     letter-spacing: .6px;
     line-height: 35px;
-    text-align: left;
+    text-align: center;
 }
 
 .intro h1 {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 500;
   letter-spacing: 3px;
   line-height: 65px;
   max-width: 700px;
+  text-align: center;
+
 }
 
 .intro h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
-  line-height: 48px;
+  line-height: 34px;
+  text-align: center;
 }
 
 .intro h4 {
@@ -1067,9 +1106,9 @@ a {
   cursor: pointer;
   /* border-radius: 50%; */
   font-size: 10px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid rgba(0,0,0,.5);
+  /* width: 40px;
+  height: 40px; */
+  border: 0px solid rgba(0,0,0,.5);
   /* background-color: #D9042B; */
   /* color: white; */
   /* box-shadow: 0 0 10px rgba(0,0,0,.2); */
@@ -1078,15 +1117,38 @@ a {
 }
 
 #workbelow:hover {
-  background-color: #D9042B;
-  color: white;
-  transition: all 0.4s ease-in-out;
+  /* background-color: #D9042B; */
+  /* color: white; */
+  transform: scale(1.05);
+  transition: all 0.1s ease-in-out;
 }
 
 a img:hover {
    transform: scale(1.05);
    transition: all 0.1s ease-in-out;
 }
+
+.ead figcaption h2{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.eadmessage {
+  border: 1px solid #D9042B;
+  color: #D9042B;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  width: 350px;
+}
+
+/* .murrica {
+  background-image: url(../assets/ead_hero2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: brightness(70%);
+} */
 
 /* BIOGRAPHY */
 /* .about {
@@ -1181,6 +1243,11 @@ header {
   word-spacing: 2px;
   letter-spacing: 1.4px;
   text-align: center;
+}
+
+.introduction h1 {
+  font-size: 3rem;
+  line-height: 120%;
 }
 
 .logo {
@@ -1633,14 +1700,6 @@ footer {
 
 .project-thumb p {
   font-size: 0.85rem;
-}
-
-.ead h2 {
-  font-size: .9rem;
-}
-
-.ead p {
-  font-size: 2rem;
 }
 
 figure.effect-bubba img {
